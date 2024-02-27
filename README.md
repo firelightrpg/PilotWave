@@ -1,8 +1,93 @@
+
+<!-- TOC --><a name="pilot-wave"></a>
 # _Pilot Wave_
 
 _A Science Fiction RPG based
 on [Fudge](https://fudgesrd.opengamingnetwork.com/)/[Fate](https://fate-srd.com/fate-core/)_
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
+- [_Pilot Wave_](#pilot-wave)
+- [The Fudge/ Fate Ladder](#the-fudge-fate-ladder)
+- [Five Outcomes](#five-outcomes)
+- [Four Actions](#four-actions)
+- [Pilot Wave Character Creation](#pilot-wave-character-creation)
+- [Pilot Wave Aspects](#pilot-wave-aspects)
+   * [Archetype](#archetype)
+   * [Career(s)](#careers)
+   * [Trouble](#trouble)
+   * [Convictions](#convictions)
+   * [Ties](#ties)
+   * [Gear](#gear)
+- [Stunts](#stunts)
+- [Attributes](#attributes)
+   * [Physique](#physique)
+   * [Psyche](#psyche)
+- [Skills](#skills)
+   * [Academics](#academics)
+   * [Athletics](#athletics)
+   * [Clandestine](#clandestine)
+   * [Close Combat](#close-combat)
+   * [Energy Weapons](#energy-weapons)
+   * [Engineering](#engineering)
+   * [Finance](#finance)
+   * [Gun Combat](#gun-combat)
+   * [Heavy Weapons](#heavy-weapons)
+   * [Interpersonal](#interpersonal)
+   * [Intrusion](#intrusion)
+   * [Investigate](#investigate)
+   * [Medical](#medical)
+   * [Notice](#notice)
+   * [Provoke](#provoke)
+   * [Science](#science)
+   * [Space Combat](#space-combat)
+   * [Space Ops](#space-ops)
+   * [Stealth](#stealth)
+   * [Survival](#survival)
+   * [Tactics](#tactics)
+   * [Vehicle Combat](#vehicle-combat)
+   * [Vehicle Ops](#vehicle-ops)
+   * [Zero-G](#zero-g)
+- [Psychic Powers](#psychic-powers)
+      + [Enhancements](#enhancements)
+   * [Jumper](#jumper)
+   * [Mover](#mover)
+   * [Pusher](#pusher)
+   * [Shifter](#shifter)
+   * [Sniff](#sniff)
+   * [Watcher](#watcher)
+- [Astrogation](#astrogation)
+      + [Astrogation attempt](#astrogation-attempt)
+- [Resolving Attacks](#resolving-attacks)
+- [Consequences](#consequences)
+- [Recover](#recover)
+- [Aspect Types](#aspect-types)
+- [Invoking Aspects](#invoking-aspects)
+- [Compelling Aspects](#compelling-aspects)
+- [Refresh](#refresh)
+- [Spending Fate Points](#spending-fate-points)
+- [Challenges](#challenges)
+- [Contests](#contests)
+- [Conflicts](#conflicts)
+   * [Surprise](#surprise)
+   * [Turn Order](#turn-order)
+      + [Action](#action)
+      + [Counter](#counter)
+      + [Movement](#movement)
+   * [Personal Combat](#personal-combat)
+      + [Close Combat](#close-combat-1)
+      + [Ranged Attacks](#ranged-attacks)
+      + [Weapon and Armor Ratings](#weapon-and-armor-ratings)
+         - [Weapon Ranges and Ratings](#weapon-ranges-and-ratings)
+         - [Armor Ratings](#armor-ratings)
+   * [Vehicle Combat](#vehicle-combat-1)
+   * [Spaceship Combat](#spaceship-combat)
+      + [Phases](#phases)
+         - [Sensors](#sensors)
+- [Earning Fate Points](#earning-fate-points)
+
+<!-- TOC end -->
+
+<!-- TOC --><a name="the-fudge-fate-ladder"></a>
 # The Fudge/ Fate Ladder
 
 For conflict resolution, Pilot Wave uses an
@@ -32,6 +117,7 @@ rating to get the final attempt.
 | Preposterous  | 11  | Prodigious    | \-                     |
 | Unattainable  | 12  | Freakish      | \-                     |
 
+<!-- TOC --><a name="five-outcomes"></a>
 # [Five Outcomes](https://fate-srd.com/fate-core/four-outcomes)
 
 * Mishap (Awful (-3) or more shifts): Your action fails, and comes with a consequence.
@@ -42,6 +128,7 @@ rating to get the final attempt.
 
 Hazardous skill rolls risk mishap. Not all skill rolls are hazardous.
 
+<!-- TOC --><a name="four-actions"></a>
 # [Four Actions](https://fate-srd.com/fate-core/four-actions)
 
 * Overcome: get past an obstacle
@@ -49,20 +136,24 @@ Hazardous skill rolls risk mishap. Not all skill rolls are hazardous.
 * Attack: harm another character
 * Defend: prevent attacks of advantages against you
 
+<!-- TOC --><a name="pilot-wave-character-creation"></a>
 # Pilot Wave Character Creation
 
+<!-- TOC --><a name="pilot-wave-aspects"></a>
 # Pilot Wave Aspects
 
 Each player character starts with five aspects, chosen from an archetype, including one or more careers, trouble
 aspects, convictions and ties. A player character also gets to choose three stunts, assign attributes and assign skills,
 one Great (+4), two Good (+3), three Fair (+2) and four Average (+1).
 
+<!-- TOC --><a name="archetype"></a>
 ## Archetype
 
 Your archetype is your character’s [High Concept](https://fate-srd.com/fate-core/your-character-idea#high-concept). Your
 high concept is a phrase that sums up what your character is about. Here’s a list
 of [example high concepts](https://wiki.rpg.net/index.php/Aspects_List#Archetypes_.2F_High_Concepts).
 
+<!-- TOC --><a name="careers"></a>
 ## Career(s)
 
 Each player character has a former career, or careers. These can be any manner of schooling or job training that result
@@ -72,40 +163,48 @@ academic, law enforcement or agent, trader, extralegal or ship crew. Employers m
 You may wish to select your skill set first, then add a career justifying those choices, or the other way
 around. [Sample careers](https://wiki.travellerrpg.com/Vocation)
 
+<!-- TOC --><a name="trouble"></a>
 ## [Trouble](https://fate-srd.com/fate-core/your-character-idea#trouble)
 
 Every character has a troublesome aspect that’s part of their story.
 
+<!-- TOC --><a name="convictions"></a>
 ## Convictions
 
 Choose two convictions that guide your character’s decisions and role play. Here’s
 some [examples of convictions](https://wiki.rpg.net/index.php/Aspects_List#Beliefs.2C_Convictions_.26_Mottos).
 
+<!-- TOC --><a name="ties"></a>
 ## Ties
 
 Choose two ties that inform your character’s patrons. These can be friend or foe, but define aspects of your character.
 
+<!-- TOC --><a name="gear"></a>
 ## Gear
 
 Choose one gear aspect, a military grade weapon or armor, a high tech level sensor, sensory implants, battlefield
 computer, gravity belt, high tech medical scanner, high tech environment suit, combat drugs, truth drugs, energy weapon,
 etc.
 
+<!-- TOC --><a name="stunts"></a>
 # [Stunts](https://fate-srd.com/fate-system-toolkit/stunts)
 
 Each player character gets three stunts. Stunts may be aspected, triggered, broad or
 combined. [Examples](http://evilhat.wikidot.com/fate-core-stunts).
 
+<!-- TOC --><a name="attributes"></a>
 # [Attributes](https://fudgesrd.opengamingnetwork.com/fudgesrd/character-creation/character-creation-terms/)
 
 Attributes in Pilot Wave help define the raw nature of the character, and serve as a catch-all when a challenge does not
 represent training. Player characters have 3 shifts to distribute as desired for attributes.
 
+<!-- TOC --><a name="physique"></a>
 ## Physique
 
 Physique represents your physical strength, agility and stamina. Your physique determines the amount of physical stress
 you can take. See Fate [Physique](https://fate-srd.com/fate-core/physique).
 
+<!-- TOC --><a name="psyche"></a>
 ## Psyche
 
 Psyche represents your force of personality, serenity, presence and willpower. Retrying failed tasks often requires a
@@ -113,23 +212,27 @@ determination skill roll, and psyche is the relevant skill. Staying cool during 
 a poise skill roll, and psyche is the relevant skill. Psyche determines the amount of mental stress you can take.
 Substitutes for Fate [Will](https://fate-srd.com/fate-core/will).
 
+<!-- TOC --><a name="skills"></a>
 # [Skills](https://fate-srd.com/fate-core/skills#pick-and-rate-your-characters-skills)
 
 Skills in Pilot Wave comprise the following categories. Each category is not a skill, per se, rather a range of skills.
 Subjacent skill rolls can be made at a Poor (-1) shift. Terrible (-2) is the default for any skill you do not have,
 unless otherwise noted.
 
+<!-- TOC --><a name="academics"></a>
 ## Academics
 
 Academics includes anthropology, art, education, communication, history, media, public relations and statistics.
 Academics subjacent skills are Engineering, Medical and Science. Substitutes for
 Fate [Lore](https://fate-srd.com/fate-core/lore).
 
+<!-- TOC --><a name="athletics"></a>
 ## Athletics
 
 Athletics represents your character’s general level of physical fitness through formal training in sports disciplines.
 See Fate [Athletics](https://fate-srd.com/fate-core/athletics).
 
+<!-- TOC --><a name="clandestine"></a>
 ## Clandestine
 
 Clandestine represents illicit skills like bribery, deception, disguise, forgery, gambling, intimidation and streetwise.
@@ -138,21 +241,25 @@ illicit circles and [Deceive](https://fate-srd.com/fate-core/deceive). In additi
 
 * Overcome: Clandestine can be used to pass off electronic credentials or paper documents or gain funds at a risk.
 
+<!-- TOC --><a name="close-combat"></a>
 ## Close Combat
 
 Close Combat represents training in hand-to-hand combat and fighting with hand-held or hand-thrown weapons such as
 swords, knives, axes, or tools. Substitutes for Fate [Fight](https://fate-srd.com/fate-core/fight).
 
+<!-- TOC --><a name="energy-weapons"></a>
 ## Energy Weapons
 
 Energy weapons represent training in lasers, plasma guns and sonic weapons. Substitutes for
 Fate [Shoot](https://fate-srd.com/fate-core/shoot).
 
+<!-- TOC --><a name="engineering"></a>
 ## Engineering
 
 Engineering represents training in applied sciences to design and operate communications, computers and electronics.
 Subjacent skills are science and academic. Substitutes for Fate [Crafts](https://fate-srd.com/fate-core/crafts).
 
+<!-- TOC --><a name="finance"></a>
 ## Finance
 
 Finance represents training in brokering, negotiating and facilitating trade. The default skill level for finance is
@@ -162,32 +269,38 @@ Mediocre (0). Substitutes for Fate [Contacts](https://fate-srd.com/fate-core/con
   price and finding cargo.
 * Create an Advantage: Use finance to create advantages based on trade imbalances.
 
+<!-- TOC --><a name="gun-combat"></a>
 ## Gun Combat
 
 Gun Combat represents training in pistols, carbines and rifles. Substitutes for
 Fate [Shoot](https://fate-srd.com/fate-core/shoot).
 
+<!-- TOC --><a name="heavy-weapons"></a>
 ## Heavy Weapons
 
 Heavy Weapons represents training in demolitions, grenades, grenade launchers and guided ordinance, including indirect
 fire weapons. Vehicle Combat is subjacent. Substitutes for Fate [Shoot](https://fate-srd.com/fate-core/shoot).
 
+<!-- TOC --><a name="interpersonal"></a>
 ## Interpersonal
 
 Interpersonal represents training in personnel administration, interrogation, interview, liaison, mediation and steward
 skills. Substitutes for Fate [Empathy](https://fate-srd.com/fate-core/empathy)
 and [Rapport](https://fate-srd.com/fate-core/rapport).
 
+<!-- TOC --><a name="intrusion"></a>
 ## Intrusion
 
 Intrusion represents training in breaking and entering, security systems, electronic intrusion and encryption
 techniques. Substitutes for Fate [Burglary](https://fate-srd.com/fate-core/burglary).
 
+<!-- TOC --><a name="investigate"></a>
 ## Investigate
 
 Investigate represents your powers of deduction and forensic training in scientific tests and techniques used in crime
 detection. See Fate [Investigate](https://fate-srd.com/fate-core/investigate).
 
+<!-- TOC --><a name="medical"></a>
 ## Medical
 
 The Medical skill represents training in health and wellness and the treatment of illness and injuries.
@@ -196,42 +309,50 @@ The Medical skill represents training in health and wellness and the treatment o
   stress, or wounds, provided you have access to a med bay.
 * Create an Advantage: Use medical to create advantages based on your understanding of anatomy and biology.
 
+<!-- TOC --><a name="notice"></a>
 ## Notice
 
 Notice represents your senses of observation, awareness of your surroundings and training to identify obscured or
 camouflaged targets. See Fate [Notice](https://fate-srd.com/fate-core/notice).
 
+<!-- TOC --><a name="provoke"></a>
 ## Provoke
 
 Provoke represents your ability to elicit an emotional response from others. See
 Fate [Provoke](https://fate-srd.com/fate-core/provoke).
 
+<!-- TOC --><a name="science"></a>
 ## Science
 
 Science represents training in biology, chemistry, genetics, physics and robotics. Subjacent skills are medical and
 academic. Substitutes for Fate [Lore](https://fate-srd.com/fate-core/lore).
 
+<!-- TOC --><a name="space-combat"></a>
 ## Space Combat
 
 Space combat represents training in sensor ops and gunnery with close orbit, space and star ships. Substitutes for
 Fate [Shoot](https://fate-srd.com/fate-core/shoot). Subjacent skills are Vehicle Combat.
 
+<!-- TOC --><a name="space-ops"></a>
 ## Space Ops
 
 Space ops represents training in pilot and navigation, specifically with close orbit, space and star ships. Subjacent
 skills are vehicle ops.
 
+<!-- TOC --><a name="stealth"></a>
 ## Stealth
 
 Stealth represents training in security systems and camouflage. See
 Fate [Stealth](https://fate-srd.com/fate-core/stealth).
 
+<!-- TOC --><a name="survival"></a>
 ## Survival
 
 Survival represents training in skills to survive without shelter, benefits and hazards of fauna and flora, basic tool
 making, archaic weapons, hunting and foraging. Substitutes for Fate [Fight](https://fate-srd.com/fate-core/fight)
 and [Shoot](https://fate-srd.com/fate-core/shoot) with archaic weapons.
 
+<!-- TOC --><a name="tactics"></a>
 ## Tactics
 
 Tactics represents training in combat tactics, leadership and reconnaissance. Each side in a conflict has a Tactics
@@ -251,16 +372,19 @@ When you use a roving die modifier, subtract it from your tactics pool for that 
 your tactics pool resets, minus the amount you used for determining side order. You may add a roving die modifier from
 your side’s Tactics pool after the roll, but before knowing the outcome.
 
+<!-- TOC --><a name="vehicle-combat"></a>
 ## Vehicle Combat
 
 Vehicle combat represents training in sensor ops and gunnery with ground, water and airspace vehicles. Substitutes for
 Fate [Shoot](https://fate-srd.com/fate-core/shoot). Subjacent skills are Space Combat.
 
+<!-- TOC --><a name="vehicle-ops"></a>
 ## Vehicle Ops
 
 Vehicle ops represents training in pilot and navigation, specifically with ground, water and airspace vehicles.
 Subjacent skills are Space Ops.
 
+<!-- TOC --><a name="zero-g"></a>
 ## Zero-G
 
 Zero-G represents training in the operation of vacuum suits, airlocks, zero-g environments, recoil and inertia.
@@ -270,6 +394,7 @@ Zero-G represents training in the operation of vacuum suits, airlocks, zero-g en
   The shift from acceleration induced gravity to Zero-G and vice versa can be very disorienting, especially for those
   untrained in Zero-G.
 
+<!-- TOC --><a name="psychic-powers"></a>
 # Psychic Powers
 
 Psychic abilities are powers, not generally available to the public. Several secret organizations exist that research
@@ -279,21 +404,25 @@ feared. Once a person reaches adulthood without training, psychic abilities are 
 reasons, only one power manifests in any psychic individual and power level is generally low, but sometimes spikes with
 emotions. Manifesting a power can be used to overcome an obstacle, create an advantage, and some to attack or defend.
 
+<!-- TOC --><a name="enhancements"></a>
 ### Enhancements
 
 Psychic powers usually allow you to do something extraordinary, or in the simplest case, add a boost to an appropriate
 skill check to overcome an obstacle.
 
+<!-- TOC --><a name="jumper"></a>
 ## Jumper
 
 Jumpers are able to teleport within a zone at will. Extreme focus or emotions can allow them to jump further, even
 miles, but at a risk. Not all jumpers survive longer jumps...
 
+<!-- TOC --><a name="mover"></a>
 ## Mover
 
 Movers are telekinetics able to move small items they can see within a zone at will. Extreme focus or emotions can allow
 a mover to move larger objects or even ward off physical attacks by erecting a telekinetic shield.
 
+<!-- TOC --><a name="pusher"></a>
 ## Pusher
 
 Pushers are telepaths that can push thoughts into another subject, who seemingly act as if they are their own. They are
@@ -301,29 +430,34 @@ some of the most feared psychics, as even a simple thought can lead to fatal act
 read thoughts, yankers, and may cause their targets to betray their secrets. Some have even been known as wipers, able
 to erase memories...
 
+<!-- TOC --><a name="shifter"></a>
 ## Shifter
 
 Shifters are able to manifest photokinetic powers, creating a mirage, hiding objects or people in plain sight, or
 passing off objects as something else, like a winning poker hand for a poor one. Shifters can also disrupt or blank
 psychic power, able to prevent others from using their powers or shadow those with psychic abilities from Sniffs.
 
+<!-- TOC --><a name="sniff"></a>
 ## Sniff
 
 Sniffs are clairvoyants able to see images or scenes in real time, two to three zones away. Sniffs can also detect other
 nearby psychics when they use their power.
 
+<!-- TOC --><a name="watcher"></a>
 ## Watcher
 
 Watchers are precogs that can see images or scenes from the future. The future is not fixed, so this can be a very
 confusing and mentally disturbing ability. Near now events are much clearer and with focus, can provide seemingly
 supernatural defensive advantages.
 
+<!-- TOC --><a name="astrogation"></a>
 # Astrogation
 
 Inducing a wormhole involves precise vector targeting of the destination, thereby limiting the range. Jump calculations
 take 10 minutes on average. Travel through the wormhole throat uses the maneuver drive through non-Euclidean space.
 Regardless of speed, exiting the wormhole takes about 5 days.
 
+<!-- TOC --><a name="astrogation-attempt"></a>
 ### Astrogation attempt
 
 - Legendary (+4): Instantaneous and flawless calculations (0 minutes)
@@ -349,11 +483,13 @@ a system without a gravity well will irradiate the crew unless the ship is aband
 A three parsec jump can be attempted, but it risks a loss of primary containment, immediately leading to a catastrophic
 hydrogen explosion, destroying the ship and killing the crew.
 
+<!-- TOC --><a name="resolving-attacks"></a>
 # [Resolving Attacks](https://fate-srd.com/fate-core/resolving-attacks)
 
 Fill in one stress box greater than or equal to the value of an attack, take one or more consequences, or fill in one
 stress box and take consequences—if you can’t do one of these three things, you’re **taken out**.
 
+<!-- TOC --><a name="consequences"></a>
 # [Consequences](https://fate-srd.com/fate-core/resolving-attacks#consequences)
 
 * Mild: –2 to attack value
@@ -361,12 +497,14 @@ stress box and take consequences—if you can’t do one of these three things, 
 * Severe: –6 to attack value
 * Extreme: –8 to attack and permanent character aspect
 
+<!-- TOC --><a name="recover"></a>
 # [Recover](https://fate-srd.com/fate-core/resolving-attacks#recovering-from-a-consequence)
 
 * Mild: overcome Fair (+2), one whole scene
 * Moderate: overcome Great (+4), one whole session
 * Severe: overcome Fantastic (+6), one whole scenario
 
+<!-- TOC --><a name="aspect-types"></a>
 # [Aspect Types](https://fate-srd.com/fate-core/aspects-fate-points)
 
 * Game aspects: permanent, made during game creation
@@ -375,6 +513,7 @@ stress box and take consequences—if you can’t do one of these three things, 
 * Boosts: last until invoked one time
 * Consequences: last until recovered
 
+<!-- TOC --><a name="invoking-aspects"></a>
 # [Invoking Aspects](https://fate-srd.com/fate-core/invoking-compelling-aspects#invoking-aspects)
 
 Spend a fate point or free invoke. Choose one:
@@ -386,6 +525,7 @@ Spend a fate point or free invoke. Choose one:
 
 Free invokes stack with a paid one and each other.
 
+<!-- TOC --><a name="compelling-aspects"></a>
 # [Compelling Aspects](https://fate-srd.com/fate-core/invoking-compelling-aspects#compelling-aspects)
 
 Accept a complication for a fate point.
@@ -395,11 +535,13 @@ Accept a complication for a fate point.
 * Decision-based: You have ____ aspect in ____ situation, so it makes sense that you’d decide to ____. This goes wrong
   when ____ happens.
 
+<!-- TOC --><a name="refresh"></a>
 # [Refresh](https://fate-srd.com/fate-core/fate-point-economy)
 
 At the start of a new session, you reset your fate points to your refresh rate. If you ended the last session with more
 points, you keep the extra. At the end of a scenario, you reset to your refresh rate no matter what.
 
+<!-- TOC --><a name="spending-fate-points"></a>
 # [Spending Fate Points](https://fate-srd.com/fate-core/fate-point-economy)
 
 Spend fate points to:
@@ -409,11 +551,13 @@ Spend fate points to:
 * Refuse a compel
 * Declare a story detail
 
+<!-- TOC --><a name="challenges"></a>
 # [Challenges](https://fate-srd.com/fate-core/challenges)
 
 * Each obstacle or goal that requires a different skill gets an overcome roll.
 * Interpret failure, costs, and success of each roll together to determine final outcome.
 
+<!-- TOC --><a name="contests"></a>
 # [Contests](https://fate-srd.com/fate-core/contests)
 
 * Contesting characters roll appropriate skills.
@@ -422,6 +566,7 @@ Spend fate points to:
 * If there’s a tie for the highest result, no one gets a victory, and an unexpected twist occurs.
 * The first participant to achieve three victories wins the contest.
 
+<!-- TOC --><a name="conflicts"></a>
 # [Conflicts](https://fate-srd.com/fate-core/conflicts)
 
 * Set the scene, describing the environment the conflict takes place in, creating situation aspects and zones, and
@@ -433,6 +578,7 @@ Spend fate points to:
     * At the end of everyone’s turn, start again with a new exchange.
 * Conflict is over when everyone on one side has conceded or been taken out.
 
+<!-- TOC --><a name="surprise"></a>
 ## Surprise
 
 In Pilot Wave, at the beginning of a conflict, Surprise is determined by invoking a Situation Aspect or a Character
@@ -441,6 +587,7 @@ others are Surprised. Determining Surprise may call for a contest; Notice overco
 nothing occurs that grants the other side awareness, Surprise may continue in subsequent Exchanges. When one or more
 character achieves Surprise, those without surprise are considered Surprised.
 
+<!-- TOC --><a name="turn-order"></a>
 ## Turn Order
 
 In Pilot Wave, Aware characters may act in an Exchange. If opposing characters are Aware, or if neither side is
@@ -452,6 +599,7 @@ character acts in what side turn order is determined by the players for PCs or t
 character on each side has taken a turn, the next Exchange Begins. Exchanges continue until one of the sides concedes or
 is taken out.
 
+<!-- TOC --><a name="action"></a>
 ### Action
 
 On your turn, take an action and resolve it. Generally, only one substantial action may be taken per turn. Substantial
@@ -459,6 +607,7 @@ actions are Creating an Advantage, move, attack, or interactive skills. A move a
 action. Drawing weapons, reloading, opening a hatch, voice interaction, duck, get up and reactive skills are usually
 considered insignificant and can be combined with an action on your turn.
 
+<!-- TOC --><a name="counter"></a>
 ### Counter
 
 Each action may be countered, once per side, by any who are Aware and have not acted. A counter is not guaranteed, but
@@ -468,6 +617,7 @@ counter. The countering character uses their Tactics skill, although roving Tact
 Potentially, the first action by one side may be countered by the other side, and in turn, that action may be countered
 by the first side. By the time the first character takes their turn in an Exchange, it could be the third turn.
 
+<!-- TOC --><a name="movement"></a>
 ### Movement
 
 Pilot Wave uses a grid for personal, vehicle and space combat. In personal combat, one square is 1.5 meters, in vehicle
@@ -478,17 +628,21 @@ is 5 squares and any skill or attack suffers a Poor (-1) shift. Trotting speed i
 shift. Running speed is 20 squares +/- Physique and imposes an Awful (-3) shift. The shift applies to actions by you, or
 against you, if Countered.
 
+<!-- TOC --><a name="personal-combat"></a>
 ## Personal Combat
 
+<!-- TOC --><a name="close-combat-1"></a>
 ### Close Combat
 
 In Pilot Wave, a hand-to-hand attack is against an opposed Close Combat skill roll and generally requires opponents to
 be in adjacent squares. Undefended Close Combat is effortless.
 
+<!-- TOC --><a name="ranged-attacks"></a>
 ### Ranged Attacks
 
 In Pilot Wave, opponent’s do not roll an opposed skill roll. Instead, difficulty is determined by range.
 
+<!-- TOC --><a name="weapon-and-armor-ratings"></a>
 ### [Weapon and Armor Ratings](https://fate-srd.com/fate-core/more-examples-extras#weapon-and-armor-ratings)
 
 Expanding on More Examples of Extras, the weapon rating adds to the shift value of a successful hit and armor ratings
@@ -497,6 +651,7 @@ correspondingly reduce the shifts of a successful hit.
 Weapon ranges are categorized as **Close, Point Blank, Effective and Long**. Range is determined by Weapon Type. Range
 increases difficulty and reduces damage shifts. Range is in zones.
 
+<!-- TOC --><a name="weapon-ranges-and-ratings"></a>
 #### Weapon Ranges and Ratings
 
 | Range            | Close        | Point Blank | Effective     | Long          | Damage Shift |
@@ -519,6 +674,7 @@ A Weapon value adds to the shift value of a successful hit. If a weapon has a da
 is worth 2 more shifts than it would normally be. This counts for ties, so when you’re using a weapon, you inflict
 stress on a tie instead of getting a boost. That makes weapons very dangerous.
 
+<!-- TOC --><a name="armor-ratings"></a>
 #### Armor Ratings
 
 | Armor           | Shifts      |
@@ -537,8 +693,10 @@ Environment Vacuum suit (HEV) and rolls 0, +2 for Gun Combat, at close range, Di
 success (+2). The damage would be 3 (success +2, rifle Good (+3), 5 shifts, and the suit has a damage shift of Fair (2),
 reducing that to +3). The target character would take 3 physical stress, or 1 physical stress and a mild consequence.
 
+<!-- TOC --><a name="vehicle-combat-1"></a>
 ## Vehicle Combat
 
+<!-- TOC --><a name="spaceship-combat"></a>
 ## Spaceship Combat
 
 In an exchange, turn order is determined the same as in personal combat, with modifiers from maneuver drive and tactics
@@ -553,6 +711,7 @@ handled as a unit.
 | KEW              | \-          | 2          | \-          | \-            | Good (3)     |
 | DEW              | \-          | 3          | 4           | \-            | Great (4)    |
 
+<!-- TOC --><a name="phases"></a>
 ### Phases
 
 - **Sensors Phase:** This phase involves gathering information about the surrounding environment, detecting enemy ships,
@@ -572,6 +731,7 @@ handled as a unit.
   as launching boarding parties, deploying assault shuttles, or conducting repairs and maintenance on the exterior of
   the ship. Boarding actions can lead to intense close-quarters combat and potentially decisive outcomes.
 
+<!-- TOC --><a name="sensors"></a>
 #### Sensors
 
 A ship signals if it's using maneuver drive, weapons or active sensors. Drift is the absence of drives, weapons or
@@ -584,6 +744,7 @@ active sensors. Passive sensors retain drift.
 | Far     | Trivial          | Routine           | Formidable      | Impossible       |
 | Extreme | Routine          | Formidable        | Impossible      | Futile           |
 
+<!-- TOC --><a name="earning-fate-points"></a>
 # [Earning Fate Points](https://fate-srd.com/fate-core/fate-point-economy#earning-fate-points)
 
 Earn fate points when you:
