@@ -230,8 +230,6 @@ Survival represents training in skills to survive without shelter, benefits and 
 
 Tactics represents training in combat tactics, leadership and reconnaissance. Each side in a conflict has a Tactics pool, the total of all Tactics skill points for each character. At the beginning of a conflict, each side may subtract a number for their Tactics pool and apply it to their Tactics roll to determine side order. The remaining Tactics points serve as one or more roving die modifiers, reset on each exchange. Attempting to counter an enemy's action is a contest, where you attempt to overcome your opponent’s Tactics skill roll.
 
-
-
 * Overcome: Use Tactics to overcome any obstacle related to enemy positions, movements or strength. 
 * Create an Advantage: Use Tactics to create advantages based on your understanding of combat tactics, building defenses or choosing the best locations for combat advantage.
 * Attack: You may use Tactics directly for attacking, and it affects exchange order and counters.
@@ -453,168 +451,17 @@ Weapon ranges are categorized as **Close, Point Blank, Effective and Long**. Ran
 
 
 #### Weapon Ranges and Ratings 							Armor Ratings
-
-
-<table>
-  <tr>
-   <td rowspan="2" ><strong>Range Difficulty</strong>
-   </td>
-   <td><strong>Close</strong>
-   </td>
-   <td><strong>Point Blank</strong>
-   </td>
-   <td><strong>Effective</strong>
-   </td>
-   <td><strong>Long</strong>
-   </td>
-   <td rowspan="3" ><strong>Weapon Value</strong>
-   </td>
-   <td rowspan="10" >
-   </td>
-   <td><strong>Armor</strong>
-   </td>
-   <td><strong>Shifts</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Trivial (0)
-   </td>
-   <td>Normal (1)
-   </td>
-   <td>Routine (2)
-   </td>
-   <td>Difficult (3)
-   </td>
-   <td>Ballistic, V Suit
-   </td>
-   <td>Average (1)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Range Shift</strong>
-   </td>
-   <td>Mediocre (0)
-   </td>
-   <td>Poor (-1)
-   </td>
-   <td>Terrible (-2)
-   </td>
-   <td>Awful (-3)
-   </td>
-   <td>Inertial, HEV
-   </td>
-   <td>Fair (2)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Personal</strong>
-   </td>
-   <td>Adjacent
-   </td>
-   <td>-
-   </td>
-   <td>-
-   </td>
-   <td>-
-   </td>
-   <td>Mediocre (0)
-   </td>
-   <td>Composite Plate
-   </td>
-   <td>Good (3)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Archaic</strong>
-   </td>
-   <td>1
-   </td>
-   <td>2
-   </td>
-   <td>3
-   </td>
-   <td>4
-   </td>
-   <td>Average (1)
-   </td>
-   <td>Powered Armor
-   </td>
-   <td>Great (4)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Pistol</strong>
-   </td>
-   <td>1
-   </td>
-   <td>2
-   </td>
-   <td>3
-   </td>
-   <td>4
-   </td>
-   <td>Average (1)
-   </td>
-   <td rowspan="5" colspan="2" >
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Carbine</strong>
-   </td>
-   <td>2
-   </td>
-   <td>3
-   </td>
-   <td>4
-   </td>
-   <td>5
-   </td>
-   <td>Fair (2)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Rifle</strong>
-   </td>
-   <td>2
-   </td>
-   <td>3
-   </td>
-   <td>4
-   </td>
-   <td>6
-   </td>
-   <td>Good (3)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Heavy Weapons</strong>
-   </td>
-   <td>2
-   </td>
-   <td>3
-   </td>
-   <td>4
-   </td>
-   <td>5
-   </td>
-   <td>Good (3)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>High Energy</strong>
-   </td>
-   <td>2
-   </td>
-   <td>3
-   </td>
-   <td>5
-   </td>
-   <td>7
-   </td>
-   <td>Great (4)
-   </td>
-  </tr>
-</table>
+| Range Difficulty | Close        | Point Blank | Effective     | Long              | Weapon Value  |                 | Armor     | Shifts |
+| ---------------- | ------------ | ----------- | ------------- | ----------------- | ------------- | --------------- | --------- | ------ |
+| Trivial (0)      | Normal (1)   | Routine (2) | Difficult (3) | Ballistic, V Suit | Average (1)   |
+| Range Shift      | Mediocre (0) | Poor (-1)   | Terrible (-2) | Awful (-3)        | Inertial, HEV | Fair (2)        |
+| Personal         | Adjacent     | \-          | \-            | \-                | Mediocre (0)  | Composite Plate | Good (3)  |
+| Archaic          | 1            | 2           | 3             | 4                 | Average (1)   | Powered Armor   | Great (4) |
+| Pistol           | 1            | 2           | 3             | 4                 | Average (1)   |                 |
+| Carbine          | 2            | 3           | 4             | 5                 | Fair (2)      |
+| Rifle            | 2            | 3           | 4             | 6                 | Good (3)      |
+| Heavy Weapons    | 2            | 3           | 4             | 5                 | Good (3)      |
+| High Energy      | 2            | 3           | 5             | 7                 | Great (4)     |
 
 
 _Personal attacks have a value of Average (1) with a weapon. Rifles, Heavy Weapons and High Energy Weapons are Normal (1) at Close range and Trivial (0) at Point Blank. Heavy Weapons are hazardous and target all within a zone. Automatic fire shifts the range difficulty and the weapon value by one. _
