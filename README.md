@@ -1,30 +1,3 @@
-<!-----
-
-
-
-Conversion time: 1.637 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β35
-* Mon Feb 26 2024 19:00:46 GMT-0800 (PST)
-* Source doc: Pilot Wave
-* Tables are currently converted to HTML tables.
-
-WARNING:
-You have 20 H1 headings. You may want to use the "H1 -> H2" option to demote all headings by one level.
-
------>
-
-
 <p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 0.</p>
 <ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
 
@@ -42,6 +15,25 @@ _A Science Fiction RPG based on [Fudge](https://fudgesrd.opengamingnetwork.com/)
 
 For conflict resolution, Pilot Wave uses an expanded [ladder](https://fate-srd.com/fate-core/taking-action-dice-ladder#the-ladder) of adjectives and numbers to rate the attempt, the dice results plus modifiers against the difficulty, either a passive difficulty, set by the game master, or an active opposition, the opponent’s dice results plus modifiers. Roll [four fudge dice](https://fate-srd.com/fate-core/taking-action-dice-ladder) (4DF) and add the result to the skill rating to get the final attempt.
 
+| Difficulty    | 4dF | Attempt       | Probability of Success |
+| ------------- | --- | ------------- | ---------------------- |
+| Certain       | \-4 | Abysmal       | 100                    |
+| Cinch         | \-3 | Awful         | 98.77                  |
+| Effortless    | \-2 | Terrible      | 93.83                  |
+| Easy          | \-1 | Poor          | 81.48                  |
+| Trivial       | 0   | Mediocre      | 61.73                  |
+| Normal        | 1   | Average       | 38.27                  |
+| Routine       | 2   | Fair          | 18.52                  |
+| Difficult     | 3   | Good          | 6.17                   |
+| Formidable    | 4   | Great         | 1.23                   |
+| Staggering    | 5   | Superb        | \-                     |
+| Impossible    | 6   | Fantastic     | \-                     |
+| Hopeless      | 7   | Epic          | \-                     |
+| Futile        | 8   | Legendary     | \-                     |
+| Absurd        | 9   | Extraordinary | \-                     |
+| Inconceivable | 10  | Phenomenal    | \-                     |
+| Preposterous  | 11  | Prodigious    | \-                     |
+| Unattainable  | 12  | Freakish      | \-                     |
 
 <table>
   <tr>
