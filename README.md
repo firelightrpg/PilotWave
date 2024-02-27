@@ -451,20 +451,20 @@ Weapon ranges are categorized as **Close, Point Blank, Effective and Long**. Ran
 
 
 #### Weapon Ranges and Ratings 							Armor Ratings
-| Range Difficulty | Close        | Point Blank | Effective     | Long              | Weapon Value  |                 | Armor     | Shifts |
-| ---------------- | ------------ | ----------- | ------------- | ----------------- | ------------- | --------------- | --------- | ------ |
-| Trivial (0)      | Normal (1)   | Routine (2) | Difficult (3) |                   |               |                 | Ballistic, V Suit | Average (1)
-| Range Shift      | Mediocre (0) | Poor (-1)   | Terrible (-2) | Awful (-3)        |               |                 | Inertial, HEV | Fair (2)        
-| Personal         | Adjacent     | \-          | \-            | \-                | Mediocre (0)  |                 | Composite Plate | Good (3)  |
-| Archaic          | 1            | 2           | 3             | 4                 | Average (1)   |                 |Powered Armor   | Great (4) |
-| Pistol           | 1            | 2           | 3             | 4                 | Average (1)   |                 
-| Carbine          | 2            | 3           | 4             | 5                 | Fair (2)      |
-| Rifle            | 2            | 3           | 4             | 6                 | Good (3)      |
-| Heavy Weapons    | 2            | 3           | 4             | 5                 | Good (3)      |
-| High Energy      | 2            | 3           | 5             | 7                 | Great (4)     |
+| Range            | Close        | Point Blank | Effective     | Long              | Damage Shift |    | Armor           | Shifts      |
+| ---------------- | ------------ | ----------- | ------------- | ----------------- | ------------ | -- | --------------- | ----------- |
+| Range Difficulty | Trivial (0)  | Normal (1)  | Routine (2)   | Difficult (3)     |              |    | Ballistic, EVA  | Average (1) |
+| Attack Shift     | Mediocre (0) | Poor (-1)   | Terrible (-2) | Awful (-3)        |              |    | Inertial, HEV   | Fair (2)    |   
+| Personal         | Adjacent     | \-          | \-            | \-                | Mediocre (0) |    | Composite Plate | Good (3)    |
+| Archaic          | 1            | 2           | 3             | 4                 | Average (1)  |    | Powered Armor   | Great (4)   |
+| Pistol           | 1            | 2           | 3             | 4                 | Average (1)  |                 
+| Carbine          | 2            | 3           | 4             | 5                 | Fair (2)     |
+| Rifle            | 2            | 3           | 4             | 6                 | Good (3)     |
+| Heavy Weapons    | 2            | 3           | 4             | 5                 | Good (3)     |
+| High Energy      | 2            | 3           | 5             | 7                 | Great (4)    |
 
 
-_Personal attacks have a value of Average (1) with a weapon. Rifles, Heavy Weapons and High Energy Weapons are Normal (1) at Close range and Trivial (0) at Point Blank. Heavy Weapons are hazardous and target all within a zone. Automatic fire shifts the range difficulty and the weapon value by one. _
+_Personal range attacks have a value of Average (1) with a weapon. Rifles, Heavy Weapons and High Energy Weapons are Normal (1) at Close range and Trivial (0) at Point Blank. Heavy Weapons are hazardous and target all within a zone. Automatic fire shifts the range difficulty and the weapon value by one._
 
 A Weapon value adds to the shift value of a successful hit. So, if you have Weapon:2, it means that any hit is worth 2 more shifts than it would normally be. This counts for ties, so when you’re using a weapon, you inflict stress on a tie instead of getting a boost. That makes weapons very dangerous.
 
