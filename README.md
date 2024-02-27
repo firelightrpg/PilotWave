@@ -453,11 +453,11 @@ Weapon ranges are categorized as **Close, Point Blank, Effective and Long**. Ran
 #### Weapon Ranges and Ratings 							Armor Ratings
 | Range Difficulty | Close        | Point Blank | Effective     | Long              | Weapon Value  |                 | Armor     | Shifts |
 | ---------------- | ------------ | ----------- | ------------- | ----------------- | ------------- | --------------- | --------- | ------ |
-| Trivial (0)      | Normal (1)   | Routine (2) | Difficult (3) | Ballistic, V Suit | Average (1)   |
-| Range Shift      | Mediocre (0) | Poor (-1)   | Terrible (-2) | Awful (-3)        | Inertial, HEV | Fair (2)        |
-| Personal         | Adjacent     | \-          | \-            | \-                | Mediocre (0)  | Composite Plate | Good (3)  |
-| Archaic          | 1            | 2           | 3             | 4                 | Average (1)   | Powered Armor   | Great (4) |
-| Pistol           | 1            | 2           | 3             | 4                 | Average (1)   |                 |
+| Trivial (0)      | Normal (1)   | Routine (2) | Difficult (3) |                   |               |                 | Ballistic, V Suit | Average (1)
+| Range Shift      | Mediocre (0) | Poor (-1)   | Terrible (-2) | Awful (-3)        |               |                 | Inertial, HEV | Fair (2)        
+| Personal         | Adjacent     | \-          | \-            | \-                | Mediocre (0)  |                 | Composite Plate | Good (3)  |
+| Archaic          | 1            | 2           | 3             | 4                 | Average (1)   |                 |Powered Armor   | Great (4) |
+| Pistol           | 1            | 2           | 3             | 4                 | Average (1)   |                 
 | Carbine          | 2            | 3           | 4             | 5                 | Fair (2)      |
 | Rifle            | 2            | 3           | 4             | 6                 | Good (3)      |
 | Heavy Weapons    | 2            | 3           | 4             | 5                 | Good (3)      |
