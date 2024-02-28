@@ -11,6 +11,9 @@ Each area is outfitted with internal sensors and communications consoles, all ne
 The ship carries a complement of a drop ship patrol skiff, armed with turreted CPRs, a G4 class rover with multifuel battery assist power and a roof mounted CPR. In the cargo hold are two Aries-class hover tanks, each outfitted with a plasma cannon turret and an independent CPR turret.
 ![alt_text](https://drive.google.com/uc?id=1KiB5G1kXvUI_jcEkn7eBBoLfi5wybDqI "Fury's complement")
 
+## Deck Layout
+![alt_text](https://drive.google.com/uc?id=1KfxX5x5GmGrPxgRMhRBd2ReXuHBB3zyV "Deck layout")
+
 ## Bridge Deck and Upper Cargo Deck
 ![alt_text](https://drive.google.com/uc?id=1KfMng4EoEKrMzTawBFbJOkXDAk_v4r3h "Upper decks")
 
