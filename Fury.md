@@ -14,11 +14,7 @@ The ship carries a complement of a drop ship patrol skiff, armed with turreted C
 
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](https://drive.google.com/uc?id=1KiB5G1kXvUI_jcEkn7eBBoLfi5wybDqI "Fury's complement")
 
 
 
