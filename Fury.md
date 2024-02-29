@@ -14,7 +14,7 @@ The ship carries a complement of a drop ship patrol skiff, armed with turreted C
 ## Deck Layout
 ![alt_text](https://drive.google.com/uc?id=1KfxX5x5GmGrPxgRMhRBd2ReXuHBB3zyV "Deck layout")
 
-## Main Deck and Upper Deck (Hanger Bay)
+## Upper Deck (Hanger Bay) and Main Deck (Bridge, Crew Quarters)
 ![alt_text](https://drive.google.com/uc?id=1KfMng4EoEKrMzTawBFbJOkXDAk_v4r3h "Upper decks")
 
 ## Upper Deck
