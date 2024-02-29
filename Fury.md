@@ -14,7 +14,7 @@ The ship carries a complement of a drop ship patrol skiff, armed with turreted C
 ## Deck Layout
 ![alt_text](https://drive.google.com/uc?id=1KfxX5x5GmGrPxgRMhRBd2ReXuHBB3zyV "Deck layout")
 
-## Main Deck and Upper Deck (Hanger)
+## Main Deck and Upper Deck (Hanger Bay)
 ![alt_text](https://drive.google.com/uc?id=1KfMng4EoEKrMzTawBFbJOkXDAk_v4r3h "Upper decks")
 
 ## Upper Deck
@@ -119,7 +119,7 @@ Nestled in the bowels of the engine, this hot, noisy chamber allows direct acces
 
 
 
-## Troop Deck and Cargo Deck
+## Troop Deck and Lower Deck (Cargo Bay)
 ![alt_text](https://drive.google.com/uc?id=1Kj9ZvRkSP0E5jnWFwFmn_K-b2YEHmme7 "Lower decks")
 
 ## Troop Deck
