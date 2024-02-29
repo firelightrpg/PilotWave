@@ -14,28 +14,10 @@ The ship carries a complement of a drop ship patrol skiff, armed with turreted C
 ## Deck Layout
 ![alt_text](https://drive.google.com/uc?id=1KfxX5x5GmGrPxgRMhRBd2ReXuHBB3zyV "Deck layout")
 
-## Bridge Deck and Upper Cargo Deck
+## Upper Deck and Hanger Bay
 ![alt_text](https://drive.google.com/uc?id=1KfMng4EoEKrMzTawBFbJOkXDAk_v4r3h "Upper decks")
 
-## Troop Deck and Lower Cargo Deck
-![alt_text](https://drive.google.com/uc?id=1Kj9ZvRkSP0E5jnWFwFmn_K-b2YEHmme7 "Lower decks")
-
-## Patrol Skiff, Rover and Tank, side view
-![alt_text](https://drive.google.com/uc?id=1Kg-QCVe2-39KhH36_BbYIc48iADfWP14 "Complement, side-view")
-
-## Patrol Skiff, Rover and Tank, aerial view
-![alt_text](https://drive.google.com/uc?id=1KgJwo71o3ZzLNzRF5tRDtsjOiYD4XtoA "Complement, aerial-view")
-
-## Fury, views
-![alt_text](https://drive.google.com/uc?id=1KibMkeT82WyHWNcw95DL-GXpaCro7rTG "Fury, all-views")
-
-## Fury, far orbit
-![alt_text](https://drive.google.com/uc?id=1KhzvpQicdI6AyZdwkpT0kzICc6Sdnbxn "Fury, far-orbit")
-
-
-
 ## Upper Deck
-
 
 ### Hangar
 
@@ -136,6 +118,10 @@ The kitchen has a large walk-in refrigeration unit, a large stove & grill, a mas
 Nestled in the bowels of the engine, this hot, noisy chamber allows direct access to the drive core and power system. Supply closets on either side hold a variety of tools and small replacement parts. Panels in the walls and ceiling can be removed to allow access to even more obscure mechanical apparatus. A hatch in the floor leads directly to the engineering corridor that runs beneath the chamber.
 
 
+
+## Troop Deck and Cargo Deck
+![alt_text](https://drive.google.com/uc?id=1Kj9ZvRkSP0E5jnWFwFmn_K-b2YEHmme7 "Lower decks")
+
 ## Troop Deck
 
 
@@ -186,8 +172,8 @@ There are small “vaults” (reinforced closets with electronic locks) along ei
 
 ## Ship’s Complement
 
-
-### Morgan-class Skiff
+## Patrol Skiff, Rover and Tank, side view
+![alt_text](https://drive.google.com/uc?id=1Kg-QCVe2-39KhH36_BbYIc48iADfWP14 "Complement, side-view")
 
 The Fury carries a single Morgan class shuttle in the hangar bay. The Morgan class is a very common model of light shuttle and is used by law enforcement patrols in many areas.
 
@@ -214,3 +200,13 @@ To efficiently deploy forces for recon or combat duties, the patrol skiff and al
 This heavily armored vehicle uses vectored thrust to move at considerable speed while staying 2-6 feet above the ground. The Aries mounts a powerful quantum plasma cannon as its main gun and carries four side-mounted missiles as well. These can fire both surface to surface or surface to air.
 
 In addition, a gauss rifle (capable of single shot or  automatic fire) and grenade launcher are mounted atop the turret. Either weapon can be aimed and fired from inside the tank, though the automatic rifle is better utilized by a gunner with the hatch open if the situation allows. The grenade launcher carries a dozen rounds. It is used to blanket an area with anti-personnel blasts or smoke bombs. It takes a crew of two to properly man this vehicle: a driver and a gunner. It can be fully manned with a commander and forward observer. 
+
+## Patrol Skiff, Rover and Tank, aerial view
+![alt_text](https://drive.google.com/uc?id=1KgJwo71o3ZzLNzRF5tRDtsjOiYD4XtoA "Complement, aerial-view")
+
+## Fury, views
+![alt_text](https://drive.google.com/uc?id=1KibMkeT82WyHWNcw95DL-GXpaCro7rTG "Fury, all-views")
+
+## Fury, far orbit
+![alt_text](https://drive.google.com/uc?id=1KhzvpQicdI6AyZdwkpT0kzICc6Sdnbxn "Fury, far-orbit")
+### Morgan-class Skiff
