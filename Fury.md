@@ -123,7 +123,7 @@ While the shuttle can be used as a lifeboat, Fury doesn’t have enough capacity
 
 ### Sick Bay
 
-Like all Durance-class vessels, Fury has a well stocked medical bay. There is a combination examination/operation chair on one side of a partition and a recovery area on the other. A locked closet holds a variety of medical gear and medicines. 
+Like all Endurance-class vessels, Fury has a well stocked medical bay. There is a combination examination/operation chair on one side of a partition and a recovery area on the other. A locked closet holds a variety of medical gear and medicines. 
 
 
 ### Kitchen
@@ -160,7 +160,7 @@ A passenger lounge and mess hall is set up for dining after waking with addition
 
 ### Aft End
 
-The aft end of the deck is the same as in Fury and the newer Durance-class freighters. There is a laundry room and small gym just aft of the mess hall. A cramped corridor leads back through the guts of the engine to the aft garage. Above the garage is the rear-facing observation lounge and access to the tail gunner turret.
+The aft end of the deck is the same as in Fury and the newer Endurance-class freighters. There is a laundry room and small gym just aft of the mess hall. A cramped corridor leads back through the guts of the engine to the aft garage. Above the garage is the rear-facing observation lounge and access to the tail gunner turret.
 
 
 ## Cargo Deck
@@ -198,7 +198,7 @@ This particular craft has seats for a pilot and copilot plus four passengers and
 
 The ship comes with a G4 Rover all-terrain vehicle as a support craft. 
 
-This four wheeled ground vehicle is sturdy, reliable, and affordable – perfect for no-frills working ships like the Renegade and Durance class transports. The G series off road buggy was originally built for racing and recreation, but it didn’t take long for it to be adapted for other uses. With the addition of a roof mounted turret, the G4 became popular with militias and military units on a tight budget. A Rover can handle a wide variety of ground terrain. It is, however, open to the elements and so environmental suits are required if the theater of operation is not amicable to human life.
+This four wheeled ground vehicle is sturdy, reliable, and affordable – perfect for no-frills working ships like the Renegade and Endurance class transports. The G series off road buggy was originally built for racing and recreation, but it didn’t take long for it to be adapted for other uses. With the addition of a roof mounted turret, the G4 became popular with militias and military units on a tight budget. A Rover can handle a wide variety of ground terrain. It is, however, open to the elements and so environmental suits are required if the theater of operation is not amicable to human life.
 
 The G4 features a unique 3rd seat situated behind and above the usual pair of front seats for the driver and passenger. This extra station can be used for an additional passenger, a “spotter” during cross country races, or a gunner.
 
