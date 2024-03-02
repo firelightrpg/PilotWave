@@ -58,7 +58,7 @@ on [Fudge](https://fudgesrd.opengamingnetwork.com/)/[Fate](https://fate-srd.com/
 - [Astrogation](#astrogation)
     + [Astrogation attempt](#astrogation-attempt)
     + [System Travel](#system-travel)
-      - [In System Travel Times](#in-system-travel-times)
+        - [In System Travel Times](#in-system-travel-times)
 - [Resolving Attacks](#resolving-attacks)
 - [Consequences](#consequences)
 - [Recover](#recover)
@@ -540,6 +540,7 @@ A three parsec jump can be attempted, but it risks a loss of primary containment
 hydrogen explosion, destroying the ship and killing the crew.
 
 <!-- TOC --><a name="system-travel"></a>
+
 ## System Travel
 
 When traveling at a constant velocity, turning over at midpoint and constantly decelerating to the destination, travel
@@ -551,11 +552,17 @@ T = \sqrt{\frac{D}{A}/32.4}
 $$
 
 <!-- TOC --><a name="in-system-travel-times"></a>
-### In-System Travel Times
-| AU            | Million km        | 1G | 2G     | 3G          | 4G | 5G | 6G|Remarks|
-|------------------|--------------|-------------|---------------|---------------|--------------|--|--|
-| 0.01 | 1.5  | 0.28  | 0.20   | 0.16 |   0.14           | 0.12| 0.11 | Safe Jump distance from a size A world|
 
+### In-System Travel Times
+
+| AU   | Million km | 1G   | 2G   | 3G   | 4G   | 5G   | 6G   | Remarks                                   |
+|------|------------|------|------|------|------|------|------|-------------------------------------------| 
+| 0.01 | 1.5        | 0.28 | 0.2  | 0.16 | 0.14 | 0.12 | 0.11 | Safe Jump distance from a size A world.   |
+| 0.07 | 10.5       | 0.75 | 0.53 | 0.43 | 0.37 | 0.33 | 0.03 | Safe jump distance from a gas giant.      |
+| 0.3  | 45         | 1.5  | 1    | 0.8  | 0.7  | 0.6  | 0.6  | Typical distance to a neighbor world.     |
+| 2    | 300        | 4    | 2.8  | 2.3  | 2    | 1.7  | 1.6  | Typical distance to a far neighbor world. |
+| 6    | 900        | 6.9  | 4.9  | 4    | 3.4  | 3.1  | 2.8  | Typical distance to a far gas giant.      |
+| 30   | 4500       | 15.5 | 10.9 | 8.9  | 7.7  | 6.9  | 6.3  | Typical distance to an outer planet.      |
 
 <!-- TOC --><a name="resolving-attacks"></a>
 
