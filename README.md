@@ -542,7 +542,7 @@ hydrogen explosion, destroying the ship and killing the crew.
 ### System Travel
 
 When traveling at a constant velocity, turning over at midpoint and constantly decelerating to the destination, travel
-time is expressed as **T=$\sqrt{\frac{D}{A}/32.4}$**, where T is travel time in days, distance, D, is in thousands of
+time is expressed as T=$\sqrt{D/A/32.4}$, where T is travel time in days, distance, D, is in thousands of
 kilometers and acceleration, A, is in Gs.
 
 This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
