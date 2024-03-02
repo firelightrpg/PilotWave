@@ -57,6 +57,7 @@ on [Fudge](https://fudgesrd.opengamingnetwork.com/)/[Fate](https://fate-srd.com/
         * [Watcher](#watcher)
 - [Astrogation](#astrogation)
     + [Astrogation attempt](#astrogation-attempt)
+    + [System Travel](#system-travel)
 - [Resolving Attacks](#resolving-attacks)
 - [Consequences](#consequences)
 - [Recover](#recover)
@@ -502,8 +503,6 @@ supernatural defensive advantages.
 
 # Astrogation
 
-## Navigation
-
 Navigation to and from nearby stars is limited to systems within two parsecs. To visualize the path, you can
 use [In-The-Sky](https://in-the-sky.org/ngc3d.php). Fixed three dimensional maps can be viewed
 at [atlasoftheuniverse](http://www.atlasoftheuniverse.com/12lys.html).
@@ -514,7 +513,7 @@ Regardless of speed, exiting the wormhole takes about 5 days.
 
 <!-- TOC --><a name="astrogation-attempt"></a>
 
-### Astrogation attempt
+## Astrogation attempt
 
 - Legendary (+4): Instantaneous and flawless calculations (0 minutes)
 - Superb (+3): Very quick and accurate calculations (2 minutes)
@@ -539,18 +538,18 @@ a system without a gravity well will irradiate the crew unless the ship is aband
 A three parsec jump can be attempted, but it risks a loss of primary containment, immediately leading to a catastrophic
 hydrogen explosion, destroying the ship and killing the crew.
 
-### System Travel
+<!-- TOC --><a name="system-travel"></a>
+## System Travel
 
 When traveling at a constant velocity, turning over at midpoint and constantly decelerating to the destination, travel
-time is expressed as T=$\sqrt{D/A/32.4}$, where T is travel time in days, distance, D, is in thousands of
-kilometers and acceleration, A, is in Gs.
+time is expressed as the following formula, where T is travel time in days, D is distance in thousands of
+kilometers and A is acceleration in Gs.
 
 $$
-\sqrt{\frac{D}{A}/32.4}
+T = \sqrt{\frac{D}{A}/32.4}
 $$
 
 
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
 <!-- TOC --><a name="resolving-attacks"></a>
 
