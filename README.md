@@ -502,6 +502,12 @@ supernatural defensive advantages.
 
 # Astrogation
 
+## Navigation
+
+Navigation to and from nearby stars is limited to systems within two parsecs. To visualize the path, you can
+use [In-The-Sky](https://in-the-sky.org/ngc3d.php). Fixed three dimensional maps can be viewed
+at [atlasoftheuniverse](http://www.atlasoftheuniverse.com/12lys.html).
+
 Inducing a wormhole involves precise vector targeting of the destination, thereby limiting the range. Jump calculations
 take 10 minutes on average. Travel through the wormhole throat uses the maneuver drive through non-Euclidean space.
 Regardless of speed, exiting the wormhole takes about 5 days.
@@ -532,6 +538,14 @@ a system without a gravity well will irradiate the crew unless the ship is aband
 
 A three parsec jump can be attempted, but it risks a loss of primary containment, immediately leading to a catastrophic
 hydrogen explosion, destroying the ship and killing the crew.
+
+### System Travel
+
+When traveling at a constant velocity, turning over at midpoint and constantly decelerating to the destination, travel
+time is expressed as **T=$\sqrt{\frac{D}{A}/32.4}$**, where T is travel time in days, distance, D, is in thousands of
+kilometers and acceleration, A, is in Gs.
+
+
 
 <!-- TOC --><a name="resolving-attacks"></a>
 
@@ -775,7 +789,9 @@ Vehicle combat uses 15 meter squares.
 
 ## Spaceship Combat
 
-Spaceship combat uses 1.5km squares for Close and Visual range with one minute rounds. Far range uses 15 km squares with
+Spaceship combat uses different ranges, depending on what we're trying to represent. For travel,
+
+1.5km squares for Close and Visual range with one minute rounds. Far range uses 15 km squares with
 10 minute rounds. Extreme range uses 15,000 km squares and rounds are arbitrary.
 
 At far range, missiles travel 3 squares per round. CPR/EPR also travel at one square per round, but are generally not
