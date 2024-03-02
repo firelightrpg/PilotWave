@@ -545,6 +545,11 @@ When traveling at a constant velocity, turning over at midpoint and constantly d
 time is expressed as T=$\sqrt{D/A/32.4}$, where T is travel time in days, distance, D, is in thousands of
 kilometers and acceleration, A, is in Gs.
 
+$$
+\sqrt{\frac{D}{A}/32.4}
+$$
+
+
 This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
 <!-- TOC --><a name="resolving-attacks"></a>
