@@ -552,7 +552,9 @@ $$
 
 <!-- TOC --><a name="in-system-travel-times"></a>
 ### In-System Travel Times
-
+| AU            | Million km        | 1G | 2G     | 3G          | 4G | 5G | 6G|Remarks|
+|------------------|--------------|-------------|---------------|---------------|--------------|--|--|
+| 0.01 | 1.5  | 0.28  | 0.20   | 0.16 |   0.14           | 0.12| 0.11 | Safe Jump distance from a size A world|
 
 
 <!-- TOC --><a name="resolving-attacks"></a>
