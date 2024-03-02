@@ -58,6 +58,7 @@ on [Fudge](https://fudgesrd.opengamingnetwork.com/)/[Fate](https://fate-srd.com/
 - [Astrogation](#astrogation)
     + [Astrogation attempt](#astrogation-attempt)
     + [System Travel](#system-travel)
+      - [In System Travel Times](#in-system-travel-times
 - [Resolving Attacks](#resolving-attacks)
 - [Consequences](#consequences)
 - [Recover](#recover)
@@ -548,6 +549,9 @@ kilometers and A is acceleration in Gs.
 $$
 T = \sqrt{\frac{D}{A}/32.4}
 $$
+
+<!-- TOC --><a name="in-system-travel-times"></a>
+### In-System Travel Times
 
 
 
