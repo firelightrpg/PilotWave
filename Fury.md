@@ -202,7 +202,9 @@ This heavily armored vehicle uses vectored thrust to move at considerable speed 
 In addition, a gauss rifle (capable of single shot or  automatic fire) and grenade launcher are mounted atop the turret. Either weapon can be aimed and fired from inside the tank, though the automatic rifle is better utilized by a gunner with the hatch open if the situation allows. The grenade launcher carries a dozen rounds. It is used to blanket an area with anti-personnel blasts or smoke bombs. It takes a crew of two to properly man this vehicle: a driver and a gunner. It can be fully manned with a commander and forward observer. 
 
 ## Patrol Skiff, Rover and Tank, aerial view
-![alt_text](https://drive.google.com/uc?id=1KgJwo71o3ZzLNzRF5tRDtsjOiYD4XtoA "Complement, aerial-view")
+![alt_text](https://drive.google.com/uc?id=1LTjkliSoORCq07HcK5RpeqxQzxjjwGH1 "Token")
+![alt_text](https://drive.google.com/open?id=1CVu4EYEGXWrDkDfUcVBwWNkzTmaiof2E "Token")
+![alt_text](https://drive.google.com/open?id=1LU9Rp4hUkCI9YAqOr-h_M9K04P_QQjLk "Token")
 
 ## Fury, views
 ![alt_text](https://drive.google.com/uc?id=1KibMkeT82WyHWNcw95DL-GXpaCro7rTG "Fury, all-views")
@@ -211,4 +213,4 @@ In addition, a gauss rifle (capable of single shot or  automatic fire) and grena
 ![alt_text](https://drive.google.com/uc?id=1KhzvpQicdI6AyZdwkpT0kzICc6Sdnbxn "Fury, far-orbit")
 ### Morgan-class Skiff
 ![alt_text](https://drive.google.com/uc?id=1KfxGmh4Etu-Qj5z1tnpBStxMkIsviSm2 "Patrol Skiff")
-![alt_text](https://drive.google.com/uc?id=1LTjkliSoORCq07HcK5RpeqxQzxjjwGH1 "Token")
+
