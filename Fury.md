@@ -208,6 +208,7 @@ In addition, a gauss rifle (capable of single shot or  automatic fire) and grena
 
 ## Fury, views
 ![alt_text](https://drive.google.com/uc?id=1KibMkeT82WyHWNcw95DL-GXpaCro7rTG "Fury, all-views")
+![alt_text](https://drive.google.com/uc?id=1LV5SB4EsRHava6gNm3z54XrAYDfWXa21 "Fury, Token")
 
 ## Fury, far orbit
 ![alt_text](https://drive.google.com/uc?id=1KhzvpQicdI6AyZdwkpT0kzICc6Sdnbxn "Fury, far-orbit")
