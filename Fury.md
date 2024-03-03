@@ -203,8 +203,8 @@ In addition, a gauss rifle (capable of single shot or  automatic fire) and grena
 
 ## Patrol Skiff, Rover and Tank, aerial view
 ![alt_text](https://drive.google.com/uc?id=1LTjkliSoORCq07HcK5RpeqxQzxjjwGH1 "Token")
-![alt_text](https://drive.google.com/open?id=1CVu4EYEGXWrDkDfUcVBwWNkzTmaiof2E "Token")
-![alt_text](https://drive.google.com/open?id=1LU9Rp4hUkCI9YAqOr-h_M9K04P_QQjLk "Token")
+![alt_text](https://drive.google.com/uc?id=1CVu4EYEGXWrDkDfUcVBwWNkzTmaiof2E "Token")
+![alt_text](https://drive.google.com/uc?id=1LU9Rp4hUkCI9YAqOr-h_M9K04P_QQjLk "Token")
 
 ## Fury, views
 ![alt_text](https://drive.google.com/uc?id=1KibMkeT82WyHWNcw95DL-GXpaCro7rTG "Fury, all-views")
