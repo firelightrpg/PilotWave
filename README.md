@@ -718,11 +718,11 @@ by the first side. By the time the first character takes their turn in an Exchan
 ### Movement
 
 Pilot Wave uses a grid for personal, vehicle and space combat. In personal combat, one square is 1.5 meters, in vehicle
-combat, 15 meters feet and in space combat, 1.5km. Other scales may be used, depending on the situation.
+combat, 15 meters feet and in space combat, 15km. Other scales may be used, depending on the situation.
 
 If movement is combined with another action, that action receives one or more shifts. Walking speed
-is 5 squares and any skill or attack suffers a Poor (-1) shift. Trotting speed is 10 squares and imposes a Terrible (-2)
-shift. Running speed is 20 squares +/- Physique and imposes an Awful (-3) shift. The shift applies to actions by you, or
+is 5 hexes and any skill or attack suffers a Poor (-1) shift. Trotting speed is 10 hexes and imposes a Terrible (-2)
+shift. Running speed is 20 hexes +/- Physique and imposes an Awful (-3) shift. The shift applies to actions by you, or
 against you, if Countered.
 
 <!-- TOC --><a name="personal-combat"></a>
@@ -734,7 +734,7 @@ against you, if Countered.
 ### Close Combat
 
 In Pilot Wave, a hand-to-hand attack is against an opposed Close Combat skill roll and generally requires opponents to
-be in adjacent squares. Undefended Close Combat is effortless.
+be in adjacent hexes. Undefended Close Combat is effortless.
 
 <!-- TOC --><a name="ranged-attacks"></a>
 
@@ -750,7 +750,11 @@ Expanding on More Examples of Extras, the weapon rating adds to the shift value 
 correspondingly reduce the shifts of a successful hit.
 
 Weapon ranges are categorized as **Close, Point Blank, Effective and Long**. Range is determined by Weapon Type. Range
-increases difficulty and reduces damage shifts. Range is in zones.
+increases difficulty and reduces damage shifts. Range is in meters/ hexes.
+
+Note, in a vacuum, range still increases difficulty, but it does not reduce damage. Also note, propellants and primers
+do not require air for combustion. A weapon without a flat zero compensation will always overshoot in a vacuum. Any
+weapon with recoil will propel the shooter in the opposite direction unless anchored.
 
 <!-- TOC --><a name="weapon-ranges-and-ratings"></a>
 
@@ -800,19 +804,25 @@ reducing that to +3). The target character would take 3 physical stress, or 1 ph
 
 ## Vehicle Combat
 
-Vehicle combat uses 15 meter squares.
+Vehicle combat uses 15 meter hexes.
 
 <!-- TOC --><a name="spaceship-combat"></a>
 
 ## Spaceship Combat
 
-Spaceship combat uses different ranges, depending on what we're trying to represent. For travel,
+Spaceship combat uses different ranges, depending on what we're trying to represent. Close and Visual range use 15km
+hexes with one minute exchanges. Far range uses 15,000 km hexes with 10 minute exchanges. Extreme range uses 15,000,000
+km hexes and exchanges are arbitrary. System range, not typically used for combat, uses the same size hexes, but they
+are expressed in AU, such that one hex is approximately 0.10 AU.
 
-1.5km squares for Close and Visual range with one minute rounds. Far range uses 15 km squares with
-10 minute rounds. Extreme range uses 15,000 km squares and rounds are arbitrary.
+CPR/EPR is only effective at Close range (adjacent at Visual range), as it takes about eight exchanges to travel one
+hex. At far range, CPR/EPR takes about 7.5 hours to travel one hex. If the target was stationary or drifting, CPR/EPR
+would eventually hit.
 
-At far range, missiles travel 3 squares per round. CPR/EPR also travel at one square per round, but are generally not
-viable as the target can simply move. If the target was stationary or drifting, CPR/EPR would eventually hit.
+Missiles are effective at Close, Visual and Far range, hitting on the same exchange as when fired, as they travel at a
+constant acceleration of up to 340G, more than 30 hexes at Far range. At Close range, they are hazardous.
+
+At extreme range, missiles travel about one hex every thirty minutes, although that continues to accelerate.
 
 In an exchange, turn order is determined the same as in personal combat, with modifiers from maneuver drive and tactics
 considered. Each side has a turn in each phase, with multiples all acting together. Groups of the same ship type may be
