@@ -210,3 +210,5 @@ In addition, a gauss rifle (capable of single shot or  automatic fire) and grena
 ## Fury, far orbit
 ![alt_text](https://drive.google.com/uc?id=1KhzvpQicdI6AyZdwkpT0kzICc6Sdnbxn "Fury, far-orbit")
 ### Morgan-class Skiff
+![alt_text](https://drive.google.com/uc?id=1KfxGmh4Etu-Qj5z1tnpBStxMkIsviSm2 "Patrol Skiff")
+![alt_text](https://drive.google.com/uc?id=1LTjkliSoORCq07HcK5RpeqxQzxjjwGH1 "Token")
