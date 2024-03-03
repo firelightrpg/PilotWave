@@ -720,17 +720,12 @@ by the first side. By the time the first character takes their turn in an Exchan
 Pilot Wave uses a grid for personal, vehicle and space combat. In personal combat, one square is 1.5 meters, in vehicle
 combat, 15 meters feet and in space combat, 15km. Other scales may be used, depending on the situation.
 
-If movement is combined with another action, that action receives one or more shifts. Walking speed
-is 5 hexes and any skill or attack suffers a Poor (-1) shift. Trotting speed is 10 hexes and imposes a Terrible (-2)
-shift. Running speed is 20 hexes +/- Physique and imposes an Awful (-3) shift. The shift applies to actions by you, or
-against you, if Countered.
+If movement is combined with another action, that action receives one or more shifts. 
 
 <!-- TOC --><a name="personal-combat"></a>
-
 ## Personal Combat
-
+Personal combat uses 1.5 meter hexes and 6 second exchanges. Walking speed is 5 hexes and any skill or attack suffers a Poor (-1) shift. Trotting speed is 10 hexes and  mposes a Terrible (-2) shift. Running speed is 20 hexes +/- Physique and imposes an Awful (-3) shift. The shift applies to actions by you, or against you, if Countered.
 <!-- TOC --><a name="close-combat-1"></a>
-
 ### Close Combat
 
 In Pilot Wave, a hand-to-hand attack is against an opposed Close Combat skill roll and generally requires opponents to
@@ -804,7 +799,7 @@ reducing that to +3). The target character would take 3 physical stress, or 1 ph
 
 ## Vehicle Combat
 
-Vehicle combat uses 15 meter hexes.
+Vehicle combat uses 150 meter hexes and 60 second exchanges.
 
 <!-- TOC --><a name="spaceship-combat"></a>
 
