@@ -175,13 +175,13 @@ There are small “vaults” (reinforced closets with electronic locks) along ei
 ## Patrol Skiff, Rover and Tank, side view
 ![alt_text](https://drive.google.com/uc?id=1Kg-QCVe2-39KhH36_BbYIc48iADfWP14 "Complement, side-view")
 
+### Morgan-class Patrol Skiff
 The Fury carries a single Morgan class shuttle in the hangar bay. The Morgan class is a very common model of light shuttle and is used by law enforcement patrols in many areas.
 
 This particular craft has seats for a pilot and copilot plus four passengers and the patrol version adds a turreted pair of lasers and a small, internal missile bay. The turret is controlled from the copilot station. The missiles can be launched by either the captain or copilot. They drop out of the bottom of the ship before igniting and flying off towards their intended target.
-
+![alt_text](https://drive.google.com/uc?id=1KfxGmh4Etu-Qj5z1tnpBStxMkIsviSm2 "Patrol Skiff")
 
 ### G4 Rover
-
 The ship comes with a G4 Rover all-terrain vehicle as a support craft. 
 
 This four wheeled ground vehicle is sturdy, reliable, and affordable – perfect for no-frills working ships like the Renegade and Endurance class transports. The G series off road buggy was originally built for racing and recreation, but it didn’t take long for it to be adapted for other uses. With the addition of a roof mounted turret, the G4 became popular with militias and military units on a tight budget. A Rover can handle a wide variety of ground terrain. It is, however, open to the elements and so environmental suits are required if the theater of operation is not amicable to human life.
@@ -194,7 +194,6 @@ The mounted weapon is a pulse gun in a plastic housing drawing from the vehicle�
 
 
 ### Aries-class Hover Tank
-
 To efficiently deploy forces for recon or combat duties, the patrol skiff and all terrain buggy are well suited for reconnaissance. To bolster lethality, a pair of Aries-class hover tanks are carried in the main hold. Diagnostic, maintenance, and recharging equipment has been built into the hold floor and ceiling while extra mag locks have been installed to hold these massive vehicles in place during transport.
 
 This heavily armored vehicle uses vectored thrust to move at considerable speed while staying 2-6 feet above the ground. The Aries mounts a powerful quantum plasma cannon as its main gun and carries four side-mounted missiles as well. These can fire both surface to surface or surface to air.
@@ -212,6 +211,5 @@ In addition, a gauss rifle (capable of single shot or  automatic fire) and grena
 
 ## Fury, far orbit
 ![alt_text](https://drive.google.com/uc?id=1KhzvpQicdI6AyZdwkpT0kzICc6Sdnbxn "Fury, far-orbit")
-### Morgan-class Patrol Skiff, Interior
-![alt_text](https://drive.google.com/uc?id=1KfxGmh4Etu-Qj5z1tnpBStxMkIsviSm2 "Patrol Skiff")
+
 
