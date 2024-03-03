@@ -178,7 +178,7 @@ There are small “vaults” (reinforced closets with electronic locks) along ei
 ### Morgan-class Patrol Skiff
 The Fury carries a single Morgan class shuttle in the hangar bay. The Morgan class is a very common model of light shuttle and is used by law enforcement patrols in many areas.
 
-This particular craft has seats for a pilot and copilot plus four passengers and the patrol version adds a turreted pair of lasers and a small, internal missile bay. The turret is controlled from the copilot station. The missiles can be launched by either the captain or copilot. They drop out of the bottom of the ship before igniting and flying off towards their intended target.
+This particular craft has seats for a pilot and copilot plus several passengers and a turreted pair of lasers and a small, internal missile bay. The turret is controlled from the copilot station. The missiles can be launched by either the captain or copilot. They drop out of the bottom of the ship before igniting and flying off towards their intended target.
 ![alt_text](https://drive.google.com/uc?id=1KfxGmh4Etu-Qj5z1tnpBStxMkIsviSm2 "Patrol Skiff")
 
 ### G4 Rover
