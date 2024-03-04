@@ -717,10 +717,11 @@ by the first side. By the time the first character takes their turn in an Exchan
 
 ### Scale
 
-Scale determines the size of the hex scale and the duration of exchanges. A combatant may move any number of hexes, up
-to its speed. Moving more than five hexes imposes a Poor (-1) shift on all actions for the combatant, and for any
-actions against that combatant. Moving more than 10 imposes a Terrible (-2) shift and more than 20, Awful (-3). If both
-an attacker and a target are moving, the higher shift applies, unless the attacker can match vectors with the target.
+Scale determines the size of each hex on the map and the duration of each exchange. A combatant may move any number of
+hexes, up to its speed. Moving five or more hexes imposes a Poor (-1) shift on all actions by the combatant, and any
+actions against that combatant. Moving ten or more hexes imposes a Terrible (-2) shift and more than 20, Awful (-3). If
+both an attacker and a target are moving, the higher shift applies, unless the attacker can match vectors with the
+target.
 
 #### Personal and Vehicle Combat Scale
 
@@ -728,8 +729,8 @@ an attacker and a target are moving, the higher shift applies, unless the attack
 |------------------------|-----------------------|-----------------------|---------------------|
 | 1.5 meter, six seconds | 15 meter, six seconds | 150 meter, one minute | 1.5 km, ten minutes |
 
-For Personal combat, Indoor trotting speed is 10 hexes and running speed is 20 hexes. In other scales, these are divided
-by 10.
+For Personal combat, Indoor trotting speed is 10 hexes and running speed is 20 hexes. In Outdoor, Distant and Far
+scales, these are divided by 10.
 
 Vehicles are rated in hex speed (20/3 kph) and move 10 times their hex speed at Indoor scale. For Outdoor, Distant and
 Far, they move their hex speed.
@@ -740,10 +741,10 @@ Far, they move their hex speed.
 |-------------------|--------------------|-------------------|
 | 15 km, one minute | 15kkm, ten minutes | 15Mkm, four hours |
 
-For space combat, movement speed is determined by the ship's maneuver drive when stationary. A ship may change its speed
-by up to its maneuver drive value. For example, if stationary, a ship with an M5 rated maneuver drive can move up to
-five hexes. If the next exchange, the ship can add up to five hexes to the number of hexes it traveled in the last
-exchange.
+For space combat, a ship may change its speed by up to its maneuver drive value. For example, if stationary, a ship with
+an M5 rated maneuver drive can move up to five hexes. In the next exchange, the ship can move up to five hexes plus the
+number of hexes it traveled in the last exchange. If this ship was stationary and moved its maximum speed, it could move
+five hexes in the first exchange, 10 hexes in the next, 15 hexes in the next and so on.
 
 ### Movement
 
