@@ -368,14 +368,16 @@ academic. Substitutes for Fate [Lore](https://fate-srd.com/fate-core/lore).
 
 ## Space Combat
 
-Space combat represents training in sensor ops, gunnery and high G maneuvers with close orbit, space and star ships. Substitutes for
+Space combat represents training in sensor ops, gunnery and high G maneuvers with close orbit, space and star ships.
+Substitutes for
 Fate [Shoot](https://fate-srd.com/fate-core/shoot). Subjacent skills are Vehicle Combat.
 
 <!-- TOC --><a name="space-ops"></a>
 
 ## Space Ops
 
-Space ops represents training in pilot, navigation and high G maneuvers with close orbit, space and star ships. Subjacent
+Space ops represents training in pilot, navigation and high G maneuvers with close orbit, space and star ships.
+Subjacent
 skills are vehicle ops.
 
 <!-- TOC --><a name="stealth"></a>
@@ -547,8 +549,9 @@ hydrogen explosion, destroying the ship and killing the crew.
 ## System Travel
 
 When traveling at a constant velocity, turning over at midpoint and constantly decelerating to the destination, travel
-time is expressed as the following formula, where T is travel time in days, D is distance in thousands of
-kilometers and A is acceleration in Gs.
+time is expressed as the following formula, where T is travel time in days, D is distance in thousands of kilometers and
+A is acceleration in Gs. Ship maneuver drives are rated in sustained G such that an M2 drive is capable of sustained 2G
+travel.
 
 $$
 T = \sqrt{\frac{D}{A}/32.4}
@@ -740,11 +743,17 @@ actions by the combatant, and any actions against that combatant. Moving ten or 
 and 20 or more, Awful (-3). If both an attacker and a target are moving, the higher shift applies, unless the attacker
 can match vectors with the target.
 
+#### Personal Combat
+
 For Personal combat, walking speed is up to four hexes, trotting speed is five to ten hexes and running speed is 20 +/-
 Physique hexes. In Short, Medium and Long scales, these are divided by 10.
 
+#### Vechicle Combat
+
 Vehicles are rated in kph and their kph translates directly to hex speed at Close scale. For Short, Medium and Long
 scales, kph/10 equals hex speed. If Far is used, kph/360 translates to hexes per exchange.
+
+#### Space combat
 
 Space combat uses Far, Orbital or Extreme scale. A ship may change its speed by up to its maneuver drive value.
 For example, if stationary, a ship with an M5 rated maneuver drive can move up to five hexes. In the next exchange, the
@@ -780,7 +789,8 @@ correspondingly reduce the shifts of a successful hit.
 #### Range Bands
 
 Weapon ranges are categorized in range bands of  **Short, Medium, Long and Extreme**. Range band distances are
-determined by Weapon Type. Range increases difficulty and reduces damage shifts. Range is in meters/ hexes.
+determined by Weapon Type and are distinct from scale, which is the same for all weapons. Range bands increase
+difficulty and reduce damage shifts. Range is in meters/ hexes.
 
 Note, in a vacuum, range still increases difficulty, but it does not reduce damage. Also note, propellants and primers
 do not require air for combustion. A weapon without a flat zero compensation will always overshoot in a vacuum. Any
@@ -792,34 +802,56 @@ weapon with recoil will propel the shooter in the opposite direction unless anch
 
 Multiply hexes by 10 for Close scale.
 
-|               |  Short   |              | Medium |            | Long  |               | Extreme |               |
-|---------------|:--------:|:------------:|:------:|:----------:|:-----:|:-------------:|:-------:|:-------------:|
-| Weapon        |  Hexes   |  Difficulty  | Hexes  | Difficulty | Hexes |  Difficulty   |  Hexes  |  Difficulty   |
-| Hand-to-hand  | Adjacent | Trivial (0)  |   \-   |     \-     |  \-   |      \-       |   \-    |      \-       |
-| Pistol, SMG   |    1     | Trivial (0)  |   2    | Normal (1) |   4   |  Routine (2)  |    6    | Difficult (3) |
-| Carbine       |    1     | Trivial (0)  |   5    | Normal (1) |  10   |  Routine (2)  |   20    | Difficult (3) |
-| Rifle         |    1     |  Normal (1)  |   10   | Normal (1) |  20   |  Routine (2)  |   40    | Difficult (3) |
-| Damage Shift* |          | Mediocre (0) |        | Poor (-1)  |       | Terrible (-2) |         |  Awful (-3)   |  
+| Range Band    | Short    |              | Medium |            | Long  |               | Extreme |               |
+|---------------|----------|--------------|--------|------------|-------|---------------|---------|---------------|
+| Weapon        | Hexes    | Difficulty   | Hexes  | Difficulty | Hexes | Difficulty    | Hexes   | Difficulty    |
+| Hand-to-hand  | Adjacent | Trivial (0)  | \-     | \-         | \-    | \-            | \-      | \-            |
+| Pistol        | 1        | Trivial (0)  | 2      | Normal (1) | 4     | Routine (2)   | 6       | Difficult (3) |
+| Carbine       | 1        | Trivial (0)  | 5      | Normal (1) | 10    | Routine (2)   | 20      | Difficult (3) |
+| Rifle         | 1        | Normal (1)   | 10     | Normal (1) | 20    | Routine (2)   | 40      | Difficult (3) |
+| Damage Shift* |          | Mediocre (0) |        | Poor (-1)  |       | Terrible (-2) |         | Awful (-3)    | 
 
-_Personal range attacks have a value of Average (1) with a weapon. Rifles, Heavy Weapons and High Energy Weapons are
-Normal (1) at Close range and Trivial (0) at Point Blank. Heavy Weapons are hazardous and target all within a zone.
-Automatic fire shifts the range difficulty and the weapon value by one._
+|         |                                                                                         |
+|---------|-----------------------------------------------------------------------------------------|
+| Pistol  | ![alt_text](https://drive.google.com/uc?id=1LchuQAueO6XP0JFmbi4Lz-zRcQuppZVG "Pistol")  |
+| Carbine | ![alt_text](https://drive.google.com/uc?id=1LdHecClJibZrunjr9wKfbTFveOZJv-Rj "Carbine") |
+| Rifle   | ![alt_text](https://drive.google.com/uc?id=1Lbxqtka3csmZkx5Ba3wuG8RXLxxVgV64 "Rifle")   |
+| Plasma  | ![alt_text](https://drive.google.com/uc?id=1LdKsLTHXVqNE3D-_3lLfuU8INoBr4k33 "Plasma")  |
+
+_Rifle includes any shoulder fired chemically or electronically propelled round or directed energy weapon._
 
 <!-- TOC --><a name="weapon-values"></a>
 
 #### Weapon Values
 
-| Weapon          | Shifts       |
-|-----------------|--------------|
-| Personal        | Mediocre (0) |
-| Pistol, Carbine | Average (1)  |
-| Rifle           | Fair (2)     | 
-| EPR             | Good (3)     |
-| DEW             | Great (4)    |
+| Weapon       | Shifts       |
+|--------------|--------------|
+| Hand-to-hand | Mediocre (0) |
+| Pistol       | Average (1)  |
+| Carbine      | Fair (2)     |
+| Rifle        | Good (3)     |
+| DEW          | Great (4)    |
+
+_Hand-to-hand attacks have a value of Average (1) with a weapon like a knife, bayonet, rifle butt, etc. Rifles,
+Directed Energy Weapons are hazardous and target all within a zone.
+Automatic fire shifts the range difficulty and the weapon value by one._
 
 A Weapon value adds to the shift value of a successful hit. If a weapon has a damage shift of 2, it means that any hit
 is worth 2 more shifts than it would normally be. This counts for ties, so when you’re using a weapon, you inflict
 stress on a tie instead of getting a boost. That makes weapons very dangerous.
+
+##### Automatic Weapon Fire
+
+Most carbines and some pistols as well as mounted rifles can be set to automatic fire. Switching fire modes is an
+action. Automatic fire can target adjacent targets in a addition to the primary target or increase the damage shift when
+concentrated on the primary target. Automatic fire increases the attack difficulty by one shift. Automatic fire uses at
+least three rounds per target, or six when concentrated on the primary target.
+
+##### Blast Weapons
+
+Some weapons such as a plasma gun or a grenade launcher have a blast area. All adjacent targets automatically take one
+less damage shift than the primary target, if the primary target is hit. These weapons are always hazardous and any miss
+must determine the point of impact, and the point of impact and any adjacent hexes take the damage instead.
 
 <!-- TOC --><a name="armor-ratings"></a>
 
@@ -872,7 +904,7 @@ handled as a unit.
 Spaceship combat ranges are categorized as **Close, Far and Extreme**. Range is determined by Weapon Type. Range
 increases difficulty. Range is in zones.
 
-| Range            | Far      | Orbital         | Extreme       | Damage Shift |
+| Range            | Far        | Orbital     | Extreme       | Damage Shift |
 |------------------|------------|-------------|---------------|--------------|
 | Range Difficulty | Normal (1) | Routine (2) | Difficult (3) |              |
 | CPR/ EPR         | Adjacent   | \-          | \-            | Average (1)  |
@@ -911,8 +943,8 @@ active sensors. Passive sensors retain drift.
 |         | Active vs Signal | Passive vs Signal | Active vs Drift | Passive vs Drift |
 |---------|------------------|-------------------|-----------------|------------------|
 | Close   | Certain          | Effortless        | Trivial         | Routine          |
-| Far  | Effortless       | Trivial           | Routine         | Formidable       |
-| Orbital     | Trivial          | Routine           | Formidable      | Impossible       |
+| Far     | Effortless       | Trivial           | Routine         | Formidable       |
+| Orbital | Trivial          | Routine           | Formidable      | Impossible       |
 | Extreme | Routine          | Formidable        | Impossible      | Futile           |
 
 <!-- TOC --><a name="earning-fate-points"></a>
