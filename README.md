@@ -701,9 +701,8 @@ must determine the point of impact, and the point of impact and any adjacent hex
 | Powered Armor             | Great (4)   | ![alt_text](https://drive.google.com/uc?id=1LkUhmFFRI35e5FBwVG1sHOQfQBZerpGS "Powered") |
 
 > An Armor value reduces the shifts of a successful hit. **So, Armor:2 makes any hit worth 2 less than usual. If you
-hit,
-but the target’s Armor reduces the shift value to 0 or below, you get a boost to use on your target but don’t do any
-harm.**
+hit, but the target’s Armor reduces the shift value to 0 or below, you get a boost to use on your target but don’t do
+any harm.**
 
 For example, if a character with a Good (+2) Gun Combat skill shoots an MP-7 (carbine) at a character wearing a Hostile
 Environment Vacuum suit (HEV) and rolls 0, +2 for Gun Combat, at close range, Difficulty Trivial (0), that’s a
