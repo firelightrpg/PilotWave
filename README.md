@@ -716,7 +716,7 @@ always uses that character's action. A counter is a contest. To counter, a chara
 skill roll. On success, resolve the countering action before the countered action, unless the other side chooses to
 counter. The countering character uses their Tactics skill, although roving Tactics points may be added to the roll.
 Potentially, the first action by one side may be countered by the other side, and in turn, that action may be countered
-by the first side. By the time the first character takes their turn in an Exchange, it could be the third turn.
+by the first side. By the time the first character takes their turn in the first Exchange, it could be the third turn.
 
 
 <!-- TOC --><a name="scale"></a>
