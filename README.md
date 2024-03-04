@@ -872,7 +872,7 @@ handled as a unit.
 Spaceship combat ranges are categorized as **Close, Far and Extreme**. Range is determined by Weapon Type. Range
 increases difficulty. Range is in zones.
 
-| Range            | Close      | Far         | Extreme       | Damage Shift |
+| Range            | Far      | Orbital         | Extreme       | Damage Shift |
 |------------------|------------|-------------|---------------|--------------|
 | Range Difficulty | Normal (1) | Routine (2) | Difficult (3) |              |
 | CPR/ EPR         | Adjacent   | \-          | \-            | Average (1)  |
@@ -911,8 +911,8 @@ active sensors. Passive sensors retain drift.
 |         | Active vs Signal | Passive vs Signal | Active vs Drift | Passive vs Drift |
 |---------|------------------|-------------------|-----------------|------------------|
 | Close   | Certain          | Effortless        | Trivial         | Routine          |
-| Visual  | Effortless       | Trivial           | Routine         | Formidable       |
-| Far     | Trivial          | Routine           | Formidable      | Impossible       |
+| Far  | Effortless       | Trivial           | Routine         | Formidable       |
+| Orbital     | Trivial          | Routine           | Formidable      | Impossible       |
 | Extreme | Routine          | Formidable        | Impossible      | Futile           |
 
 <!-- TOC --><a name="earning-fate-points"></a>
