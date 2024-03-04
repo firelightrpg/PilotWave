@@ -75,6 +75,9 @@ on [Fudge](https://fudgesrd.opengamingnetwork.com/)/[Fate](https://fate-srd.com/
         + [Action](#action)
         + [Counter](#counter)
         + [Movement](#movement)
+        + [Scale](#scale)
+            + [Personal and Vehicle Combat Scale](#personal-and-vehicle-combat-scale)
+            + [Spaceship Combat Scale](#spaceship-combat-scale)
     * [Personal Combat](#personal-combat)
         + [Close Combat](#close-combat-1)
         + [Ranged Attacks](#ranged-attacks)
@@ -713,7 +716,8 @@ counter. The countering character uses their Tactics skill, although roving Tact
 Potentially, the first action by one side may be countered by the other side, and in turn, that action may be countered
 by the first side. By the time the first character takes their turn in an Exchange, it could be the third turn.
 
-<!-- TOC --><a name="movement"></a>
+
+<!-- TOC --><a name="scale"></a>
 
 ### Scale
 
@@ -722,6 +726,8 @@ hexes, up to its speed. Moving five or more hexes imposes a Poor (-1) shift on a
 actions against that combatant. Moving ten or more hexes imposes a Terrible (-2) shift and more than 20, Awful (-3). If
 both an attacker and a target are moving, the higher shift applies, unless the attacker can match vectors with the
 target.
+
+<!-- TOC --><a name="personal-and-vehicle-combat-scale"></a>
 
 #### Personal and Vehicle Combat Scale
 
@@ -732,8 +738,10 @@ target.
 For Personal combat, Indoor trotting speed is 10 hexes and running speed is 20 hexes. In Outdoor, Distant and Far
 scales, these are divided by 10.
 
-Vehicles are rated in hex speed (20/3 kph) and move 10 times their hex speed at Indoor scale. For Outdoor, Distant and
-Far, they move their hex speed.
+Vehicles are rated in kph and move their kph translates directly to hex speed at Indoor scale. For Outdoor, Distant and
+Far, they move their kph/10 in hex speed.
+
+<!-- TOC --><a name="spaceship-combat-scale"></a>
 
 #### Spaceship Combat Scale
 
@@ -745,6 +753,8 @@ For space combat, a ship may change its speed by up to its maneuver drive value.
 an M5 rated maneuver drive can move up to five hexes. In the next exchange, the ship can move up to five hexes plus the
 number of hexes it traveled in the last exchange. If this ship was stationary and moved its maximum speed, it could move
 five hexes in the first exchange, 10 hexes in the next, 15 hexes in the next and so on.
+
+<!-- TOC --><a name="movement"></a>
 
 ### Movement
 
