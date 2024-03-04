@@ -80,8 +80,9 @@ on [Fudge](https://fudgesrd.opengamingnetwork.com/)/[Fate](https://fate-srd.com/
             + [Spaceship Combat Scale](#spaceship-combat-scale)
     * [Personal Combat](#personal-combat)
         + [Close Combat](#close-combat-1)
-        + [Ranged Attacks](#ranged-attacks)
+        + [Ranged Combat](#ranged-combat)
         + [Weapon and Armor Ratings](#weapon-and-armor-ratings)
+            - [Range Bands](#range-bands)
             - [Weapon Ranges and Ratings](#weapon-ranges-and-ratings-outdoor-scale)
             - [Weapon Values](#weapon-values)
             - [Armor Ratings](#armor-ratings)
@@ -723,55 +724,40 @@ by the first side. By the time the first character takes their turn in the first
 
 ### Scale
 
-Scale determines the size of each hex on the map and the duration of each exchange. A combatant may move any number of
-hexes, up to its speed. Moving five or more hexes imposes a Poor (-1) shift on all actions by the combatant, and any
-actions against that combatant. Moving ten or more hexes imposes a Terrible (-2) shift and more than 20, Awful (-3). If
-both an attacker and a target are moving, the higher shift applies, unless the attacker can match vectors with the
-target.
+Scale determines the size of each hex on the map and the duration of each exchange.
 
-<!-- TOC --><a name="personal-and-vehicle-combat-scale"></a>
+| Close       | Short       | Medium     | Long        | Far         | Orbital    | Extreme     |
+|-------------|-------------|------------|-------------|-------------|------------|-------------|
+| 1.5 meter   | 15 meter    | 150 meter  | 1.5 km      | 15 km       | 15 Kkm     | 15 Mkm      |
+| six seconds | six seconds | one minute | ten minutes | six seconds | one minute | ten minutes | 
 
-#### Personal and Vehicle Combat Scale
+<!-- TOC --><a name="movement"></a>
 
-| Indoor                 | Outdoor               | Distant               | Far                 |
-|------------------------|-----------------------|-----------------------|---------------------|
-| 1.5 meter, six seconds | 15 meter, six seconds | 150 meter, one minute | 1.5 km, ten minutes |
+### Movement
 
-For Personal combat, walking speed is up to four hexes, trotting speed is up to ten hexes and running speed is 20 hexes.
-In Outdoor, Distant and Far scales, these are divided by 10.
+Pilot Wave uses a hex grid for combat.
 
-Vehicles are rated in kph and move their kph translates directly to hex speed at Indoor scale. For Outdoor, Distant and
-Far, they move their kph/10 in hex speed.
+A combatant may move any number of hexes, up to its speed. Moving five or more hexes imposes a Poor (-1) shift on all
+actions by the combatant, and any actions against that combatant. Moving ten or more hexes imposes a Terrible (-2) shift
+and 20 or more, Awful (-3). If both an attacker and a target are moving, the higher shift applies, unless the attacker
+can match vectors with the target.
 
-<!-- TOC --><a name="spaceship-combat-scale"></a>
+For Personal combat, walking speed is up to four hexes, trotting speed is five to ten hexes and running speed is 20 +/-
+Physique hexes. In Short, Medium and Long scales, these are divided by 10.
 
-#### Spaceship Combat Scale
-
-| Close             | Far                | Extreme           |
-|-------------------|--------------------|-------------------|
-| 15 km, one minute | 15kkm, ten minutes | 15Mkm, four hours |
+Vehicles are rated in kph and their kph translates directly to hex speed at Close scale. For Short, Medium and Long
+scales, they move their kph/10 in hex speed. If Far is used, kph/360 hexes per exchange.
 
 For space combat, a ship may change its speed by up to its maneuver drive value. For example, if stationary, a ship with
 an M5 rated maneuver drive can move up to five hexes. In the next exchange, the ship can move up to five hexes plus the
 number of hexes it traveled in the last exchange. If this ship was stationary and moved its maximum speed, it could move
 five hexes in the first exchange, 10 hexes in the next, 15 hexes in the next and so on.
 
-<!-- TOC --><a name="movement"></a>
-
-### Movement
-
-Pilot Wave uses a grid for personal, vehicle and space combat. In personal combat, one square is 1.5 meters, in vehicle
-combat, 15 meters feet and in space combat, 15km. Other scales may be used, depending on the situation.
-
-If movement is combined with another action, that action receives one or more shifts.
-
 <!-- TOC --><a name="personal-combat"></a>
 
 ## Personal Combat
 
-Personal combat uses 1.5 meter hexes and 6 second exchanges. Walking speed is 5 hexes and any skill or attack suffers a
-Poor  (-1) shift. Trotting speed is 10 hexes and imposes a Terrible (-2) shift. Running speed is 20 hexes +/- Physique
-and imposes an Awful (-3) shift. The shift applies to actions by you, or against you, if Countered.
+Personal combat may use **Close, Short, Medium or Long** scales.
 <!-- TOC --><a name="close-combat-1"></a>
 
 ### Close Combat
@@ -781,9 +767,9 @@ be in adjacent hexes. Undefended Close Combat is effortless.
 
 <!-- TOC --><a name="ranged-attacks"></a>
 
-### Ranged Attacks
+### Ranged Combat
 
-In Pilot Wave, opponent’s do not roll an opposed skill roll. Instead, difficulty is determined by range.
+In Pilot Wave, opponent’s do not roll an opposed skill roll. Instead, difficulty is determined by range band.
 
 <!-- TOC --><a name="weapon-and-armor-ratings"></a>
 
@@ -792,8 +778,10 @@ In Pilot Wave, opponent’s do not roll an opposed skill roll. Instead, difficul
 Expanding on More Examples of Extras, the weapon rating adds to the shift value of a successful hit and armor ratings
 correspondingly reduce the shifts of a successful hit.
 
-Weapon ranges are categorized as **Close, Point Blank, Effective and Long**. Range is determined by Weapon Type. Range
-increases difficulty and reduces damage shifts. Range is in meters/ hexes.
+#### Range Bands
+
+Weapon ranges are categorized in range bands of  **Short, Medium, Long and Extreme**. Range band distances are
+determined by Weapon Type. Range increases difficulty and reduces damage shifts. Range is in meters/ hexes.
 
 Note, in a vacuum, range still increases difficulty, but it does not reduce damage. Also note, propellants and primers
 do not require air for combustion. A weapon without a flat zero compensation will always overshoot in a vacuum. Any
@@ -803,13 +791,13 @@ weapon with recoil will propel the shooter in the opposite direction unless anch
 
 #### Weapon Ranges and Ratings (Outdoor scale)
 
-|                 |  Close   |              | Short |            | Effective |               | Long  |               |
-|-----------------|:--------:|:------------:|:-----:|:----------:|:---------:|:-------------:|:-----:|:-------------:|
-| Weapon          |  Hexes   |  Difficulty  | Hexes | Difficulty |   Hexes   |  Difficulty   | Hexes |  Difficulty   |
-| Personal        | Adjacent | Trivial (0)  |  \-   |     \-     |    \-     |      \-       |  \-   |      \-       |
-| Pistol, Carbine |    1     | Trivial (0)  |   2   | Normal (1) |     4     |  Routine (2)  |   6   | Difficult (3) |
-| Rifle           |    1     |  Normal (1)  |  10   | Normal (1) |    20     |  Routine (2)  |  40   | Difficult (3) |
-| Damage Shift*   |          | Mediocre (0) |       | Poor (-1)  |           | Terrible (-2) |       |  Awful (-3)   |  
+|                 |  Short   |              | Medium |            | Long  |               | Extreme |               |
+|-----------------|:--------:|:------------:|:------:|:----------:|:-----:|:-------------:|:-------:|:-------------:|
+| Weapon          |  Hexes   |  Difficulty  | Hexes  | Difficulty | Hexes |  Difficulty   |  Hexes  |  Difficulty   |
+| Personal        | Adjacent | Trivial (0)  |   \-   |     \-     |  \-   |      \-       |   \-    |      \-       |
+| Pistol, Carbine |    1     | Trivial (0)  |   2    | Normal (1) |   4   |  Routine (2)  |    6    | Difficult (3) |
+| Rifle           |    1     |  Normal (1)  |   10   | Normal (1) |  20   |  Routine (2)  |   40    | Difficult (3) |
+| Damage Shift*   |          | Mediocre (0) |        | Poor (-1)  |       | Terrible (-2) |         |  Awful (-3)   |  
 
 _Personal range attacks have a value of Average (1) with a weapon. Rifles, Heavy Weapons and High Energy Weapons are
 Normal (1) at Close range and Trivial (0) at Point Blank. Heavy Weapons are hazardous and target all within a zone.
