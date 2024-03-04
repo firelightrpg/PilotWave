@@ -368,14 +368,14 @@ academic. Substitutes for Fate [Lore](https://fate-srd.com/fate-core/lore).
 
 ## Space Combat
 
-Space combat represents training in sensor ops and gunnery with close orbit, space and star ships. Substitutes for
+Space combat represents training in sensor ops, gunnery and high G maneuvers with close orbit, space and star ships. Substitutes for
 Fate [Shoot](https://fate-srd.com/fate-core/shoot). Subjacent skills are Vehicle Combat.
 
 <!-- TOC --><a name="space-ops"></a>
 
 ## Space Ops
 
-Space ops represents training in pilot and navigation, specifically with close orbit, space and star ships. Subjacent
+Space ops represents training in pilot, navigation and high G maneuvers with close orbit, space and star ships. Subjacent
 skills are vehicle ops.
 
 <!-- TOC --><a name="stealth"></a>
@@ -425,7 +425,7 @@ Fate [Shoot](https://fate-srd.com/fate-core/shoot). Subjacent skills are Space C
 
 ## Vehicle Ops
 
-Vehicle ops represents training in pilot and navigation, specifically with ground, water and airspace vehicles.
+Vehicle ops represents training in pilot, navigation and high G maneuvers with ground, water and airspace vehicles.
 Subjacent skills are Space Ops.
 
 <!-- TOC --><a name="zero-g"></a>
