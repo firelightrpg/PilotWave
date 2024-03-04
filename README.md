@@ -689,15 +689,16 @@ Automatic fire shifts the range difficulty and the weapon value by one._
 ##### Automatic Weapon Fire
 
 Most carbines and some pistols as well as mounted rifles can be set to automatic fire. Switching fire modes is an
-action. Automatic fire can target adjacent targets in a addition to the primary target or increase the damage shift when
+action. Automatic fire can target adjacent targets in addition to the primary target or increase the damage shift when
 concentrated on the primary target. Automatic fire increases the attack difficulty by one shift. Automatic fire uses at
 least three rounds per target, or six when concentrated on the primary target.
 
 ##### Blast Weapons
 
-Some weapons such as a plasma gun or a grenade launcher have a blast area. All adjacent targets automatically take one
-less damage shift than the primary target, if the primary target is hit. These weapons are always hazardous and any miss
-must determine the point of impact, and the point of impact and any adjacent hexes take the damage instead.
+Some weapons such as a plasma gun or a grenade launcher have a blast area. A blast weapon automatically targets adjacent
+targets with one less damage shift than the primary target, if the primary target is hit. These weapons are always
+hazardous and any miss must determine the point of impact, and the point of impact and any adjacent hexes take the
+damage instead.
 
 #### Armor Ratings
 
