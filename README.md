@@ -726,10 +726,10 @@ by the first side. By the time the first character takes their turn in the first
 
 Scale determines the size of each hex on the map and the duration of each exchange.
 
-| Close       | Short       | Medium     | Long        | Far         | Orbital    | Extreme     |
-|-------------|-------------|------------|-------------|-------------|------------|-------------|
-| 1.5 meter   | 15 meter    | 150 meter  | 1.5 km      | 15 km       | 15 Kkm     | 15 Mkm      |
-| six seconds | six seconds | one minute | ten minutes | six seconds | one minute | ten minutes | 
+|                       | Close       | Short       | Medium     | Long        | | Far         | Orbital    | Extreme     |
+|-----------------------|-------------|-------------|------------|-------------|-|-------------|------------|-------------|
+| **Hex Size**          | 1.5 meter   | 15 meter    | 150 meter  | 1.5 km      | | 15 km       | 15 Kkm     | 15 Mkm      |
+| **Exchange Duration** | six seconds | six seconds | one minute | ten minutes | | six seconds | one minute | ten minutes | 
 
 <!-- TOC --><a name="movement"></a>
 
@@ -746,12 +746,13 @@ For Personal combat, walking speed is up to four hexes, trotting speed is five t
 Physique hexes. In Short, Medium and Long scales, these are divided by 10.
 
 Vehicles are rated in kph and their kph translates directly to hex speed at Close scale. For Short, Medium and Long
-scales, they move their kph/10 in hex speed. If Far is used, kph/360 hexes per exchange.
+scales, kph/10 equals hex speed. If Far is used, kph/360 translates to hexes per exchange.
 
-For space combat, a ship may change its speed by up to its maneuver drive value. For example, if stationary, a ship with
-an M5 rated maneuver drive can move up to five hexes. In the next exchange, the ship can move up to five hexes plus the
-number of hexes it traveled in the last exchange. If this ship was stationary and moved its maximum speed, it could move
-five hexes in the first exchange, 10 hexes in the next, 15 hexes in the next and so on.
+Space combat uses Far, Orbital or Extreme scale. A ship may change its speed by up to its maneuver drive value.
+For example, if stationary, a ship with an M5 rated maneuver drive can move up to five hexes. In the next exchange, the
+ship can move up to five hexes plus the number of hexes it traveled in the last exchange. If this ship was stationary
+and moved its maximum speed, it could move five hexes in the first exchange, 10 hexes in the next, 15 hexes in the next
+and so on.
 
 <!-- TOC --><a name="personal-combat"></a>
 
