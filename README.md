@@ -637,26 +637,34 @@ correspondingly reduce the shifts of a successful hit.
 
 #### Range Bands
 
-Weapon ranges are categorized in range bands of  **Short, Medium, Long and Extreme**. Range band distances are
-determined by Weapon Type and are distinct from scale, which is the same for all weapons. Range bands increase
-difficulty and reduce damage shifts. Range is in meters/ hexes.
+Weapon ranges are categorized in range bands of  **Contact Shot, Point Blank, Effective and Maximum**. Range band
+distances are determined by Weapon Type and are distinct from scale, which is the same for all weapons. Range bands
+increase difficulty and reduce damage shifts.
 
-Note, in a vacuum, range still increases difficulty, but it does not reduce damage. Also note, propellants and primers
-do not require air for combustion. A weapon without a flat zero compensation will always overshoot in a vacuum. Any
-weapon with recoil will propel the shooter in the opposite direction unless anchored.
+- Contact Shot: Aiming can be in the general direction, but aiming is unwieldy with rifles.
+- Point Blank: the distance a weapon can hit a target without compensating for bullet drop
+    - Note: in a vacuum, range still increases difficulty, but it does not reduce damage. Also note, propellants and
+      primers do not require air for combustion. A weapon without a flat zero compensation will always overshoot in a
+      vacuum. Any weapon with recoil will propel the shooter in the opposite direction unless anchored.
+- Effective: A weapon's lethal range with compensation for bullet drop.
+- Maximum: The maximum range a weapon can reach, but usually without killing power unless the shot placement is perfect.
 
 #### Weapon Ranges and Ratings (Short scale)
 
-Multiply hexes by 10 for Close scale.
+Range is in hexes for Close scale. Multiply hexes by 10 for Close scale and divide by 10 for Medium scale. Pistols and
+SMGs are not effective at Long scale.
 
-| Range Band    | Short    |              | Medium |            | Long  |               | Extreme |               |
-|---------------|----------|--------------|--------|------------|-------|---------------|---------|---------------|
-| Weapon        | Hexes    | Difficulty   | Hexes  | Difficulty | Hexes | Difficulty    | Hexes   | Difficulty    |
-| Hand-to-hand  | Adjacent | Trivial (0)  | \-     | \-         | \-    | \-            | \-      | \-            |
-| Pistol        | 1        | Trivial (0)  | 2      | Normal (1) | 4     | Routine (2)   | 6       | Difficult (3) |
-| Carbine       | 1        | Trivial (0)  | 5      | Normal (1) | 10    | Routine (2)   | 20      | Difficult (3) |
-| Rifle         | 1        | Normal (1)   | 10     | Normal (1) | 20    | Routine (2)   | 40      | Difficult (3) |
-| Damage Shift* |          | Mediocre (0) |        | Poor (-1)  |       | Terrible (-2) |         | Awful (-3)    | 
+| Range Band   | Contact Shot |                | Point Blank |                | Effective |                | Maximum   |                |
+|--------------|--------------|----------------|-------------|----------------|-----------|----------------|-----------|----------------|
+| **Weapon**   | **Hexes**    | **Difficulty** | **Hexes**   | **Difficulty** | **Hexes** | **Difficulty** | **Hexes** | **Difficulty** |
+| Hand-to-hand | Adjacent     | Trivial (0)    | \-          | \-             | \-        | \-             | \-        | \-             |
+| Pistol       | 1            | Trivial (0)    | 2           | Normal (1)     | 4         | Routine (2)    | 6         | Difficult (3)  |
+| Carbine      | 1            | Trivial (0)    | 5           | Normal (1)     | 10        | Routine (2)    | 20        | Difficult (3)  |
+| Rifle        | 1            | Normal (1)     | 10          | Normal (1)     | 20        | Routine (2)    | 40        | Difficult (3)  |
+
+| Range Band       | Contact Shot | Point Blank | Effective     | Maximum    |
+|------------------|--------------|-------------|---------------|------------|
+| **Damage Shift** | Mediocre (0) | Poor (-1)   | Terrible (-2) | Awful (-3) | 
 
 _Rifle includes any shoulder fired chemically or electronically propelled round or directed energy weapon._
 
