@@ -183,7 +183,7 @@ This particular craft has seats for a pilot and copilot plus several passengers 
 
 ### G4 Rover
 The ship comes with a G4 Rover all-terrain vehicle as a support craft. 
-- Hex Speed: 50
+- Hex Speed: 80 kph
 - Storm Striker: Pulse accelerator
   - Single shot as a rifle Good (+3) or automatic spread (15 degree cone, Poor (-1) attack and damage shift for all in area)
 
