@@ -82,7 +82,8 @@ on [Fudge](https://fudgesrd.opengamingnetwork.com/)/[Fate](https://fate-srd.com/
         + [Close Combat](#close-combat-1)
         + [Ranged Attacks](#ranged-attacks)
         + [Weapon and Armor Ratings](#weapon-and-armor-ratings)
-            - [Weapon Ranges and Ratings](#weapon-ranges-and-ratings)
+            - [Weapon Ranges and Ratings](#weapon-ranges-and-ratings-outdoor-scale)
+            - [Weapon Values](#weapon-values)
             - [Armor Ratings](#armor-ratings)
     * [Vehicle Combat](#vehicle-combat-1)
     * [Spaceship Combat](#spaceship-combat)
@@ -679,9 +680,10 @@ Spend fate points to:
 
 In Pilot Wave, at the beginning of a conflict, Surprise is determined by invoking a Situation Aspect or a Character
 Aspect. Generally, surprise is determined by side, but one or more individuals from either side may be Aware, while
-others are Surprised. Determining Surprise may call for a contest; Notice overcoming Stealth, in some circumstances. If
-nothing occurs that grants the other side awareness, Surprise may continue in subsequent Exchanges. When one or more
-character achieves Surprise, those without surprise are considered Surprised.
+others are Surprised. Determining Surprise may call for a contest; Notice overcoming Stealth, in some circumstances. In
+Far Vehicle or Starship combat, surprise is usually determined by successful sensor ops. If nothing occurs that grants
+the other side awareness, Surprise may continue in subsequent Exchanges. When one or more character is Surprised, those
+who aren't surprised are considered Aware.
 
 <!-- TOC --><a name="turn-order"></a>
 
