@@ -76,14 +76,12 @@ on [Fudge](https://fudgesrd.opengamingnetwork.com/)/[Fate](https://fate-srd.com/
         + [Counter](#counter)
         + [Movement](#movement)
         + [Scale](#scale)
-            + [Personal and Vehicle Combat Scale](#personal-and-vehicle-combat-scale)
-            + [Spaceship Combat Scale](#spaceship-combat-scale)
     * [Personal Combat](#personal-combat)
         + [Close Combat](#close-combat-1)
         + [Ranged Combat](#ranged-combat)
         + [Weapon and Armor Ratings](#weapon-and-armor-ratings)
             - [Range Bands](#range-bands)
-            - [Weapon Ranges and Ratings](#weapon-ranges-and-ratings-outdoor-scale)
+            - [Weapon Ranges and Ratings](#weapon-ranges-and-ratings-short-scale)
             - [Weapon Values](#weapon-values)
             - [Armor Ratings](#armor-ratings)
     * [Vehicle Combat](#vehicle-combat-1)
@@ -790,15 +788,18 @@ weapon with recoil will propel the shooter in the opposite direction unless anch
 
 <!-- TOC --><a name="weapon-ranges-and-ratings"></a>
 
-#### Weapon Ranges and Ratings (Outdoor scale)
+#### Weapon Ranges and Ratings (Short scale)
 
-|                 |  Short   |              | Medium |            | Long  |               | Extreme |               |
-|-----------------|:--------:|:------------:|:------:|:----------:|:-----:|:-------------:|:-------:|:-------------:|
-| Weapon          |  Hexes   |  Difficulty  | Hexes  | Difficulty | Hexes |  Difficulty   |  Hexes  |  Difficulty   |
-| Personal        | Adjacent | Trivial (0)  |   \-   |     \-     |  \-   |      \-       |   \-    |      \-       |
-| Pistol, Carbine |    1     | Trivial (0)  |   2    | Normal (1) |   4   |  Routine (2)  |    6    | Difficult (3) |
-| Rifle           |    1     |  Normal (1)  |   10   | Normal (1) |  20   |  Routine (2)  |   40    | Difficult (3) |
-| Damage Shift*   |          | Mediocre (0) |        | Poor (-1)  |       | Terrible (-2) |         |  Awful (-3)   |  
+Multiply hexes by 10 for Close scale.
+
+|               |  Short   |              | Medium |            | Long  |               | Extreme |               |
+|---------------|:--------:|:------------:|:------:|:----------:|:-----:|:-------------:|:-------:|:-------------:|
+| Weapon        |  Hexes   |  Difficulty  | Hexes  | Difficulty | Hexes |  Difficulty   |  Hexes  |  Difficulty   |
+| Hand-to-hand  | Adjacent | Trivial (0)  |   \-   |     \-     |  \-   |      \-       |   \-    |      \-       |
+| Pistol, SMG   |    1     | Trivial (0)  |   2    | Normal (1) |   4   |  Routine (2)  |    6    | Difficult (3) |
+| Carbine       |    1     | Trivial (0)  |   5    | Normal (1) |  10   |  Routine (2)  |   20    | Difficult (3) |
+| Rifle         |    1     |  Normal (1)  |   10   | Normal (1) |  20   |  Routine (2)  |   40    | Difficult (3) |
+| Damage Shift* |          | Mediocre (0) |        | Poor (-1)  |       | Terrible (-2) |         |  Awful (-3)   |  
 
 _Personal range attacks have a value of Average (1) with a weapon. Rifles, Heavy Weapons and High Energy Weapons are
 Normal (1) at Close range and Trivial (0) at Point Blank. Heavy Weapons are hazardous and target all within a zone.
