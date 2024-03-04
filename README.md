@@ -689,7 +689,7 @@ Automatic fire shifts the range difficulty and the weapon value by one._
 ##### Automatic Weapon Fire
 
 Most carbines and some pistols as well as mounted rifles can be set to automatic fire. Switching fire modes is an
-action. Automatic fire can target adjacent targets in addition to the primary target or increase the damage shift when
+action. Automatic fire can target adjacent targets in addition to the primary target or make a second attack when
 concentrated on the primary target. Automatic fire increases the attack difficulty by one shift. Automatic fire uses at
 least three rounds per target, or six when concentrated on the primary target.
 
