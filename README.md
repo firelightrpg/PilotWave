@@ -850,12 +850,12 @@ must determine the point of impact, and the point of impact and any adjacent hex
 
 #### Armor Ratings
 
-| Armor           | Shifts      | Example                                                                                 |
-|-----------------|-------------|-----------------------------------------------------------------------------------------|
-| Ballistic, EVA  | Average (1) | ![alt_text](https://drive.google.com/uc?id=1LhG64wD0QexudMgor22I0Rlgw8w-F90M "EVA")     |
-| Inertial, HEV   | Fair (2)    | ![alt_text](https://drive.google.com/uc?id=1LgP2omYZxOEJn1XTRKq1i8XFVs1yI24X "HEV")     |
-| Composite Plate | Good (3)    | ![alt_text](https://drive.google.com/uc?id=1LjxJQYzmj2j1j60cBy0V2De5T2-R7VrG "Plate")   |
-| Powered Armor   | Great (4)   | ![alt_text](https://drive.google.com/uc?id=1LkUhmFFRI35e5FBwVG1sHOQfQBZerpGS "Powered") |
+| Armor                     | Shifts      | Example                                                                                 |
+|---------------------------|-------------|-----------------------------------------------------------------------------------------|
+| EVA Suit                  | Average (1) | ![alt_text](https://drive.google.com/uc?id=1LhG64wD0QexudMgor22I0Rlgw8w-F90M "EVA")     |
+| HEV Suit                  | Fair (2)    | ![alt_text](https://drive.google.com/uc?id=1LgP2omYZxOEJn1XTRKq1i8XFVs1yI24X "HEV")     |
+| Inertial/ Composite Plate | Good (3)    | ![alt_text](https://drive.google.com/uc?id=1LjxJQYzmj2j1j60cBy0V2De5T2-R7VrG "Plate")   |
+| Powered Armor             | Great (4)   | ![alt_text](https://drive.google.com/uc?id=1LkUhmFFRI35e5FBwVG1sHOQfQBZerpGS "Powered") |
 
 An Armor value reduces the shifts of a successful hit. So, Armor:2 makes any hit worth 2 less than usual.** If you hit,
 but the target’s Armor reduces the shift value to 0 or below, you get a boost to use on your target but don’t do any
