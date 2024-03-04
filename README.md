@@ -817,20 +817,13 @@ _Rifle includes any shoulder fired chemically or electronically propelled round 
 
 #### Weapon Values
 
-| Weapon                       | Shifts       |
-|------------------------------|--------------|
-| Hand-to-hand                 | Mediocre (0) |
-| Pistol                       | Average (1)  |
-| Carbine                      | Fair (2)     |
-| Rifle                        | Good (3)     |
-| Directed Energy Weapon (DEW) | Great (4)    |
-
-| Type    | Example                                                                                 |
-|---------|-----------------------------------------------------------------------------------------|
-| Pistol  | ![alt_text](https://drive.google.com/uc?id=1LchuQAueO6XP0JFmbi4Lz-zRcQuppZVG "Pistol")  |
-| Carbine | ![alt_text](https://drive.google.com/uc?id=1LdHecClJibZrunjr9wKfbTFveOZJv-Rj "Carbine") |
-| Rifle   | ![alt_text](https://drive.google.com/uc?id=1Lbxqtka3csmZkx5Ba3wuG8RXLxxVgV64 "Rifle")   |
-| DEW     | ![alt_text](https://drive.google.com/uc?id=1LdKsLTHXVqNE3D-_3lLfuU8INoBr4k33 "Plasma")  |
+| Weapon                       | Shifts       | Example                                                                                 |
+|------------------------------|--------------|-----------------------------------------------------------------------------------------|
+| Hand-to-hand                 | Mediocre (0) |                                                                                         |
+| Pistol                       | Average (1)  | ![alt_text](https://drive.google.com/uc?id=1LchuQAueO6XP0JFmbi4Lz-zRcQuppZVG "Pistol")  |
+| Carbine                      | Fair (2)     | ![alt_text](https://drive.google.com/uc?id=1LdHecClJibZrunjr9wKfbTFveOZJv-Rj "Carbine") |
+| Rifle                        | Good (3)     | ![alt_text](https://drive.google.com/uc?id=1Lbxqtka3csmZkx5Ba3wuG8RXLxxVgV64 "Rifle")   |
+| Directed Energy Weapon (DEW) | Great (4)    | ![alt_text](https://drive.google.com/uc?id=1LdKsLTHXVqNE3D-_3lLfuU8INoBr4k33 "Plasma")  |
 
 _Hand-to-hand attacks have a value of Average (1) with a weapon like a knife, bayonet, rifle butt, etc. Rifles,
 Directed Energy Weapons are hazardous and target all within a zone.
