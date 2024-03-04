@@ -555,14 +555,14 @@ $$
 
 ### In-System Travel Times
 
-| AU   | Million km | 1G   | 2G   | 3G   | 4G   | 5G   | 6G   | Remarks                                   |
-|------|------------|------|------|------|------|------|------|-------------------------------------------| 
-| 0.01 | 1.5        | 0.28 | 0.2  | 0.16 | 0.14 | 0.12 | 0.11 | Safe Jump distance from a size A world.   |
-| 0.07 | 10.5       | 0.75 | 0.53 | 0.43 | 0.37 | 0.33 | 0.03 | Safe jump distance from a gas giant.      |
-| 0.3  | 45         | 1.5  | 1    | 0.8  | 0.7  | 0.6  | 0.6  | Typical distance to a neighbor world.     |
-| 2    | 300        | 4    | 2.8  | 2.3  | 2    | 1.7  | 1.6  | Typical distance to a far neighbor world. |
-| 6    | 900        | 6.9  | 4.9  | 4    | 3.4  | 3.1  | 2.8  | Typical distance to a far gas giant.      |
-| 30   | 4500       | 15.5 | 10.9 | 8.9  | 7.7  | 6.9  | 6.3  | Typical distance to an outer planet.      |
+| AU   | Million km | 1G         | 2G         | 3G         | 4G        | 5G        | 6G         | Remarks                                   |
+|------|------------|------------|------------|------------|-----------|-----------|------------|-------------------------------------------| 
+| 0.01 | 1.5        | 0.28 (7h)  | 0.2 (5h)   | 0.16 (4h)  | 0.14 (3h) | 0.12 (3h) | 0.11 (3h)  | Safe Jump distance from a size A world.   |
+| 0.07 | 10.5       | 0.75 (18h) | 0.53 (13h) | 0.43 (10h) | 0.37 (9h) | 0.33 (8h) | 0.03 (45m) | Safe jump distance from a gas giant.      |
+| 0.3  | 45         | 1.5        | 1          | 0.8 (19h)  | 0.7 (17h) | 0.6 (14h) | 0.6 (14h)  | Typical distance to a neighbor world.     |
+| 2    | 300        | 4          | 2.8        | 2.3        | 2         | 1.7       | 1.6        | Typical distance to a far neighbor world. |
+| 6    | 900        | 6.9        | 4.9        | 4          | 3.4       | 3.1       | 2.8        | Typical distance to a far gas giant.      |
+| 30   | 4500       | 15.5       | 10.9       | 8.9        | 7.7       | 6.9       | 6.3        | Typical distance to an outer planet.      |
 
 <!-- TOC --><a name="resolving-attacks"></a>
 
@@ -715,17 +715,52 @@ by the first side. By the time the first character takes their turn in an Exchan
 
 <!-- TOC --><a name="movement"></a>
 
+### Scale
+
+Scale determines the size of the hex scale and the duration of exchanges. A combatant may move any number of hexes, up
+to its speed. Moving more than five hexes imposes a Poor (-1) shift on all actions for the combatant, and for any
+actions against that combatant. Moving more than 10 imposes a Terrible (-2) shift and more than 20, Awful (-3). If both
+an attacker and a target are moving, the higher shift applies, unless the attacker can match vectors with the target.
+
+#### Personal and Vehicle Combat Scale
+
+| Indoor                 | Outdoor               | Distant               | Far                 |
+|------------------------|-----------------------|-----------------------|---------------------|
+| 1.5 meter, six seconds | 15 meter, six seconds | 150 meter, one minute | 1.5 km, ten minutes |
+
+For Personal combat, Indoor trotting speed is 10 hexes and running speed is 20 hexes. In other scales, these are divided
+by 10.
+
+Vehicles are rated in hex speed (20/3 kph) and move 10 times their hex speed at Indoor scale. For Outdoor, Distant and
+Far, they move their hex speed.
+
+#### Spaceship Combat Scale
+
+| Close Orbit       | Far Orbit          | Extreme Orbit     |
+|-------------------|--------------------|-------------------|
+| 15 km, one minute | 15kkm, ten minutes | 15Mkm, four hours |
+
+For space combat, movement speed is determined by the ship's maneuver drive when stationary. A ship may change its speed
+by up to its maneuver drive value. For example, if stationary, a ship with an M5 rated maneuver drive can move up to
+five hexes. If the next exchange, the ship can add up to five hexes to the number of hexes it traveled in the last
+exchange.
+
 ### Movement
 
 Pilot Wave uses a grid for personal, vehicle and space combat. In personal combat, one square is 1.5 meters, in vehicle
 combat, 15 meters feet and in space combat, 15km. Other scales may be used, depending on the situation.
 
-If movement is combined with another action, that action receives one or more shifts. 
+If movement is combined with another action, that action receives one or more shifts.
 
 <!-- TOC --><a name="personal-combat"></a>
+
 ## Personal Combat
-Personal combat uses 1.5 meter hexes and 6 second exchanges. Walking speed is 5 hexes and any skill or attack suffers a Poor (-1) shift. Trotting speed is 10 hexes and  mposes a Terrible (-2) shift. Running speed is 20 hexes +/- Physique and imposes an Awful (-3) shift. The shift applies to actions by you, or against you, if Countered.
+
+Personal combat uses 1.5 meter hexes and 6 second exchanges. Walking speed is 5 hexes and any skill or attack suffers a
+Poor  (-1) shift. Trotting speed is 10 hexes and imposes a Terrible (-2) shift. Running speed is 20 hexes +/- Physique
+and imposes an Awful (-3) shift. The shift applies to actions by you, or against you, if Countered.
 <!-- TOC --><a name="close-combat-1"></a>
+
 ### Close Combat
 
 In Pilot Wave, a hand-to-hand attack is against an opposed Close Combat skill roll and generally requires opponents to
@@ -799,7 +834,8 @@ reducing that to +3). The target character would take 3 physical stress, or 1 ph
 
 ## Vehicle Combat
 
-Vehicle combat uses 150 meter hexes and 60 second exchanges.
+Vehicle combat uses 15 meter hexes and 6 second exchanges or 150 meter hexes and 60 second exchanges, depending on the
+scale.
 
 <!-- TOC --><a name="spaceship-combat"></a>
 
