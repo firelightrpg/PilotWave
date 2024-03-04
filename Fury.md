@@ -183,6 +183,9 @@ This particular craft has seats for a pilot and copilot plus several passengers 
 
 ### G4 Rover
 The ship comes with a G4 Rover all-terrain vehicle as a support craft. 
+- Hex Speed: 50
+- Storm Striker: Pulse accelerator
+  - Single shot as a rifle Good (+3) or automatic spread (15 degree cone, Poor (-1) attack and damage shift for all in area)
 
 This four wheeled ground vehicle is sturdy, reliable, and affordable – perfect for no-frills working ships like the Renegade and Endurance class transports. The G series off road buggy was originally built for racing and recreation, but it didn’t take long for it to be adapted for other uses. With the addition of a roof mounted turret, the G4 became popular with militias and military units on a tight budget. A Rover can handle a wide variety of ground terrain. It is, however, open to the elements and so environmental suits are required if the theater of operation is not amicable to human life.
 
