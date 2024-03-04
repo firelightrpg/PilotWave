@@ -651,8 +651,8 @@ increase difficulty and reduce damage shifts.
 
 #### Weapon Ranges and Ratings (Short scale)
 
-Range is in hexes for Close scale. Multiply hexes by 10 for Close scale and divide by 10 for Medium scale. Pistols and
-SMGs are not effective at Long scale.
+Range is in hexes for Short scale. Multiply hexes by 10 for Close scale and divide by 10 for Medium scale. Pistols are
+not effective at Long scale.
 
 | Range Band   | Contact Shot |                | Point Blank |                | Effective |                | Maximum   |                |
 |--------------|--------------|----------------|-------------|----------------|-----------|----------------|-----------|----------------|
