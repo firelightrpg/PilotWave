@@ -735,8 +735,8 @@ target.
 |------------------------|-----------------------|-----------------------|---------------------|
 | 1.5 meter, six seconds | 15 meter, six seconds | 150 meter, one minute | 1.5 km, ten minutes |
 
-For Personal combat, Indoor trotting speed is 10 hexes and running speed is 20 hexes. In Outdoor, Distant and Far
-scales, these are divided by 10.
+For Personal combat, walking speed is up to four hexes, trotting speed is up to ten hexes and running speed is 20 hexes.
+In Outdoor, Distant and Far scales, these are divided by 10.
 
 Vehicles are rated in kph and move their kph translates directly to hex speed at Indoor scale. For Outdoor, Distant and
 Far, they move their kph/10 in hex speed.
@@ -745,7 +745,7 @@ Far, they move their kph/10 in hex speed.
 
 #### Spaceship Combat Scale
 
-| Close Orbit       | Far Orbit          | Extreme Orbit     |
+| Close             | Far                | Extreme           |
 |-------------------|--------------------|-------------------|
 | 15 km, one minute | 15kkm, ten minutes | 15Mkm, four hours |
 
@@ -799,23 +799,31 @@ weapon with recoil will propel the shooter in the opposite direction unless anch
 
 <!-- TOC --><a name="weapon-ranges-and-ratings"></a>
 
-#### Weapon Ranges and Ratings
+#### Weapon Ranges and Ratings (Outdoor scale)
 
-| Range            | Close        | Point Blank | Effective     | Long          | Damage Shift |
-|------------------|--------------|-------------|---------------|---------------|--------------|
-| Range Difficulty | Trivial (0)  | Normal (1)  | Routine (2)   | Difficult (3) |              |
-| Damage Shift     | Mediocre (0) | Poor (-1)   | Terrible (-2) | Awful (-3)    |              |  
-| Personal         | Adjacent     | \-          | \-            | \-            | Mediocre (0) |
-| Archaic          | 1            | 2           | \-            | \-            | Average (1)  |
-| Pistol           | 1            | 2           | 3             | \-            | Average (1)  |
-| Carbine          | 2            | 3           | 4             | 5             | Fair (2)     |
-| Rifle            | 2            | 3           | 4             | 6             | Good (3)     |
-| Heavy Weapons    | 2            | 3           | 4             | 5             | Good (3)     |
-| High Energy      | 2            | 3           | 5             | 7             | Great (4)    |
+|                 |  Close   |              | Short |            | Effective |               | Long  |               |
+|-----------------|:--------:|:------------:|:-----:|:----------:|:---------:|:-------------:|:-----:|:-------------:|
+| Weapon          |  Hexes   |  Difficulty  | Hexes | Difficulty |   Hexes   |  Difficulty   | Hexes |  Difficulty   |
+| Personal        | Adjacent | Trivial (0)  |  \-   |     \-     |    \-     |      \-       |  \-   |      \-       |
+| Pistol, Carbine |    1     | Trivial (0)  |   2   | Normal (1) |     4     |  Routine (2)  |   6   | Difficult (3) |
+| Rifle           |    1     |  Normal (1)  |  10   | Normal (1) |    20     |  Routine (2)  |  40   | Difficult (3) |
+| Damage Shift*   |          | Mediocre (0) |       | Poor (-1)  |           | Terrible (-2) |       |  Awful (-3)   |  
 
 _Personal range attacks have a value of Average (1) with a weapon. Rifles, Heavy Weapons and High Energy Weapons are
 Normal (1) at Close range and Trivial (0) at Point Blank. Heavy Weapons are hazardous and target all within a zone.
 Automatic fire shifts the range difficulty and the weapon value by one._
+
+<!-- TOC --><a name="weapon-values"></a>
+
+#### Weapon Values
+
+| Weapon          | Shifts       |
+|-----------------|--------------|
+| Personal        | Mediocre (0) |
+| Pistol, Carbine | Average (1)  |
+| Rifle           | Fair (2)     | 
+| EPR             | Good (3)     |
+| DEW             | Great (4)    |
 
 A Weapon value adds to the shift value of a successful hit. If a weapon has a damage shift of 2, it means that any hit
 is worth 2 more shifts than it would normally be. This counts for ties, so when you’re using a weapon, you inflict
@@ -857,29 +865,28 @@ hexes with one minute exchanges. Far range uses 15,000 km hexes with 10 minute e
 km hexes and exchanges are arbitrary. System range, not typically used for combat, uses the same size hexes, but they
 are expressed in AU, such that one hex is approximately 0.10 AU.
 
-CPR/EPR is only effective at Close range (adjacent at Visual range), as it takes about eight exchanges to travel one
+CPR/EPR is only effective in adjacent hexes at Close range, as it takes about eight exchanges to travel one
 hex. At far range, CPR/EPR takes about 7.5 hours to travel one hex. If the target was stationary or drifting, CPR/EPR
 would eventually hit.
 
 Missiles are effective at Close, Visual and Far range, hitting on the same exchange as when fired, as they travel at a
-constant acceleration of up to 340G, more than 30 hexes at Far range. At Close range, they are hazardous.
-
-At extreme range, missiles travel about one hex every thirty minutes, although that continues to accelerate.
+constant acceleration of up to 340G. When targeting an adjacent hex, they are hazardous. At extreme range, missiles
+travel about one hex every thirty minutes, or eight hexes in an exchange.
 
 In an exchange, turn order is determined the same as in personal combat, with modifiers from maneuver drive and tactics
 considered. Each side has a turn in each phase, with multiples all acting together. Groups of the same ship type may be
 handled as a unit.
 
-Spaceship combat ranges are categorized as **Close, Visual, Far and Extreme**. Range is determined by Weapon Type. Range
+Spaceship combat ranges are categorized as **Close, Far and Extreme**. Range is determined by Weapon Type. Range
 increases difficulty. Range is in zones.
 
-| Range            | Close       | Visual     | Far         | Extreme       | Damage Shift |
-|------------------|-------------|------------|-------------|---------------|--------------|
-| Range Difficulty | Trivial (0) | Normal (1) | Routine (2) | Difficult (3) |              |
-| CPR/ EPR         | Adjacent    | \-         | \-          | \-            | Average (1)  |
-| Missiles         | \-          | 2          | 3           | \-            | Fair (2)     |
-| KEW              | \-          | 2          | \-          | \-            | Good (3)     |
-| DEW              | \-          | 3          | 4           | \-            | Great (4)    |
+| Range            | Close      | Far         | Extreme       | Damage Shift |
+|------------------|------------|-------------|---------------|--------------|
+| Range Difficulty | Normal (1) | Routine (2) | Difficult (3) |              |
+| CPR/ EPR         | Adjacent   | \-          | \-            | Average (1)  |
+| Missiles         | 2          | 2           | 3             | \-           | Fair (2)     |
+| KEW              | 2          | 2           | \-            | \-           | Good (3)     |
+| DEW              | 3          | 3           | 4             | \-           | Great (4)    |
 
 <!-- TOC --><a name="phases"></a>
 
