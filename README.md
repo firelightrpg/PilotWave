@@ -93,6 +93,7 @@ For conflict resolution, Pilot Wave uses an
 expanded [ladder](https://fate-srd.com/fate-core/taking-action-dice-ladder#the-ladder) of adjectives and numbers to rate
 the attempt, the dice results plus modifiers against the difficulty, either a passive difficulty, set by the game
 master, or an active opposition, the opponent’s dice results plus modifiers.
+
 Roll [four fudge dice](https://fate-srd.com/fate-core/taking-action-dice-ladder) (4DF) and add the result to the skill
 rating to get the final attempt.
 
@@ -116,22 +117,23 @@ rating to get the final attempt.
 | Preposterous  | 11  | Prodigious    | \-                     |
 | Unattainable  | 12  | Freakish      | \-                     |
 
-# [Five Outcomes](https://fate-srd.com/fate-core/four-outcomes)
+# [Four Outcomes](https://fate-srd.com/fate-core/four-outcomes)
+
+> * Fail: Fail your action, or succeed at a major cost.
+> * Tie (0 shifts): succeed at a minor cost
+> * Succeed (Average or Fair, 1-2 shifts): succeed with no cost
+> * Succeed with style (Good (3+) shifts): succeed with additional benefit
+
+Hazardous skill rolls risk a fifth outcome, a mishap. Not all skill rolls are hazardous.
 
 * Mishap (Awful (-3) or more shifts): Your action fails, and comes with a consequence.
-* Fail: Fail your action, or succeed at a major cost.
-* Tie (0 shifts): succeed at a minor cost
-* Succeed (Average or Fair, 1-2 shifts): succeed with no cost
-* Succeed with style (Good (3+) shifts): succeed with additional benefit
-
-Hazardous skill rolls risk mishap. Not all skill rolls are hazardous.
 
 # [Four Actions](https://fate-srd.com/fate-core/four-actions)
 
-* Overcome: get past an obstacle
-* Create an Advantage: invoke an aspect for free
-* Attack: harm another character
-* Defend: prevent attacks of advantages against you
+> * Overcome: get past an obstacle
+> * Create an Advantage: invoke an aspect for free
+> * Attack: harm another character
+> * Defend: prevent attacks of advantages against you
 
 # Pilot Wave Character Creation
 
@@ -468,82 +470,88 @@ stress box and take consequences—if you can’t do one of these three things, 
 
 # [Consequences](https://fate-srd.com/fate-core/resolving-attacks#consequences)
 
-* Mild: –2 to attack value
-* Moderate: –4 to attack value
-* Severe: –6 to attack value
-* Extreme: –8 to attack and permanent character aspect
+> * Mild: –2 to attack value
+> * Moderate: –4 to attack value
+> * Severe: –6 to attack value
+> * Extreme: –8 to attack and permanent character aspect
 
 # [Recover](https://fate-srd.com/fate-core/resolving-attacks#recovering-from-a-consequence)
 
-* Mild: overcome Fair (+2), one whole scene
-* Moderate: overcome Great (+4), one whole session
-* Severe: overcome Fantastic (+6), one whole scenario
+> * Mild: overcome Fair (+2), one whole scene
+> * Moderate: overcome Great (+4), one whole session
+> * Severe: overcome Fantastic (+6), one whole scenario
 
 # [Aspect Types](https://fate-srd.com/fate-core/aspects-fate-points)
 
-* Game aspects: permanent, made during game creation
-* Character aspects: permanent, made during character creation
-* Situation aspects: last for a scene, until overcome, or until irrelevant
-* Boosts: last until invoked one time
-* Consequences: last until recovered
+> * Game aspects: permanent, made during game creation
+> * Character aspects: permanent, made during character creation
+> * Situation aspects: last for a scene, until overcome, or until irrelevant
+> * Boosts: last until invoked one time
+> * Consequences: last until recovered
 
 # [Invoking Aspects](https://fate-srd.com/fate-core/invoking-compelling-aspects#invoking-aspects)
 
-Spend a fate point or free invoke. Choose one:
-
-* +2 to your skill roll
-* Reroll all your dice
-* Teamwork: +2 to another character’s roll versus relevant passive opposition
-* Obstacle: +2 to the passive opposition
-
-Free invokes stack with a paid one and each other.
+> Spend a fate point or free invoke. Choose one:
+> * +2 to your skill roll
+> * Reroll all your dice
+> * Teamwork: +2 to another character’s roll versus relevant passive opposition
+> * Obstacle: +2 to the passive opposition
+>
+> Free invokes stack with a paid one and each other.
 
 # [Compelling Aspects](https://fate-srd.com/fate-core/invoking-compelling-aspects#compelling-aspects)
 
-Accept a complication for a fate point.
-
-* Event-based: You have ____ aspect and are in ____ situation, so it makes sense that, unfortunately, ____ would happen
-  to you. Damn your luck.
-* Decision-based: You have ____ aspect in ____ situation, so it makes sense that you’d decide to ____. This goes wrong
-  when ____ happens.
+> Accept a complication for a fate point.
+>
+> * Event-based: You have ____ aspect and are in ____ situation, so it makes sense that, unfortunately, ____ would
+    happen
+    to you. Damn your luck.
+> * Decision-based: You have ____ aspect in ____ situation, so it makes sense that you’d decide to ____. This goes wrong
+    when ____ happens.
 
 # [Refresh](https://fate-srd.com/fate-core/fate-point-economy)
 
-At the start of a new session, you reset your fate points to your refresh rate. If you ended the last session with more
-points, you keep the extra. At the end of a scenario, you reset to your refresh rate no matter what.
+> At the start of a new session, you reset your fate points to your refresh rate. If you ended the last session with
+> more
+> points, you keep the extra. At the end of a scenario, you reset to your refresh rate no matter what.
 
 # [Spending Fate Points](https://fate-srd.com/fate-core/fate-point-economy)
 
-Spend fate points to:
-
-* Invoke an aspect
-* Power a stunt
-* Refuse a compel
-* Declare a story detail
+> Spend fate points to:
+>
+> * Invoke an aspect
+> * Power a stunt
+> * Refuse a compel
+> * Declare a story detail
 
 # [Challenges](https://fate-srd.com/fate-core/challenges)
 
-* Each obstacle or goal that requires a different skill gets an overcome roll.
-* Interpret failure, costs, and success of each roll together to determine final outcome.
+> * Each obstacle or goal that requires a different skill gets an overcome roll.
+> * Interpret failure, costs, and success of each roll together to determine final outcome.
 
 # [Contests](https://fate-srd.com/fate-core/contests)
 
-* Contesting characters roll appropriate skills.
-* If you got the highest result, you score a victory.
-* If you succeed with style and no one else does, then you get two victories.
-* If there’s a tie for the highest result, no one gets a victory, and an unexpected twist occurs.
-* The first participant to achieve three victories wins the contest.
+> * Contesting characters roll appropriate skills.
+> * If you got the highest result, you score a victory.
+> * If you succeed with style and no one else does, then you get two victories.
+> * If there’s a tie for the highest result, no one gets a victory, and an unexpected twist occurs.
+> * The first participant to achieve three victories wins the contest.
+
+---
 
 # [Conflicts](https://fate-srd.com/fate-core/conflicts)
 
-* Set the scene, describing the environment the conflict takes place in, creating situation aspects and zones, and
-  establishing who’s participating and what side they’re on.
-* Determine the turn order.
-* Start the first exchange:
-    * On your turn, take an action and then resolve it.
-    * On other people’s turns, defend or respond to their actions as necessary.
-    * At the end of everyone’s turn, start again with a new exchange.
-* Conflict is over when everyone on one side has conceded or been taken out.
+[//]: # (@formatter:off)
+> * Set the scene, describing the environment the conflict takes place in, creating situation aspects and zones, and
+    establishing who’s participating and what side they’re on.
+> * Determine the turn order.
+> * Start the first exchange:
+>  * On your turn, take an action and then resolve it.
+>  * On other people’s turns, defend or respond to their actions as necessary.
+>  * At the end of everyone’s turn, start again with a new exchange.
+> * Conflict is over when everyone on one side has conceded or been taken out.
+
+[//]: # (@formatter:on)
 
 ## Surprise
 
@@ -565,14 +573,16 @@ character acts in what side turn order is determined by the players for PCs or t
 character on each side has taken a turn, the next Exchange Begins. Exchanges continue until one of the sides concedes or
 is taken out.
 
-### Action
+## Action
 
-On your turn, take an action and resolve it. Generally, only one substantial action may be taken per turn. Substantial
+> On your turn, take an action and resolve it.
+
+Generally, only one substantial action may be taken per turn. Substantial
 actions are Creating an Advantage, move, attack, or interactive skills. A move action may be combined with an attack
 action. Drawing weapons, reloading, opening a hatch, voice interaction, duck, get up and reactive skills are usually
 considered insignificant and can be combined with an action on your turn.
 
-### Counter
+## Counter
 
 Each action may be countered, once per side, by any who are Aware and have not acted. A counter is not guaranteed, but
 always uses that character's action. A counter is a contest. To counter, a character must overcome an opponent's Tactics
@@ -581,47 +591,63 @@ counter. The countering character uses their Tactics skill, although roving Tact
 Potentially, the first action by one side may be countered by the other side, and in turn, that action may be countered
 by the first side. By the time the first character takes their turn in the first Exchange, it could be the third turn.
 
-### Scale
+## Movement
+
+Pilot Wave does not use zones, but instead uses a hex grid for combat.
+
+## Scale
 
 Scale determines the size of each hex on the map and the duration of each exchange.
 
-|                       | Close       | Short       | Medium     | Long        | | Far         | Orbital    | Extreme     |
-|-----------------------|-------------|-------------|------------|-------------|-|-------------|------------|-------------|
-| **Hex Size**          | 1.5 meter   | 15 meter    | 150 meter  | 1.5 km      | | 15 km       | 15 Kkm     | 15 Mkm      |
-| **Exchange Duration** | six seconds | six seconds | one minute | ten minutes | | six seconds | one minute | ten minutes | 
+## Personal and Vehicle Scale
 
-### Movement
+|                       | Close       | Short       | Medium     | Long        |
+|-----------------------|-------------|-------------|------------|-------------|
+| **Hex Size**          | 1.5 meter   | 15 meter    | 150 meter  | 1.5 km      |
+| **Exchange Duration** | six seconds | six seconds | one minute | ten minutes |
 
-Pilot Wave uses a hex grid for combat.
+### Personal Combat
+
+For Personal combat, under five hexes is walking speed, up to ten trotting speed and up to 20 +/- Physique, running
+speed. In Short, Medium and Long scales, these are divided by 10.
+
+### Vehicle Combat
+
+Vehicles are rated in kph and their kph translates directly to hex speed at Close scale. For Short, Medium and Long
+scales, kph/10 equals hex speed.
+
+## Spaceship Scale
+
+|                       | Far         | Orbital    | Extreme     |
+|-----------------------|-------------|------------|-------------|
+| **Hex Size**          | 15 km       | 15 Kkm     | 15 Mkm      |
+| **Exchange Duration** | six seconds | one minute | ten minutes | 
 
 A combatant may move any number of hexes, up to its speed. Moving five or more hexes imposes a Poor (-1) shift on all
 actions by the combatant, and any actions against that combatant. Moving ten or more hexes imposes a Terrible (-2) shift
 and 20 or more, Awful (-3). If both an attacker and a target are moving, the higher shift applies, unless the attacker
 can match vectors with the target.
 
-#### Personal Combat
-
-For Personal combat, walking speed is up to four hexes, trotting speed is five to ten hexes and running speed is 20 +/-
-Physique hexes. In Short, Medium and Long scales, these are divided by 10.
-
-#### Vechicle Combat
-
-Vehicles are rated in kph and their kph translates directly to hex speed at Close scale. For Short, Medium and Long
-scales, kph/10 equals hex speed. If Far is used, kph/360 translates to hexes per exchange.
-
-#### Space combat
+### Space combat
 
 Space combat uses Far, Orbital or Extreme scale. A ship may change its speed by up to its maneuver drive value.
-For example, if stationary, a ship with an M5 rated maneuver drive can move up to five hexes. In the next exchange, the
-ship can move up to five hexes plus the number of hexes it traveled in the last exchange. If this ship was stationary
-and moved its maximum speed, it could move five hexes in the first exchange, 10 hexes in the next, 15 hexes in the next
-and so on.
+
+_For example, if stationary, a ship with an M5 rated maneuver drive can move up to five hexes. In the next exchange,
+the ship can move up to five hexes plus the number of hexes it traveled in the last exchange. If this ship was
+stationary and moved its maximum speed, it could move five hexes in the first exchange, 10 hexes in the next, 15
+hexes in the next and so on._
+
+_**Exposure to greater than 6Gs for more than a few moments causes issues with vision, blood pressure, spinal stress,
+nausea and headache. After which, you must overcome a difficult (-3), [Space Ops] skill roll or take a physical hit
+equal to the shifts you failed by.**_
+
+_**One minute of exposure to higher than 6Gs takes you out. Ten minutes or more leads to death.**_
 
 ## Personal Combat
 
 Personal combat may use **Close, Short, Medium or Long** scales.
 
-### Close Combat
+### Hand-to-Hand Combat
 
 In Pilot Wave, a hand-to-hand attack is against an opposed Close Combat skill roll and generally requires opponents to
 be in adjacent hexes. Undefended Close Combat is effortless.
@@ -632,10 +658,24 @@ In Pilot Wave, opponent’s do not roll an opposed skill roll. Instead, difficul
 
 ### [Weapon and Armor Ratings](https://fate-srd.com/fate-core/more-examples-extras#weapon-and-armor-ratings)
 
-Expanding on More Examples of Extras, the weapon rating adds to the shift value of a successful hit and armor ratings
-correspondingly reduce the shifts of a successful hit.
+> A Weapon value adds to the shift value of a successful hit. So, if you have Weapon:2, it means that any hit is worth 2
+> more shifts than it would normally be. This counts for ties, so when you’re using a weapon, you inflict stress on a
+> tie
+> instead of getting a boost. That makes weapons very dangerous.
+>
+> An Armor value reduces the shifts of a successful hit. So, Armor:2 makes any hit worth 2 less than usual. **If you
+> hit, but the target’s Armor reduces the shift value to 0 or below, you get a boost to use on your target but don’t do
+> any harm.**
 
-#### Range Bands
+> > _For example, if a character with a Good (+2) Gun Combat skill shoots an MP-7 (carbine) at a character wearing a
+> > Hostile Environment Vacuum suit (HEV) and rolls 0, +2 for Gun Combat, at Contact Shot range band (15 meters or
+> > less), Difficulty Trivial (0), that’s a success (+2)._
+>
+> > _The damage would be 3 (success +2, rifle Good (+3), a 5-shift-hit, and the suit has a damage shift of
+> > Fair (2), reducing that to +3). The target character would take 3 physical stress, or 1 physical stress and a mild
+> > consequence._
+
+### Range Bands
 
 Weapon ranges are categorized in range bands of  **Contact Shot, Point Blank, Effective and Maximum**. Range band
 distances are determined by Weapon Type and are distinct from scale, which is the same for all weapons. Range bands
@@ -649,7 +689,7 @@ increase difficulty and reduce damage shifts.
 - Effective: A weapon's lethal range with compensation for bullet drop.
 - Maximum: The maximum range a weapon can reach, but usually without killing power unless the shot placement is perfect.
 
-#### Weapon Ranges and Ratings (Short scale)
+### Weapon Ranges and Ratings (Short scale)
 
 Range is in hexes for Short scale. Multiply hexes by 10 for Close scale and divide by 10 for Medium scale. Pistols are
 not effective at Long scale.
@@ -668,39 +708,35 @@ not effective at Long scale.
 
 _Rifle includes any shoulder fired chemically or electronically propelled round or directed energy weapon._
 
-#### Weapon Values
+### Weapon Values
 
-| Weapon                       | Shifts       | Example                                                                                 |
-|------------------------------|--------------|-----------------------------------------------------------------------------------------|
-| Hand-to-hand                 | Mediocre (0) |                                                                                         |
-| Pistol                       | Average (1)  | ![alt_text](https://drive.google.com/uc?id=1LchuQAueO6XP0JFmbi4Lz-zRcQuppZVG "Pistol")  |
-| Carbine                      | Fair (2)     | ![alt_text](https://drive.google.com/uc?id=1LdHecClJibZrunjr9wKfbTFveOZJv-Rj "Carbine") |
-| Rifle                        | Good (3)     | ![alt_text](https://drive.google.com/uc?id=1Lbxqtka3csmZkx5Ba3wuG8RXLxxVgV64 "Rifle")   |
-| Directed Energy Weapon (DEW) | Great (4)    | ![alt_text](https://drive.google.com/uc?id=1LdKsLTHXVqNE3D-_3lLfuU8INoBr4k33 "Plasma")  |
+| Weapon                       | Shifts       | Rounds | Recoil        | Example                                                                                 |
+|------------------------------|--------------|--------|---------------|-----------------------------------------------------------------------------------------|
+| Hand-to-hand                 | Mediocre (0) | \-     | \-            |                                                                                         |
+| Pistol                       | Average (1)  | 10     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LchuQAueO6XP0JFmbi4Lz-zRcQuppZVG "Pistol")  |
+| Carbine                      | Fair (2)     | 30     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LdHecClJibZrunjr9wKfbTFveOZJv-Rj "Carbine") |
+| Rifle                        | Good (3)     | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1Lbxqtka3csmZkx5Ba3wuG8RXLxxVgV64 "Rifle")   |
+| Directed Energy Weapon (DEW) | Great (4)    | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1LdKsLTHXVqNE3D-_3lLfuU8INoBr4k33 "Plasma")  |
 
 _Hand-to-hand attacks have a value of Average (1) with a weapon like a knife, bayonet, rifle butt, etc. Rifles,
 Directed Energy Weapons are hazardous and target all within a zone.
 Automatic fire shifts the range difficulty and the weapon value by one._
 
-> A Weapon value adds to the shift value of a successful hit. If a weapon has a damage shift of 2, it means that any hit
-> is worth 2 more shifts than it would normally be. This counts for ties, so when you’re using a weapon, you inflict
-> stress on a tie instead of getting a boost. That makes weapons very dangerous.
-
-##### Automatic Weapon Fire
+### Automatic Weapon Fire
 
 Most carbines and some pistols as well as mounted rifles can be set to automatic fire. Switching fire modes is an
 action. Automatic fire can target adjacent targets in addition to the primary target or make a second attack when
 concentrated on the primary target. Automatic fire increases the attack difficulty by one shift. Automatic fire uses at
 least three rounds per target, or six when concentrated on the primary target.
 
-##### Blast Weapons
+### Blast Weapons
 
 Some weapons such as a plasma gun or a grenade launcher have a blast area. A blast weapon automatically targets adjacent
 targets with one less damage shift than the primary target, if the primary target is hit. These weapons are always
 hazardous and any miss must determine the point of impact, and the point of impact and any adjacent hexes take the
 damage instead.
 
-#### Armor Ratings
+### Armor Ratings
 
 | Armor                     | Shifts      | Example                                                                                 |
 |---------------------------|-------------|-----------------------------------------------------------------------------------------|
@@ -708,15 +744,6 @@ damage instead.
 | HEV Suit                  | Fair (2)    | ![alt_text](https://drive.google.com/uc?id=1LgP2omYZxOEJn1XTRKq1i8XFVs1yI24X "HEV")     |
 | Inertial/ Composite Plate | Good (3)    | ![alt_text](https://drive.google.com/uc?id=1LjxJQYzmj2j1j60cBy0V2De5T2-R7VrG "Plate")   |
 | Powered Armor             | Great (4)   | ![alt_text](https://drive.google.com/uc?id=1LkUhmFFRI35e5FBwVG1sHOQfQBZerpGS "Powered") |
-
-> An Armor value reduces the shifts of a successful hit. **So, Armor:2 makes any hit worth 2 less than usual. If you
-hit, but the target’s Armor reduces the shift value to 0 or below, you get a boost to use on your target but don’t do
-any harm.**
-
-For example, if a character with a Good (+2) Gun Combat skill shoots an MP-7 (carbine) at a character wearing a Hostile
-Environment Vacuum suit (HEV) and rolls 0, +2 for Gun Combat, at close range, Difficulty Trivial (0), that’s a
-success (+2). The damage would be 3 (success +2, rifle Good (+3), 5 shifts, and the suit has a damage shift of Fair (2),
-reducing that to +3). The target character would take 3 physical stress, or 1 physical stress and a mild consequence.
 
 ## Vehicle Combat
 
