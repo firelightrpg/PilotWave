@@ -756,7 +756,7 @@ require a mount.
 |------------------------------|--------------|--------|---------------|------------------------------------------------------------------------------------------------|
 | Machine Gun                  | Average (1)  | 10     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LmRVNm7R0IcXclffXz6JptKnsO0oflaA "cs-machine-gun") |
 | Gauss Gun                    | Fair (2)     | 30     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LmlEW1QaidZm39G8nCOjLxmt2QnvEn64 "cs-gauss")       |
-| Recoilless Rifle             | Good (3)     | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1LniqCSN5jxWGaV3fOmEBNmlEGK7S5daQ "cs-recoilless")  |
+| Recoilless Rifle             | Good (3)     | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1LoC_iVLqqFKEOw0bBM3vvRdxJcXYKvS "cs-recoilless")   |
 | Directed Energy Weapon (DEW) | Great (4)    | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1LnPO30oYbdua8NBj32GEVRbO12UABuTl "cs-plasma")      |
 
 ## Spaceship Combat
