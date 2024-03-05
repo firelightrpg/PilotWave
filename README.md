@@ -708,11 +708,7 @@ not effective at Long scale.
 
 _Rifle includes any shoulder fired chemically or electronically propelled round or directed energy weapon._
 
-### Weapon and Armor Values
-
-<table>
-<tr><th>Weapon Values </th><th>Armor Values</th></tr>
-<tr><td>
+### Weapon Values
 
 | Weapon                       | Shifts       | Rounds | Recoil        | Example                                                                                 |
 |------------------------------|--------------|--------|---------------|-----------------------------------------------------------------------------------------|
@@ -721,17 +717,6 @@ _Rifle includes any shoulder fired chemically or electronically propelled round 
 | Carbine                      | Fair (2)     | 30     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LdHecClJibZrunjr9wKfbTFveOZJv-Rj "Carbine") |
 | Rifle                        | Good (3)     | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1Lbxqtka3csmZkx5Ba3wuG8RXLxxVgV64 "Rifle")   |
 | Directed Energy Weapon (DEW) | Great (4)    | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1LdKsLTHXVqNE3D-_3lLfuU8INoBr4k33 "Plasma")  |
-
-</td><td>
-
-| Armor                     | Shifts      | Example                                                                                 |
-|---------------------------|-------------|-----------------------------------------------------------------------------------------|
-| EVA Suit                  | Average (1) | ![alt_text](https://drive.google.com/uc?id=1LhG64wD0QexudMgor22I0Rlgw8w-F90M "EVA")     |
-| HEV Suit                  | Fair (2)    | ![alt_text](https://drive.google.com/uc?id=1LgP2omYZxOEJn1XTRKq1i8XFVs1yI24X "HEV")     |
-| Inertial/ Composite Plate | Good (3)    | ![alt_text](https://drive.google.com/uc?id=1LjxJQYzmj2j1j60cBy0V2De5T2-R7VrG "Plate")   |
-| Powered Armor             | Great (4)   | ![alt_text](https://drive.google.com/uc?id=1LkUhmFFRI35e5FBwVG1sHOQfQBZerpGS "Powered") |
-
-</td></tr> </table>
 
 _Hand-to-hand attacks have a value of Average (1) with a weapon like a knife, bayonet, rifle butt, etc. Rifles,
 Directed Energy Weapons are hazardous and target all within a zone.
@@ -750,6 +735,15 @@ Some weapons such as a plasma gun or a grenade launcher have a blast area. A bla
 targets with one less damage shift than the primary target, if the primary target is hit. These weapons are always
 hazardous and any miss must determine the point of impact, and the point of impact and any adjacent hexes take the
 damage instead.
+
+### Armor Ratings
+
+| Armor                     | Shifts      | Example                                                                                 |
+|---------------------------|-------------|-----------------------------------------------------------------------------------------|
+| EVA Suit                  | Average (1) | ![alt_text](https://drive.google.com/uc?id=1LhG64wD0QexudMgor22I0Rlgw8w-F90M "EVA")     |
+| HEV Suit                  | Fair (2)    | ![alt_text](https://drive.google.com/uc?id=1LgP2omYZxOEJn1XTRKq1i8XFVs1yI24X "HEV")     |
+| Inertial/ Composite Plate | Good (3)    | ![alt_text](https://drive.google.com/uc?id=1LjxJQYzmj2j1j60cBy0V2De5T2-R7VrG "Plate")   |
+| Powered Armor             | Great (4)   | ![alt_text](https://drive.google.com/uc?id=1LkUhmFFRI35e5FBwVG1sHOQfQBZerpGS "Powered") |
 
 ## Vehicle Combat
 
