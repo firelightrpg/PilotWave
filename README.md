@@ -546,9 +546,9 @@ stress box and take consequences—if you can’t do one of these three things, 
     establishing who’s participating and what side they’re on.
 > * Determine the turn order.
 > * Start the first exchange:
->  * On your turn, take an action and then resolve it.
->  * On other people’s turns, defend or respond to their actions as necessary.
->  * At the end of everyone’s turn, start again with a new exchange.
+> > * On your turn, take an action and then resolve it.
+> > * On other people’s turns, defend or respond to their actions as necessary.
+> > * At the end of everyone’s turn, start again with a new exchange.
 > * Conflict is over when everyone on one side has conceded or been taken out.
 
 [//]: # (@formatter:on)
