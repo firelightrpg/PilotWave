@@ -694,17 +694,17 @@ increase difficulty and reduce damage shifts.
 Range is in hexes for Short scale. Multiply hexes by 10 for Close scale and divide by 10 for Medium scale. Pistols are
 not effective at Long scale.
 
-| Range Band   | Contact Shot |                | Point Blank |                | Effective |                | Maximum   |                |
-|--------------|--------------|----------------|-------------|----------------|-----------|----------------|-----------|----------------|
-| **Weapon**   | **Hexes**    | **Difficulty** | **Hexes**   | **Difficulty** | **Hexes** | **Difficulty** | **Hexes** | **Difficulty** |
-| Hand-to-hand | Adjacent     | Trivial (0)    | \-          | \-             | \-        | \-             | \-        | \-             |
-| Pistol       | 1            | Trivial (0)    | 2           | Normal (1)     | 4         | Routine (2)    | 6         | Difficult (3)  |
-| Carbine      | 1            | Trivial (0)    | 5           | Normal (1)     | 10        | Routine (2)    | 20        | Difficult (3)  |
-| Rifle        | 1            | Normal (1)     | 10          | Normal (1)     | 20        | Routine (2)    | 40        | Difficult (3)  |
+| Range Band   | Contact   |                | Point Blank |                | Effective |                | Maximum   |                |
+|--------------|-----------|----------------|-------------|----------------|-----------|----------------|-----------|----------------|
+| **Weapon**   | **Hexes** | **Difficulty** | **Hexes**   | **Difficulty** | **Hexes** | **Difficulty** | **Hexes** | **Difficulty** |
+| Hand-to-hand | Adjacent  | Trivial (0)    | \-          | \-             | \-        | \-             | \-        | \-             |
+| Pistol       | 1         | Trivial (0)    | 2           | Normal (1)     | 4         | Routine (2)    | 6         | Difficult (3)  |
+| Carbine      | 1         | Trivial (0)    | 5           | Normal (1)     | 10        | Routine (2)    | 20        | Difficult (3)  |
+| Rifle        | 1         | Normal (1)     | 10          | Normal (1)     | 20        | Routine (2)    | 40        | Difficult (3)  |
 
-| Range Band       | Contact Shot | Point Blank | Effective     | Maximum    |
+| Range Band       | Contact      | Point Blank | Effective     | Maximum    |
 |------------------|--------------|-------------|---------------|------------|
-| **Damage Shift** | Mediocre (0) | Poor (-1)   | Terrible (-2) | Awful (-3) | 
+| **Damage Shift** | Mediocre (0) | Poor (-1)   | Terrible (-2) | Awful (-3) |  
 
 _Rifle includes any shoulder fired chemically or electronically propelled round or directed energy weapon._
 
@@ -747,8 +747,17 @@ damage instead.
 
 ## Vehicle Combat
 
-Vehicle combat uses 15 meter hexes and 6 second exchanges or 150 meter hexes and 60 second exchanges, depending on the
-scale.
+Personal combat may use **Close, Short, Medium or Long** scales, but Short and Medium are most common. Vehicle weapons
+require a mount.
+
+### Crew-Served Weapons
+
+| Weapon                       | Shifts       | Rounds | Recoil        | Example                                                                                        |
+|------------------------------|--------------|--------|---------------|------------------------------------------------------------------------------------------------|
+| Machine Gun                  | Average (1)  | 10     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LmRVNm7R0IcXclffXz6JptKnsO0oflaA "cs-machine-gun") |
+| Gauss Gun                    | Fair (2)     | 30     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LdHecClJibZrunjr9wKfbTFveOZJv-Rj "Carbine")        |
+| Recoilless Rifle             | Good (3)     | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1Lbxqtka3csmZkx5Ba3wuG8RXLxxVgV64 "Rifle")          |
+| Directed Energy Weapon (DEW) | Great (4)    | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1LdKsLTHXVqNE3D-_3lLfuU8INoBr4k33 "Plasma")         |
 
 ## Spaceship Combat
 
@@ -804,17 +813,17 @@ increases difficulty. Range is in zones.
 A ship signals if it's using maneuver drive, weapons or active sensors. Drift is the absence of drives, weapons or
 active sensors. Passive sensors retain drift.
 
-|         | Active vs Signal | Passive vs Signal | Active vs Drift | Passive vs Drift |
-|---------|------------------|-------------------|-----------------|------------------|
-| Close   | Certain          | Effortless        | Trivial         | Routine          |
-| Far     | Effortless       | Trivial           | Routine         | Formidable       |
-| Orbital | Trivial          | Routine           | Formidable      | Impossible       |
-| Extreme | Routine          | Formidable        | Impossible      | Futile           |
+| Scale/ Type | Active vs Signal | Passive vs Signal | Active vs Drift | Passive vs Drift |
+|-------------|------------------|-------------------|-----------------|------------------|
+| Adjacent    | Certain          | Effortless        | Trivial         | Routine          |
+| Far         | Effortless       | Trivial           | Routine         | Formidable       |
+| Orbital     | Trivial          | Routine           | Formidable      | Impossible       |
+| Extreme     | Routine          | Formidable        | Impossible      | Futile           |
 
 # [Earning Fate Points](https://fate-srd.com/fate-core/fate-point-economy#earning-fate-points)
 
-Earn fate points when you:
-
-* Accept a compel
-* Have your aspects invoked against you
-* Concede a conflict
+> Earn fate points when you:
+>
+> * Accept a compel
+> * Have your aspects invoked against you
+> * Concede a conflict
