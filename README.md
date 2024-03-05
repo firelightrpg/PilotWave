@@ -755,7 +755,7 @@ require a mount.
 | Weapon                       | Shifts       | Rounds | Recoil        | Example                                                                                        |
 |------------------------------|--------------|--------|---------------|------------------------------------------------------------------------------------------------|
 | Machine Gun                  | Average (1)  | 10     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LmRVNm7R0IcXclffXz6JptKnsO0oflaA "cs-machine-gun") |
-| Gauss Gun                    | Fair (2)     | 30     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LdHecClJibZrunjr9wKfbTFveOZJv-Rj "Carbine")        |
+| Gauss Gun                    | Fair (2)     | 30     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LmlEW1QaidZm39G8nCOjLxmt2QnvEn64 "cs-gauss")       |
 | Recoilless Rifle             | Good (3)     | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1Lbxqtka3csmZkx5Ba3wuG8RXLxxVgV64 "Rifle")          |
 | Directed Energy Weapon (DEW) | Great (4)    | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1LdKsLTHXVqNE3D-_3lLfuU8INoBr4k33 "Plasma")         |
 
