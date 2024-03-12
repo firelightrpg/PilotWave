@@ -608,8 +608,8 @@ Scale determines the size of each hex on the map and the duration of each exchan
 
 ### Personal Combat
 
-For Personal combat, under five hexes is walking speed, up to ten trotting speed and up to 20 +/- Physique, running
-speed. In Short, Medium and Long scales, these are divided by 10.
+For Personal combat, up to ten hexes is walking speed and up to 20 +/- Physique, running speed. In Short, Medium and
+Long scales, these are divided by 10.
 
 ### Vehicle Combat
 
@@ -618,19 +618,22 @@ scales, kph/10 equals hex speed.
 
 ## Spaceship Scale
 
-|                       | Far         | Orbital    | Extreme     |
-|-----------------------|-------------|------------|-------------|
-| **Hex Size**          | 15 km       | 15 Kkm     | 15 Mkm      |
-| **Exchange Duration** | six seconds | one minute | ten minutes | 
+|                       | Near        | Close Orbit | Far Orbit   | Extreme |
+|-----------------------|-------------|-------------|-------------|---------|
+| **Hex Size**          | 15 km       | 1500 km     | 15 Kkm      | 15 Mkm  |
+| **Exchange Duration** | six seconds | ten minutes | 100 minutes | 1 day   | 
 
-A combatant may move any number of hexes, up to its speed. Moving five or more hexes imposes a Poor (-1) shift on all
-actions by the combatant, and any actions against that combatant. Moving ten or more hexes imposes a Terrible (-2) shift
-and 20 or more, Awful (-3). If both an attacker and a target are moving, the higher shift applies, unless the attacker
-can match vectors with the target.
+A combatant may move any number of hexes, up to its speed. Moving up to ten hexes imposes a Poor (-1) shift on all
+actions by the combatant, and any actions against that combatant. Moving more than ten hexes imposes a Terrible (-2)
+shift and 20 or more, Awful (-3). If both an attacker and a target are moving, shifts are cumulative if traveling in
+opposite directions. The difference in shifts applies, if moving in the same direction. Matching vectors is the same as
+both attacker and target being stationary.
 
 ### Space combat
 
-Space combat uses Far, Orbital or Extreme scale. A ship may change its speed by up to its maneuver drive value.
+Space combat uses Near, Close Orbit, Far Orbit or Extreme scale. Visual range is three or less hexes at Near scale.
+
+A ship may change its speed by up to its maneuver drive value.
 
 _For example, if stationary, a ship with an M5 rated maneuver drive can move up to five hexes. In the next exchange,
 the ship can move up to five hexes plus the number of hexes it traveled in the last exchange. If this ship was
@@ -747,47 +750,63 @@ damage instead.
 
 ## Vehicle Combat
 
-Personal combat may use **Close, Short, Medium or Long** scales, but Short and Medium are most common. Vehicle weapons
+Vehicle combat may use **Close, Short, Medium or Long** scales, but Short and Medium are most common. Vehicle weapons
 require a mount.
 
 ### Crew-Served Weapons
 
-| Weapon                       | Shifts       | Rounds | Recoil        | Example                                                                                        |
-|------------------------------|--------------|--------|---------------|------------------------------------------------------------------------------------------------|
-| Machine Gun                  | Average (1)  | 10     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LmRVNm7R0IcXclffXz6JptKnsO0oflaA "cs-machine-gun") |
-| Gauss Gun                    | Fair (2)     | 30     | Poor (-1)     | ![alt_text](https://drive.google.com/uc?id=1LmlEW1QaidZm39G8nCOjLxmt2QnvEn64 "cs-gauss")       |
-| Recoilless Rifle             | Good (3)     | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1LoC_iVLqqFKEOw0bBM3vvRdxJcXYKvSn "cs-recoilless")  |
-| Directed Energy Weapon (DEW) | Great (4)    | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1LnPO30oYbdua8NBj32GEVRbO12UABuTl "cs-plasma")      |
+| Weapon                       | Shifts      | Example                                                                                        |
+|------------------------------|-------------|------------------------------------------------------------------------------------------------|
+| Machine Gun                  | Average (1) | ![alt_text](https://drive.google.com/uc?id=1LmRVNm7R0IcXclffXz6JptKnsO0oflaA "cs-machine-gun") |
+| Gauss Gun                    | Fair (2)    | ![alt_text](https://drive.google.com/uc?id=1LmlEW1QaidZm39G8nCOjLxmt2QnvEn64 "cs-gauss")       |
+| Recoilless Rifle             | Good (3)    | ![alt_text](https://drive.google.com/uc?id=1LoC_iVLqqFKEOw0bBM3vvRdxJcXYKvSn "cs-recoilless")  |
+| Directed Energy Weapon (DEW) | Great (4)   | ![alt_text](https://drive.google.com/uc?id=1LnPO30oYbdua8NBj32GEVRbO12UABuTl "cs-plasma")      |
 
 ## Spaceship Combat
 
-Spaceship combat uses different ranges, depending on what we're trying to represent. Close and Visual range use 15km
-hexes with one minute exchanges. Far range uses 15,000 km hexes with 10 minute exchanges. Extreme range uses 15,000,000
-km hexes and exchanges are arbitrary. System range, not typically used for combat, uses the same size hexes, but they
-are expressed in AU, such that one hex is approximately 0.10 AU.
+Spaceship combat uses different scales, depending on what we're trying to represent. Near uses 15km hexes with six
+exchanges. Close Orbit uses 1500 km hexes and ten minute exchanges. Far Orbit uses 15,000 km hexes with 100 minute
+exchanges. Extreme scale uses 15,000,000 km hexes and exchanges are one day. System range, not typically used for
+combat, uses the same size hexes, but they are expressed in AU, such that one hex is approximately 0.10 AU.
 
-CPR/EPR is only effective in adjacent hexes at Close range, as it takes about eight exchanges to travel one
-hex. At far range, CPR/EPR takes about 7.5 hours to travel one hex. If the target was stationary or drifting, CPR/EPR
-would eventually hit.
+Chemically and electronically propelled rounds (CPR/EPR) travel at a speed of one hex per exchange. They are typically
+only used for point defense unless a target is adjacent and stationary (or vector-matched), though they can also create
+hazards, limiting a ship's movement at longer distances. If a target is stationary or drifting, CPR/EPR will eventually
+hit.
 
-Missiles are effective at Close, Visual and Far range, hitting on the same exchange as when fired, as they travel at a
-constant acceleration of up to 340G. When targeting an adjacent hex, they are hazardous. At extreme range, missiles
-travel about one hex every thirty minutes, or eight hexes in an exchange.
+Missiles travel at a constant acceleration for the first 18 seconds of burn. After which they travel at a constant
+velocity. This only matters at Near scale, where they travel like a ship, up to two hexes in the first exchange, up to
+four hexes in the second exchange and up to six hexes in subsequent exchanges. At Close Orbit and higher scales, they
+travel six hexes at a constant velocity. At this velocity, they retain enough fuel for last minute course correction,
+but cannot change acceleration or velocity.
 
-In an exchange, turn order is determined the same as in personal combat, with modifiers from maneuver drive and tactics
-considered. Each side has a turn in each phase, with multiples all acting together. Groups of the same ship type may be
-handled as a unit.
+Plasma weapons electronically propel an ionized hydrogen mass at extreme velocities. They can immediately hit targets up
+to 10 hexes away, and travel up to 10 hexes per exchange.
 
-Spaceship combat ranges are categorized as **Close, Far and Extreme**. Range is determined by Weapon Type. Range
-increases difficulty. Range is in zones.
+Particle accelerators charge and accelerate electrons to near light speed velocities and thus immediately hit targets at
+all scales.
 
-| Range            | Far        | Orbital     | Extreme       | Damage Shift |
-|------------------|------------|-------------|---------------|--------------|
-| Range Difficulty | Normal (1) | Routine (2) | Difficult (3) |              |
-| CPR/ EPR         | Adjacent   | \-          | \-            | Average (1)  |
-| Missiles         | 2          | 2           | 3             | \-           | Fair (2)     |
-| KEW              | 2          | 2           | \-            | \-           | Good (3)     |
-| DEW              | 3          | 3           | 4             | \-           | Great (4)    |
+In an exchange, turn order is determined the same as in personal combat. Each side has a turn in each phase, with
+multiples all acting together. Each phase may be countered. Groups of the same ship type may be handled as a unit.
+
+Spaceship combat doesn't use range bands as there's no medium in a vacuum. However, the difficulty hitting still
+increases with distance. The difficulty is shifted by ship size.
+
+|               | Near       | Close Orbit | Far Orbit  | Extreme    |
+|---------------|------------|-------------|------------|------------|
+| **10 Tons**   | Trivial    | Routine     | Formidable | Impossible |
+| **100 Tons**  | Effortless | Trivial     | Routine    | Formidable |
+| **1000 Tons** | Certain    | Effortless  | Trivial    | Routine    |
+
+### Power
+
+Each ship typically has a power plant, a fuel tank, batteries and solar cells. The power plant can output one power
+point per rating per exchange. A ship's power plant must be high enough to generate the jump or maneuver drive rating.
+For example, an M6 rated maneuver drive requires a power plant of P6 or higher. To change speed by 6 would deplete the
+power plant. Ship's batteries are typically the rated the same size as the power plant, and can be used in the same
+manner. For example, you could change speed by up to 6 and still fire a plasma cannon with 3 points, fire a missile with
+2 points and save 1 point for point defense cannons. The following exchange, your battery would be depleted, but your
+power plant would be recharged. Solar cells can also charge batteries, but at a much slower rate, unsuitable for combat.
 
 ### Phases
 
@@ -813,12 +832,47 @@ increases difficulty. Range is in zones.
 A ship signals if it's using maneuver drive, weapons or active sensors. Drift is the absence of drives, weapons or
 active sensors. Passive sensors retain drift.
 
-| Scale/ Type | Active vs Signal | Passive vs Signal | Active vs Drift | Passive vs Drift |
-|-------------|------------------|-------------------|-----------------|------------------|
-| Adjacent    | Certain          | Effortless        | Trivial         | Routine          |
-| Far         | Effortless       | Trivial           | Routine         | Formidable       |
-| Orbital     | Trivial          | Routine           | Formidable      | Impossible       |
-| Extreme     | Routine          | Formidable        | Impossible      | Futile           |
+| Scale/ Type     | Active vs Signal | Passive vs Signal | Active vs Drift | Passive vs Drift |
+|-----------------|------------------|-------------------|-----------------|------------------|
+| **Near**        | Certain          | Effortless        | Trivial         | Routine          |
+| **Close Orbit** | Effortless       | Trivial           | Routine         | Formidable       |
+| **Far Orbit**   | Trivial          | Routine           | Formidable      | Impossible       |
+| **Extreme**     | Routine          | Formidable        | Impossible      | Futile           |
+
+You must detect a ship in order to target it. Passive sensors require no power. Active sensors require one point. You
+can allocate additional points from your Power Plant to improve active sensors, with each point boosting your attempt by
+one shift.
+
+#### Movement
+
+You may allocate points from your ships Power Plant, up to your maneuver drive rating, to change speed by up to that
+amount.
+
+#### Targeting
+
+You may allocate turrets, bays or both and the respective points from you ship's Power Plant for targeting. You may
+allocate a mount either for targeting or point defense or both, but each requires a separate power point allocation.
+
+Choose targets from surface or interior. Surface targets bypass armor, but not countermeasures. Surface targets include
+weapon (bay or turret), fuel or maneuver drive. Interior targets include crew, sensors, computer, power plant and jump
+drive.
+
+#### Countermeasures
+
+You may allocate turrets, bays or both and the respective points from you ship's Power Plant for point defense. You may
+allocate a mount for targeting or point defense or both, but each requires a separate power point allocation.
+
+Targeting an incoming missile is Routine (2, Space Combat) at up to three hexes in Near scale, or Easy (-1, Space
+Combat) in an adjacent hex. Nuclear warheads still do shift -2 damage when destroyed adjacent to the target.
+
+Plasma weapons can also generate a screen, adding a shift value of 3 that functions as armor even for surface targets.
+
+#### Resolution
+
+Once hits and countermeasures are determined, resolve damage. Surface hits ignore armor, but interior hits are reduced
+by the armor value. Nuclear warheads that hit a surface target also deal shift -2 damage to an interior target. Nuclear
+warheads are fusion or enhanced radiation, both are hazardous to equipment, but enhanced radiation does shift +2 damage
+to crew, but only if it penetrates the hull. Particle accelerators will perforate the ship if they penetrate the armor.
 
 # [Earning Fate Points](https://fate-srd.com/fate-core/fate-point-economy#earning-fate-points)
 
