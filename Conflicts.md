@@ -84,6 +84,7 @@ Scale determines the size of each hex on the map and the duration of each exchan
 |-----------------------|-------------|-------------|------------|-------------|
 | **Hex Size**          | 1.5 meter   | 15 meter    | 150 meter  | 1.5 km      |
 | **Exchange Duration** | six seconds | six seconds | one minute | ten minutes |
+| Span <td colspan=2>Personal and Vehicle <td colspan=2>Vehicle
 
 ### Personal Combat
 
