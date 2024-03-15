@@ -243,6 +243,8 @@ require a mount.
 
 ## Spaceship Combat
 
+![alt_text](https://dotesports.com/wp-content/uploads/2023/09/scmlzm.jpg)
+
 Spaceship combat uses different scales, depending on what we're trying to represent. Near uses 15km hexes with six
 exchanges. Close Orbit uses 1500 km hexes and ten minute exchanges. Far Orbit uses 15,000 km hexes with 100 minute
 exchanges. Extreme scale uses 15,000,000 km hexes and exchanges are one day. System range, not typically used for
