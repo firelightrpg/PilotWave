@@ -290,6 +290,10 @@ multiples all acting together. Each phase may be countered. Groups of the same s
 Spaceship combat doesn't use range bands as there's no medium in a vacuum. However, the difficulty hitting still
 increases with distance. The difficulty is shifted by ship size.
 
+Ships around 10 tons are usually shuttles, drop-ships or fighters. Freighters, corvettes, frigates and mid-sized
+merchant ships are around 100 tons. Capital ships, carriers, container ships, cruisers and destroyers are 1000 tons are
+larger.
+
 |               | Near       | Close Orbit | Far Orbit  | Extreme    |
 |---------------|------------|-------------|------------|------------|
 | **10 Tons**   | Routine    | Formidable  | Impossible | Futile     |
@@ -330,12 +334,32 @@ power plant would be recharged. Solar cells can also charge batteries, but at a 
 A ship signals if it's using maneuver drive, weapons or active sensors. Drift is the absence of drives, weapons or
 active sensors. Passive sensors retain drift.
 
+##### 10 Tons
+
+| Scale/ Type     | Active vs Signal | Passive vs Signal | Active vs Drift | Passive vs Drift |
+|-----------------|------------------|-------------------|-----------------|------------------|
+| **Near**        | Effortless       | Trivial           | Routine         | Formidable       |
+| **Close Orbit** | Trivial          | Routine           | Formidable      | Impossible       |
+| **Far Orbit**   | Routine          | Formidable        | Impossible      | Futile           |
+| **Extreme**     | Formidable       | Impossible        | Futile          | Inconceivable    |
+
+##### 100 Tons
+
 | Scale/ Type     | Active vs Signal | Passive vs Signal | Active vs Drift | Passive vs Drift |
 |-----------------|------------------|-------------------|-----------------|------------------|
 | **Near**        | Certain          | Effortless        | Trivial         | Routine          |
 | **Close Orbit** | Effortless       | Trivial           | Routine         | Formidable       |
 | **Far Orbit**   | Trivial          | Routine           | Formidable      | Impossible       |
 | **Extreme**     | Routine          | Formidable        | Impossible      | Futile           |
+
+##### 1000 Tons
+
+| Scale/ Type     | Active vs Signal | Passive vs Signal | Active vs Drift | Passive vs Drift |
+|-----------------|------------------|-------------------|-----------------|------------------|
+| **Near**        | \-               | Certain           | Effortless      | Trivial          |
+| **Close Orbit** | Certain          | Effortless        | Trivial         | Routine          |
+| **Far Orbit**   | Effortless       | Trivial           | Routine         | Formidable       |
+| **Extreme**     | Trivial          | Routine           | Formidable      | Impossible       |
 
 You must detect a ship in order to target it. Passive sensors require no power. Active sensors require one point. You
 can allocate additional points from your Power Plant to improve active sensors, with each point boosting your attempt by
