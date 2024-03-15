@@ -266,7 +266,8 @@ Missiles travel at a constant acceleration for the first 18 seconds of burn. Aft
 velocity. This only matters at Near scale, where they travel like a ship, up to two hexes in the first exchange, up to
 four hexes in the second exchange and up to six hexes in subsequent exchanges. At Close Orbit and higher scales, they
 travel six hexes at a constant velocity. At this velocity, they retain enough fuel for last minute course correction,
-but cannot change acceleration or velocity.
+allowing them to turn up to 60 degrees and move one additional hex or up to two additional hexes in the same direction.
+Outside of these parameters, missiles always hit their targets.
 
 <p align="center">
   <img src="https://cdnb.artstation.com/p/assets/images/images/064/688/401/large/callum-yau-turret-0-1.jpg?1688523954" />
@@ -288,7 +289,8 @@ In an exchange, turn order is determined the same as in personal combat. Each si
 multiples all acting together. Each phase may be countered. Groups of the same ship type may be handled as a unit.
 
 Spaceship combat doesn't use range bands as there's no medium in a vacuum. However, the difficulty hitting still
-increases with distance. The difficulty is shifted by ship size.
+increases with distance. The difficulty is shifted by ship size. Missiles do not roll for attack, as they will always
+strike a target that does not have or use point defense or try to outrun them.
 
 Ships around 10 tons are usually shuttles, drop-ships or fighters. Freighters, corvettes, frigates and mid-sized
 merchant ships are around 100 tons. Capital ships, carriers, container ships, cruisers and destroyers are 1000 tons are
