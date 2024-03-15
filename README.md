@@ -188,7 +188,7 @@ $$
 
 # [Resolving Attacks](https://fate-srd.com/fate-core/resolving-attacks)
 
-Fill in one stress box greater than or equal to the value of an attack, take one or more consequences, or fill in one
+> Fill in one stress box greater than or equal to the value of an attack, take one or more consequences, or fill in one
 stress box and take consequences—if you can’t do one of these three things, you’re **taken out**.
 
 # [Consequences](https://fate-srd.com/fate-core/resolving-attacks#consequences)

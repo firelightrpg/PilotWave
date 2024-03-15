@@ -37,7 +37,7 @@ In Pilot Wave, at the beginning of a conflict, Surprise is determined by invokin
 Aspect. Generally, surprise is determined by side, but one or more individuals from either side may be Aware, while
 others are Surprised. Determining Surprise may call for a contest; Notice overcoming Stealth, in some circumstances. In
 Far Vehicle or Starship combat, surprise is usually determined by successful sensor ops. If nothing occurs that grants
-the other side awareness, Surprise may continue in subsequent Exchanges. When one or more character is Surprised, those
+the other side awareness, Surprise may continue in subsequent Exchanges. When one or more characters are Surprised, those
 who aren't surprised are considered Aware.
 
 ## Turn Order
@@ -200,9 +200,7 @@ _Rifle includes any shoulder fired chemically or electronically propelled round 
 | Rifle                        | Good (3)     | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1Lbxqtka3csmZkx5Ba3wuG8RXLxxVgV64 "Rifle")   |
 | Directed Energy Weapon (DEW) | Great (4)    | 5      | Terrible (-2) | ![alt_text](https://drive.google.com/uc?id=1LdKsLTHXVqNE3D-_3lLfuU8INoBr4k33 "Plasma")  |
 
-_Hand-to-hand attacks have a value of Average (1) with a weapon like a knife, bayonet, rifle butt, etc. Rifles,
-Directed Energy Weapons are hazardous and target all within a zone.
-Automatic fire shifts the range difficulty and the weapon value by one._
+_Hand-to-hand attacks have a value of Average (1) with a weapon like a knife, bayonet, rifle butt, etc._
 
 ### Automatic Weapon Fire
 
