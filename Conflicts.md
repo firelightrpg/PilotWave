@@ -375,9 +375,15 @@ amount.
 You may allocate turrets, bays or both and the respective points from you ship's Power Plant for targeting. You may
 allocate a mount either for targeting or point defense or both, but each requires a separate power point allocation.
 
-Choose targets from surface or interior. Surface targets bypass armor, but not countermeasures. Surface targets include
+CPR/EPR turrets also have a fixed amount of ammunition, typically rated at ten times the tonnage, or 100 times for
+fighters. 1000 rounds are exhausted with each attack or point defense. Any number of missiles may be fired in an attack
+or interception, and a typical compliment is tonnage divided by 10.
+
+Choose targets from surface and interior. Surface targets bypass armor, but not countermeasures. Surface targets include
 weapon (bay or turret), fuel or maneuver drive. Interior targets include crew, sensors, computer, power plant and jump
-drive.
+drive, but the damage must penetrate the armor. A hit that penetrates by twice the armor value perforates the target and
+renders the ship inoperable or potentially destroyed. A hit that has zero shifts after penetration vents the interior
+atmosphere, but doesn't do damage to interior targets otherwise.
 
 #### Countermeasures
 
