@@ -37,7 +37,8 @@ In Pilot Wave, at the beginning of a conflict, Surprise is determined by invokin
 Aspect. Generally, surprise is determined by side, but one or more individuals from either side may be Aware, while
 others are Surprised. Determining Surprise may call for a contest; Notice overcoming Stealth, in some circumstances. In
 Far Vehicle or Starship combat, surprise is usually determined by successful sensor ops. If nothing occurs that grants
-the other side awareness, Surprise may continue in subsequent Exchanges. When one or more characters are Surprised, those
+the other side awareness, Surprise may continue in subsequent Exchanges. When one or more characters are Surprised,
+those
 who aren't surprised are considered Aware.
 
 ## Turn Order
@@ -172,17 +173,17 @@ increase difficulty and reduce damage shifts.
 
 ### Weapon Ranges and Ratings (Short scale)
 
-Distance is in hexes for Short scale. Multiply hexes by 10 for Close scale, divide by 10 for Medium scale. In the rare
-case personal combat is conducted at Long scale, divide by 100, meaning a rifle or directed energy weapon could target
-an adjacent square, but other weapons would be ineffective.
+Distance is in hexes for Close scale. Divide hexes by 10 for Short scale and 100 for Medium scale. At Medium scale and
+further, handguns are ineffective. In the rare case personal combat is conducted at Long scale, divide by 1000, meaning
+a rifle or directed energy weapon could target an adjacent square, but other weapons would be ineffective.
 
-| Range Band   | Contact   |                | Point Blank |                | Effective |                | Maximum   |                |
-|--------------|-----------|----------------|-------------|----------------|-----------|----------------|-----------|----------------|
-| **Weapon**   | **Hexes** | **Difficulty** | **Hexes**   | **Difficulty** | **Hexes** | **Difficulty** | **Hexes** | **Difficulty** |
-| Hand-to-hand | Adjacent  | Trivial (0)    | \-          | \-             | \-        | \-             | \-        | \-             |
-| Pistol       | 1         | Trivial (0)    | 2           | Normal (1)     | 4         | Routine (2)    | 6         | Difficult (3)  |
-| Carbine      | 1         | Trivial (0)    | 10          | Normal (1)     | 20        | Routine (2)    | 50        | Difficult (3)  |
-| Rifle        | 1         | Normal (1)     | 20          | Normal (1)     | 40        | Routine (2)    | 100       | Difficult (3)  |
+| Range Band   | Close Quarters |                | Point Blank |                | Effective |                | Maximum   |                |
+|--------------|----------------|----------------|-------------|----------------|-----------|----------------|-----------|----------------|
+| **Weapon**   | **Squares**    | **Difficulty** | **Squares** | **Difficulty** | **Squares**| **Difficulty** | **Squares**| **Difficulty** |
+| Hand-to-hand | Adjacent       | Trivial (0)    | \-          | \-             | \-        | \-             | \-        | \-             |
+| Pistol       | 10             | Trivial (0)    | 20          | Normal (1)     | 40        | Routine (2)    | 60        | Difficult (3)  |
+| Carbine      | 10             | Trivial (0)    | 100         | Normal (1)     | 200       | Routine (2)    | 500       | Difficult (3)  |
+| Rifle        | 10             | Normal (1)     | 200         | Normal (1)     | 400       | Routine (2)    | 1000      | Difficult (3)  |
 
 | Range Band       | Contact      | Point Blank | Effective     | Maximum    |
 |------------------|--------------|-------------|---------------|------------|
