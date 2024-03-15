@@ -293,7 +293,7 @@ increases with distance. The difficulty is shifted by ship size. Missiles do not
 strike a target that does not have or use point defense or try to outrun them.
 
 Ships around 10 tons are usually shuttles, drop-ships or fighters. Freighters, corvettes, frigates and mid-sized
-merchant ships are around 100 tons. Capital ships, carriers, container ships, cruisers and destroyers are 1000 tons are
+merchant ships are around 100 tons. Capital ships, carriers, container ships, cruisers and destroyers are 1000 tons or
 larger.
 
 ### Power
