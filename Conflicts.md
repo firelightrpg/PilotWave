@@ -37,7 +37,7 @@ In Pilot Wave, at the beginning of a conflict, Surprise is determined by invokin
 Aspect. Generally, surprise is determined by side, but one or more individuals from either side may be Aware, while
 others are Surprised. Determining Surprise may call for a contest; Notice overcoming Stealth, in some circumstances. In
 Far Vehicle or Starship combat, surprise is usually determined by successful sensor ops. If nothing occurs that grants
-the other side awareness, Surprise may continue in subsequent Exchanges. When one or more character is Surprised, those
+the other side awareness, Surprise may continue in subsequent Exchanges. When one or more characters are Surprised, those
 who aren't surprised are considered Aware.
 
 ## Turn Order
