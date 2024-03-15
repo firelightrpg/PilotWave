@@ -269,6 +269,12 @@ travel six hexes at a constant velocity. At this velocity, they retain enough fu
 allowing them to turn up to 60 degrees and move one additional hex or up to two additional hexes in the same direction.
 Outside of these parameters, missiles always hit their targets.
 
+At any scale, it's important to note the vector of the ship that fires the missiles. For example, if the attacking ship
+was moving at a constant velocity of 4G in the direction of the target, a missile could move six hexes in the first
+exchange, eight in the second and ten in the third and subsequent exchanges. If a missile is fired from a fleeing ship
+traveling at 4Gs, the missile would actually move in the direction of the fleeing ship two hexes in the first exchange,
+then be stationary for the second, and move two hexes back in the third and subsequent exchanges.
+
 <p align="center">
   <img src="https://cdnb.artstation.com/p/assets/images/images/064/688/401/large/callum-yau-turret-0-1.jpg?1688523954" />
 </p>
