@@ -149,7 +149,7 @@ In Pilot Wave, opponent’s do not roll an opposed skill roll. Instead, difficul
 > any harm.**
 
 > > _For example, if a character with a Good (+2) Gun Combat skill shoots an MP-7 (carbine) at a character wearing a
-> > Hostile Environment Vacuum suit (HEV) and rolls 0, +2 for Gun Combat, at Contact Shot range band (15 meters or
+> > Hostile Environment Vacuum suit (HEV) and rolls 0, +2 for Gun Combat, at Close Quarters range band (15 meters or
 > > less), Difficulty Trivial (0), that’s a success (+2)._
 >
 > > _The damage would be 3 (success +2, rifle Good (+3), a 5-shift-hit, and the suit has a damage shift of
@@ -158,11 +158,11 @@ In Pilot Wave, opponent’s do not roll an opposed skill roll. Instead, difficul
 
 ### Range Bands
 
-Weapon ranges are categorized in range bands of  **Contact Shot, Point Blank, Effective and Maximum**. Range band
+Weapon ranges are categorized in range bands of  **Close Quarters, Point Blank, Effective and Maximum**. Range band
 distances are determined by Weapon Type and are distinct from scale, which is the same for all weapons. Range bands
 increase difficulty and reduce damage shifts.
 
-- Contact Shot: Aiming can be in the general direction, but aiming is unwieldy with rifles.
+- Close Quarters: Aiming can be in the general direction, but aiming is unwieldy with rifles.
 - Point Blank: the distance a weapon can hit a target without compensating for bullet drop
     - Note: in a vacuum, range still increases difficulty, but it does not reduce damage. Also note, propellants and
       primers do not require air for combustion. A weapon without a flat zero compensation will always overshoot in a
@@ -172,16 +172,17 @@ increase difficulty and reduce damage shifts.
 
 ### Weapon Ranges and Ratings (Short scale)
 
-Range is in hexes for Short scale. Multiply hexes by 10 for Close scale and divide by 10 for Medium scale. Pistols are
-not effective at Long scale.
+Distance is in hexes for Short scale. Multiply hexes by 10 for Close scale, divide by 10 for Medium scale. In the rare
+case personal combat is conducted at Long scale, divide by 100, meaning a rifle or directed energy weapon could target
+an adjacent square, but other weapons would be ineffective.
 
 | Range Band   | Contact   |                | Point Blank |                | Effective |                | Maximum   |                |
 |--------------|-----------|----------------|-------------|----------------|-----------|----------------|-----------|----------------|
 | **Weapon**   | **Hexes** | **Difficulty** | **Hexes**   | **Difficulty** | **Hexes** | **Difficulty** | **Hexes** | **Difficulty** |
 | Hand-to-hand | Adjacent  | Trivial (0)    | \-          | \-             | \-        | \-             | \-        | \-             |
 | Pistol       | 1         | Trivial (0)    | 2           | Normal (1)     | 4         | Routine (2)    | 6         | Difficult (3)  |
-| Carbine      | 1         | Trivial (0)    | 5           | Normal (1)     | 10        | Routine (2)    | 20        | Difficult (3)  |
-| Rifle        | 1         | Normal (1)     | 10          | Normal (1)     | 20        | Routine (2)    | 40        | Difficult (3)  |
+| Carbine      | 1         | Trivial (0)    | 10          | Normal (1)     | 20        | Routine (2)    | 50        | Difficult (3)  |
+| Rifle        | 1         | Normal (1)     | 20          | Normal (1)     | 40        | Routine (2)    | 100       | Difficult (3)  |
 
 | Range Band       | Contact      | Point Blank | Effective     | Maximum    |
 |------------------|--------------|-------------|---------------|------------|
