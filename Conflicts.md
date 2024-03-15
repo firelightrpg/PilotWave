@@ -301,7 +301,7 @@ larger.
 Each ship typically has a power plant, a fuel tank, batteries and solar cells. The power plant can output one power
 point per rating per exchange. A ship's power plant must be high enough to generate the jump or maneuver drive rating.
 For example, an M6 rated maneuver drive requires a power plant of P6 or higher. To change speed by 6 would deplete the
-power plant. Ship's batteries are typically the rated the same size as the power plant, and can be used in the same
+power plant. Ship's batteries are typically rated the same size as the power plant, and can be used in the same
 manner. For example, you could change speed by up to 6 and still fire a plasma cannon with 3 points, fire a missile with
 2 points and save 1 point for point defense cannons. The following exchange, your battery would be depleted, but your
 power plant would be recharged. Solar cells can also charge batteries, but at a much slower rate, unsuitable for combat.
