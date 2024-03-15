@@ -1,24 +1,23 @@
 # [Conflicts](https://fate-srd.com/fate-core/conflicts)
 
- * [Surprise](#surprise)
- * [Turn Order](#turn-order)
-     + [Action](#action)
-     + [Counter](#counter)
-     + [Movement](#movement)
-     + [Scale](#scale)
- * [Personal Combat](#personal-combat)
-     + [Close Combat](#close-combat-1)
-     + [Ranged Combat](#ranged-combat)
-     + [Weapon and Armor Ratings](#weapon-and-armor-ratings)
-         - [Range Bands](#range-bands)
-         - [Weapon Ranges and Ratings](#weapon-ranges-and-ratings-short-scale)
-         - [Weapon Values](#weapon-values)
-         - [Armor Ratings](#armor-ratings)
- * [Vehicle Combat](#vehicle-combat-1)
- * [Spaceship Combat](#spaceship-combat)
-     + [Phases](#phases)
-         - [Sensors](#sensors)
-
+* [Surprise](#surprise)
+* [Turn Order](#turn-order)
+    + [Action](#action)
+    + [Counter](#counter)
+    + [Movement](#movement)
+    + [Scale](#scale)
+* [Personal Combat](#personal-combat)
+    + [Close Combat](#close-combat-1)
+    + [Ranged Combat](#ranged-combat)
+    + [Weapon and Armor Ratings](#weapon-and-armor-ratings)
+        - [Range Bands](#range-bands)
+        - [Weapon Ranges and Ratings](#weapon-ranges-and-ratings-short-scale)
+        - [Weapon Values](#weapon-values)
+        - [Armor Ratings](#armor-ratings)
+* [Vehicle Combat](#vehicle-combat-1)
+* [Spaceship Combat](#spaceship-combat)
+    + [Phases](#phases)
+        - [Sensors](#sensors)
 
 [//]: # (@formatter:off)
 > * Set the scene, describing the environment the conflict takes place in, creating situation aspects and zones, and
@@ -243,17 +242,25 @@ require a mount.
 
 ## Spaceship Combat
 
-![alt_text](https://static1.srcdn.com/wordpress/wp-content/uploads/2023/09/starfield-ship-designs.jpg)
+<p align="center">
+  <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/09/starfield-ship-designs.jpg" />
+</p>
+
 
 Spaceship combat uses different scales, depending on what we're trying to represent. Near uses 15km hexes with six
-exchanges. Close Orbit uses 1500 km hexes and ten minute exchanges. Far Orbit uses 15,000 km hexes with 100 minute
-exchanges. Extreme scale uses 15,000,000 km hexes and exchanges are one day. System range, not typically used for
+second exchanges. Close Orbit uses 1500 km hexes and ten minute exchanges. Far Orbit uses 15,000 km hexes with 100
+minute exchanges. Extreme scale uses 15,000,000 km hexes and exchanges are one day. System range, not typically used for
 combat, uses the same size hexes, but they are expressed in AU, such that one hex is approximately 0.10 AU.
+
+<p align="center">
+  <img src="https://media.moddb.com/cache/images/mods/1/4/3466/thumb_620x2000/16128.jpg" />
+</p>
+
 
 Chemically and electronically propelled rounds (CPR/EPR) travel at a speed of one hex per exchange. They are typically
 only used for point defense unless a target is adjacent and stationary (or vector-matched), though they can also create
 hazards, limiting a ship's movement at longer distances. If a target is stationary or drifting, CPR/EPR will eventually
-hit.
+hit. Each turret has a small compensator for recoil.
 
 Missiles travel at a constant acceleration for the first 18 seconds of burn. After which they travel at a constant
 velocity. This only matters at Near scale, where they travel like a ship, up to two hexes in the first exchange, up to
@@ -261,11 +268,21 @@ four hexes in the second exchange and up to six hexes in subsequent exchanges. A
 travel six hexes at a constant velocity. At this velocity, they retain enough fuel for last minute course correction,
 but cannot change acceleration or velocity.
 
+<p align="center">
+  <img src="https://cdnb.artstation.com/p/assets/images/images/064/688/401/large/callum-yau-turret-0-1.jpg?1688523954" />
+</p>
+
 Plasma weapons electronically propel an ionized hydrogen mass at extreme velocities. They can immediately hit targets up
-to 10 hexes away, and travel up to 10 hexes per exchange.
+to 10 hexes away, and travel up to 10 hexes per exchange. Plasma weapons use maneuver drive compensation.
+
+<p align="center">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgbyQMCS1wqJ3lMlllevKSb9mJnE6jiaqtFmGK1TnVBoC6Dm2mBTLX2Sbt07hX5SYkgvMcapP3rwzSKcPSbTeBrneKpN08IazMwoX0JRP5JgEwDskNqS-AOjAuzoUdL1G_YwJM-qZjyfNn/s1600/MOI_Firing_MAC_Gun.png" />
+</p>
 
 Particle accelerators charge and accelerate electrons to near light speed velocities and thus immediately hit targets at
-all scales.
+all scales. A massive amount of energy is required to fire and the particles collide, producing recoil. These are
+typically spinal mounts with maneuver drive compensation. The target will often be perforated, or moved one hex and its
+direction will change to the direction of the blast.
 
 In an exchange, turn order is determined the same as in personal combat. Each side has a turn in each phase, with
 multiples all acting together. Each phase may be countered. Groups of the same ship type may be handled as a unit.
@@ -275,9 +292,9 @@ increases with distance. The difficulty is shifted by ship size.
 
 |               | Near       | Close Orbit | Far Orbit  | Extreme    |
 |---------------|------------|-------------|------------|------------|
-| **10 Tons**   | Trivial    | Routine     | Formidable | Impossible |
-| **100 Tons**  | Effortless | Trivial     | Routine    | Formidable |
-| **1000 Tons** | Certain    | Effortless  | Trivial    | Routine    |
+| **10 Tons**   | Routine    | Formidable  | Impossible | Futile     |
+| **100 Tons**  | Trivial    | Routine     | Formidable | Impossible |
+| **1000 Tons** | Effortless | Trivial     | Routine    | Formidable |
 
 ### Power
 
