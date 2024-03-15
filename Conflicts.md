@@ -372,3 +372,6 @@ by the armor value. Nuclear warheads that hit a surface target also deal shift -
 warheads are fusion or enhanced radiation, both are hazardous to equipment, but enhanced radiation does shift +2 damage
 to crew, but only if it penetrates the hull. Particle accelerators will perforate the ship if they penetrate the armor.
 
+#### Boarding and EVA Phase
+
+If the ships are adjacent, ships may engage in boarding actions or EVA. This may shift to Personal Combat.
