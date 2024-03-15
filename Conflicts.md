@@ -296,12 +296,6 @@ Ships around 10 tons are usually shuttles, drop-ships or fighters. Freighters, c
 merchant ships are around 100 tons. Capital ships, carriers, container ships, cruisers and destroyers are 1000 tons are
 larger.
 
-|               | Near       | Close Orbit | Far Orbit  | Extreme    |
-|---------------|------------|-------------|------------|------------|
-| **10 Tons**   | Routine    | Formidable  | Impossible | Futile     |
-| **100 Tons**  | Trivial    | Routine     | Formidable | Impossible |
-| **1000 Tons** | Effortless | Trivial     | Routine    | Formidable |
-
 ### Power
 
 Each ship typically has a power plant, a fuel tank, batteries and solar cells. The power plant can output one power
@@ -387,6 +381,16 @@ drive, but the damage must penetrate the armor. A hit that penetrates by twice t
 renders the ship inoperable or potentially destroyed. A hit that has zero shifts after penetration vents the interior
 atmosphere, but doesn't do damage to interior targets otherwise.
 
+##### Targeting Difficulty
+
+|               | Near       | Close Orbit | Far Orbit  | Extreme    |
+|---------------|------------|-------------|------------|------------|
+| **10 Tons**   | Routine    | Formidable  | Impossible | Futile     |
+| **100 Tons**  | Trivial    | Routine     | Formidable | Impossible |
+| **1000 Tons** | Effortless | Trivial     | Routine    | Formidable |
+
+Note - you do not roll targeting for missiles, but they need to reach the target and if so, automatically hit.
+
 #### Countermeasures
 
 You may allocate turrets, bays or both and the respective points from you ship's Power Plant for point defense. You may
@@ -403,6 +407,35 @@ Once hits and countermeasures are determined, resolve damage. Surface hits ignor
 by the armor value. Nuclear warheads that hit a surface target also deal shift -2 damage to an interior target. Nuclear
 warheads are fusion or enhanced radiation, both are hazardous to equipment, but enhanced radiation does shift +2 damage
 to crew, but only if it penetrates the hull. Particle accelerators will perforate the ship if they penetrate the armor.
+
+##### Weapon Values
+
+| Type                     | Mount  | Hexes | Damage Shifts | Power |
+|--------------------------|--------|-------|---------------|-------|
+| **CPR/EPR**              | Turret | 1     | 1             | 1     |
+| **Missile**              | Bay    | 2/ 6  | 2             | 2     |
+| **Plasma Weapon**        | Spinal | 10    | 3             | 3/ 1  |
+| **Particle Accelerator** | Spinal | ∞     | 4             | 4/ 2  |
+
+See Missiles above for movement. For Plasma Weapons and Particle Accelerators to maintain course, they must allocate
+power to the maneuver drive momentarily to compensate. Otherwise they change velocity in the opposite direction of the
+mount by the Power amount in hexes.
+
+##### Armor Values
+
+| Armor                                 | Shifts      |
+|---------------------------------------|-------------|
+| Hardened Composite                    | Average (1) |
+| Electromagnetically Charged Composite | Fair (2)    |
+| Coherent                              | Good (3)    |
+| Electromagnetically Charged Coherent  | Great (4)   |
+
+- Hardened composite is a hardened alloy with ceramic hull.
+- EMC Composite is a hardened composite that is electromagnetically charged, reactive armor, increasing the ability of
+  the armor to defect a blast or penetration.
+- Coherent armor is a hardened composite that has had its structure partially collapsed in a super high density field,
+  increasing the armor's density and strength.
+- EMC Coherent is electromagnetically charged, reactive, coherent armor.
 
 #### Boarding and EVA Phase
 
