@@ -177,13 +177,13 @@ Distance is in hexes for Close scale. Divide hexes by 10 for Short scale and 100
 further, handguns are ineffective. In the rare case personal combat is conducted at Long scale, divide by 1000, meaning
 a rifle or directed energy weapon could target an adjacent square, but other weapons would be ineffective.
 
-| Range Band   | Close Quarters |                | Point Blank |                | Effective |                | Maximum   |                |
-|--------------|----------------|----------------|-------------|----------------|-----------|----------------|-----------|----------------|
-| **Weapon**   | **Squares**    | **Difficulty** | **Squares** | **Difficulty** | **Squares**| **Difficulty** | **Squares**| **Difficulty** |
-| Hand-to-hand | Adjacent       | Trivial (0)    | \-          | \-             | \-        | \-             | \-        | \-             |
-| Pistol       | 10             | Trivial (0)    | 20          | Normal (1)     | 40        | Routine (2)    | 60        | Difficult (3)  |
-| Carbine      | 10             | Trivial (0)    | 100         | Normal (1)     | 200       | Routine (2)    | 500       | Difficult (3)  |
-| Rifle        | 10             | Normal (1)     | 200         | Normal (1)     | 400       | Routine (2)    | 1000      | Difficult (3)  |
+| Range Band   | Close Quarters |                | Point Blank |                | Effective   |                | Maximum     |                |
+|--------------|----------------|----------------|-------------|----------------|-------------|----------------|-------------|----------------|
+| **Weapon**   | **Squares**    | **Difficulty** | **Squares** | **Difficulty** | **Squares** | **Difficulty** | **Squares** | **Difficulty** |
+| Hand-to-hand | Adjacent       | Trivial (0)    | \-          | \-             | \-          | \-             | \-          | \-             |
+| Pistol       | 10             | Trivial (0)    | 20          | Normal (1)     | 40          | Routine (2)    | 60          | Difficult (3)  |
+| Carbine      | 10             | Trivial (0)    | 100         | Normal (1)     | 200         | Routine (2)    | 500         | Difficult (3)  |
+| Rifle        | 10             | Normal (1)     | 200         | Normal (1)     | 400         | Routine (2)    | 1000        | Difficult (3)  |
 
 | Range Band       | Contact      | Point Blank | Effective     | Maximum    |
 |------------------|--------------|-------------|---------------|------------|
