@@ -87,8 +87,8 @@ Scale determines the size of each hex on the map and the duration of each exchan
 
 ### Personal Combat
 
-For Personal combat, up to ten hexes is walking speed and up to 20 +/- Physique, running speed. In Short, Medium and
-Long scales, these are divided by 10.
+For Personal combat, less than ten hexes is walking speed and 10 or more, running speed. You can run up to 20 +/- 
+Physique hexes. In Short, Medium and Long scales, these are divided by 10.
 
 ### Vehicle Combat
 
