@@ -102,8 +102,8 @@ scales, kph/10 equals hex speed.
 | **Hex Size**          | 15 km       | 1500 km     | 15 Kkm      | 15 Mkm  |
 | **Exchange Duration** | six seconds | ten minutes | 100 minutes | 1 day   | 
 
-A combatant may move any number of hexes, up to its speed. Moving up to ten hexes imposes a Poor (-1) shift on all
-actions by the combatant, and any actions against that combatant. Moving more than ten hexes imposes a Terrible (-2)
+A combatant may move any number of hexes, up to its speed. Moving less than ten hexes imposes a Poor (-1) shift on all
+actions by the combatant, and any actions against that combatant. Moving ten or more hexes imposes a Terrible (-2)
 shift and 20 or more, Awful (-3). If both an attacker and a target are moving, shifts are cumulative if traveling in
 opposite directions. The difference in shifts applies, if moving in the same direction. Matching vectors is the same as
 both attacker and target being stationary.
