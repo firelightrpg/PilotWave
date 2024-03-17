@@ -25,7 +25,7 @@
 
 - #### Dorsal Spinal: Plasma 10/3/3+1
 
-- #### Tail Turret: EPR 1/1/1 (10)
+- #### Stern Turret: EPR 1/1/1 (10)
 
 - #### Bow Turret: EPR 1/1/1 (10)
 
