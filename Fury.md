@@ -23,7 +23,7 @@
 
 ### Mounts: 4
 
-- #### Dorsal Turret: Plasma 10/3/3+1
+- #### Dorsal Spinal: Plasma 10/3/3+1
 
 - #### Tail Turret: EPR 1/1/1 (10)
 
