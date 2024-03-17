@@ -2,7 +2,7 @@
 
 ![alt_text](https://drive.google.com/uc?id=1KdZhyffjwGp32Ay8_TsjZTftb4v0g5m1 "Fury in orbit")
 
-# Fury Spaceship Data Sheet
+# Fury Data Sheet
 
 ### Hull: 410
 
