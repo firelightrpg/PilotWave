@@ -32,22 +32,51 @@
 
 ### Sensors:
 
-#### EMS Active, EMS Passive, EMS Jammer
+- #### EMS Active, EMS Passive, EMS Jammer
 
 ### Cargo:
 
-#### 160 (80x2, upper hangar bay and lower cargo bay)
+- #### 160 (80x2, upper hangar bay and lower cargo bay)
+
+# Patrol Skiff Data Sheet
+
+### Hull: 10
+
+### Armor: EMC Composite (2)
+
+### Power: 4
+
+### Battery: 1
+
+### Solar Chargers: 1/ day
+
+### Fuel Tank: 30/90 (standard/ minimum power days)
+
+### Maneuver Drive: 3
+
+### Jump Drive: N/A
+
+### Mounts: 1
+
+- #### Dorsal Turret: EPR 1/1/1 (10)
+
+### Sensors:
+
+- #### EMS Active, EMS Passive, EMS Jammer
+
+### Cargo:
+
+- #### 2 (plus up to 8 passengers)
 
 ## Overview
 
-The Fury is an Endurance class freighter, originally constructed by Dosjin Transport Inc with a crew of four (bridge,
-engineer, steward/ medical, gunner), up to eight, although can be operated by AI (Satori) with no crew. The ship has a
-two-tilt-engine maneuver drive and J2 rated WHIP drive. This ship has radio and laser communications and 15,000 km EMS
-active and 1.5 km passive sensors. The ship is also equipped with 1.5 km EMS jammers. The ship has dorsal and tail
-plasma guns with a third turret mounted under the bow with a particle accelerator for debarkation clearing. The dorsal
-and tail turrets have point defense targeting modules installed. The ship also has two external missile launch systems,
-each armed with four HE and four nuclear missiles. The cargo hold is 210 tons and supports up to 30 passengers in low
-berth.
+The Fury is an Endurance class freighter with a 410 ton hull, originally constructed by Dosjin Transport Inc with a crew
+of four (bridge, engineer, steward/ medical, gunner), up to eight, although can be operated by AI (Satori) with no crew.
+The ship has a two-tilt-engine, M4 maneuver drive and J2 rated WHIP drive. This ship has radio and laser communications,
+full array EMS active and passive sensors and EMS jammers. The ship has a dorsal plasma turret and tail and bow EPR
+turrets and a forward missile bay with 5 nukes and 5 blast warheads. The bow turret may be used for debarkation
+clearing. The ship has point defense targeting modules installed. The cargo hold is 160 tons and supports up to 30
+passengers in low berth, plus 80 tons of cargo space.
 
 Each area is outfitted with internal sensors and communications consoles, all networked to the ships data store, servers
 and AI. The sick bay is outfitted with an automed, capable of intensive surgery and genetic modification.
