@@ -1,6 +1,7 @@
 # _Fury_
 
 ![alt_text](https://drive.google.com/uc?id=1KdZhyffjwGp32Ay8_TsjZTftb4v0g5m1 "Fury in orbit")
+---
 
 # Fury Data Sheet
 
@@ -38,6 +39,8 @@
 
 - #### 160 (80x2, upper hangar bay and lower cargo bay)
 
+---
+
 # Patrol Skiff Data Sheet
 
 ### Hull: 10
@@ -67,6 +70,8 @@
 ### Cargo:
 
 - #### 2 (plus up to 8 passengers)
+
+---
 
 ## Overview
 
