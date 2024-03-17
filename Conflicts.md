@@ -185,7 +185,7 @@ a rifle or directed energy weapon could target an adjacent square, but other wea
 | Carbine      | 10             | Trivial (0)    | 100         | Normal (1)     | 200         | Routine (2)    | 500         | Difficult (3)  |
 | Rifle        | 10             | Normal (1)     | 200         | Normal (1)     | 400         | Routine (2)    | 1000        | Difficult (3)  |
 
-| Range Band       | Contact      | Point Blank | Effective     | Maximum    |
+| Range Band       | Close Quarters      | Point Blank | Effective     | Maximum    |
 |------------------|--------------|-------------|---------------|------------|
 | **Damage Shift** | Mediocre (0) | Poor (-1)   | Terrible (-2) | Awful (-3) |  
 
